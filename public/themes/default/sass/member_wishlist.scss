@@ -1,0 +1,154 @@
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+.member-wishlist
+{
+	font-family: $content-text;
+	padding: 15px;
+	letter-spacing: 0.2px;
+	margin: -15px;
+
+	.left {
+
+		.icon {
+
+		}
+		.wishlist-title
+		{
+			font-size: 21px;
+			font-weight: $bold;
+			color: $text-dark !important;
+			padding: 25px 50px;
+		}
+	}
+	.table-holder
+	{
+		table
+		{
+			thead
+			{
+				tr
+				{
+					th
+					{
+						background-color: #ece8e8;
+						color: $text-dark;
+						font-weight: $bold;
+						font-size: 15px;
+						border-bottom: 0;
+						text-align: center;
+						&:first-child
+						{
+							padding-left: 50px;
+						}
+						&:last-child
+						{
+							padding-right: 50px;
+						}
+					}
+				}
+			}
+			tbody
+			{
+				tr
+				{
+					td
+					{
+						border-top: 0;
+						text-align: center;
+						vertical-align: middle;
+						color: $text-light;
+						font-size: 15px;
+						font-weight: $regular;
+						padding: 25px 17.5px;
+						border-bottom: 1px solid #ece8e8;
+						&:first-child
+						{
+							padding-left: 50px;
+						}
+						&:last-child
+						{
+							padding-right: 50px;
+						}
+					}
+					.remove-holder
+					{
+
+					}
+					.img-holder
+					{
+						img
+						{
+							width: 100px;
+							height: 100px;
+							object-fit: contain;
+							object-position: center;
+						}
+					}
+					.name-holder
+					{
+
+					}
+					.price-holder
+					{
+
+					}
+					.quantity-holder
+					{
+						.another
+						{
+							display: table;
+							.equal
+							{
+								display: table-cell;
+								vertical-align: middle;
+							}
+							.control
+							{
+								border: 1px solid #cecece;
+								background-color: #fff;
+								color: #71808c;
+								font-weight: 700;
+								font-size: 20px;
+								padding: 1px 12px 2.5px 12px;
+								margin: 0 -2.5px;
+							}
+							.form-control
+							{
+								border: 1px solid #cecece;
+								box-shadow: none;
+								border-radius: 0;
+							}
+						}
+					}
+					.total-holder
+					{
+
+					}
+					.add-holder
+					{
+						.btn-orange
+						{
+							background-color: #ff5400;
+							border-radius: 2.5px;
+							color: #fff;
+							font-size: 13px;
+							font-weight: $bold;
+						}
+					}
+					&:last-child
+					{
+						td
+						{
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

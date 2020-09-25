@@ -1,0 +1,120 @@
+.background-container
+{
+	padding: 30px 0px;
+	min-height: 860px;
+	@media screen and (max-width: 425px)
+	{
+	   min-height: 765px;
+	}
+
+	.pressview
+	{
+		
+		.dashboard-container
+		{
+			background-color: #eeeeee;
+			height: 800px;
+			padding: 30px;
+			@media screen and (max-width: 768px)
+			{
+			   text-align: center;
+			}
+			@media screen and (max-width: 425px)
+			{
+			   padding: 20px 10px;
+			}
+
+			.title-container
+			{
+				font-size: 25px;
+				color: #316df9;	
+				font-weight: 700;
+				padding-top: 20px;
+				padding-bottom: 10px;
+				@media screen and (max-width: 768px)
+				{
+				   padding-top: 10px;
+				}
+				@media screen and (max-width: 425px)
+				{
+				   font-size: 20px;
+				}
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 18px;
+				}
+			}
+
+			.button-container
+			{
+				padding-top: 25px;
+				float: right;
+				@media screen and (max-width: 768px)
+				{
+				   float: none;
+				   padding: 15px 0px 30px 0px;;
+				}
+				.create-button
+				{
+					a
+					{
+						background-color: #316df9;
+						color: #fff;
+						font-size: 15px;
+						text-decoration: none;
+						padding: 10px 20px;
+						@media screen and (max-width: 425px)
+						{
+						   font-size: 12px;
+						}
+						@media screen and (max-width: 375px)
+						{
+						   font-size: 11px;
+						}
+					}
+					margin-right: 10px;
+				}
+			
+			}
+			.table-container
+			{
+				height: 333px;
+				background-color: #fff;
+				table
+				{
+					font-family: arial, sans-serif;
+					border-collapse: collapse;
+					width: 100%;
+					@media screen and (max-width: 320px)
+					{
+					   font-size: 13px;
+					}
+				}
+
+				th
+				{
+					border: 1px solid #dddddd;
+					text-align: center;
+					padding-top: 12px;
+				    padding-bottom: 12px;
+				    background-color: #4CAF50;
+				    color: white;
+				}
+				td
+				{
+					border: 1px solid #dddddd;
+					text-align: center;
+					padding: 10px;
+					max-width: 0px;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    white-space: nowrap;
+				}
+				tr:nth-child(odd)
+				{
+					background-color: #f2f2f2;
+				}
+			}
+		}
+	}
+}

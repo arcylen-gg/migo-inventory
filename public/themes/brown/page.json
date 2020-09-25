@@ -1,0 +1,12 @@
+{
+	"home":
+	{
+		"home_slider" :
+		{
+			"label":"Slider Maintenance",
+			"type":"gallery",
+			"default":"",
+			"size":"12"
+		}
+	}
+}

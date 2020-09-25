@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QACA,CACC,gBAAgB,CAAC,KAAK,CACtB,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI,CACnB,OAAO,CAAE,IAAI,CACb,UACA,CACC,SAAS,CAAE,eAAe",
+"sources": ["../sass/return_policy.scss"],
+"names": [],
+"file": "return_policy.css"
+}

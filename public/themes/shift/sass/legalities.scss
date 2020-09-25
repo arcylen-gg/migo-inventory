@@ -1,0 +1,21 @@
+.legalities
+{
+	background-color: #fff;
+	.legalities-container
+	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		.legalities-holder
+		{
+			.img
+			{
+				border: 1px solid #ddd;
+				cursor: pointer;
+				img
+				{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

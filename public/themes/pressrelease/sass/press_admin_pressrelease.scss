@@ -1,0 +1,67 @@
+.background-container
+{
+	padding: 30px 0px;
+	min-height: 820px;
+
+	.pressview
+	{
+		
+		.press-container
+		{
+			background-color: #eeeeee;
+			min-height: 700px;
+			padding: 30px;
+
+			.title-container
+			{
+				font-size: 25px;
+				color: #316df9;	
+				font-weight: 700;
+				padding-top: 20px;
+				padding-bottom: 10px;
+			}
+
+			table
+			{
+				font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                display:block;
+                height: 600px;
+                overflow-y: scroll;
+                text-align: center;
+                background-color: #fff;
+			}
+
+			th
+			{
+				border: 1px solid #dddddd;
+				text-align: center;
+				padding-top: 12px;
+			    padding-bottom: 12px;
+			    background-color: #4CAF50;
+			    color: white;
+			}
+			td
+			{
+				border: 1px solid #dddddd;
+				text-align: center;
+				padding: 10px;
+				max-width: 213px;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+			tr:nth-child(odd)
+			{
+				background-color: #f2f2f2;
+			}
+			button
+			{
+			    display: inline-block;
+			    vertical-align: middle;
+			    width: 75px;
+			}
+		}
+	}
+}

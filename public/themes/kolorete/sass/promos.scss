@@ -1,0 +1,85 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ededed;
+	color: #747474;
+}
+
+.top-1-container {
+	padding: 25px 0px 40px 0px;
+	min-height: 500px;
+
+	.title-container {
+		position: relative;
+		padding: 10px 10px 10px 0px;
+		font-size: 18px;
+		font-weight: 600;
+		color: #1c1c1c;
+		border-bottom: 1px solid #d1d1d1;
+		
+		.line-bot {
+			position: absolute;
+			width: 5%;
+			height: 1px;
+			bottom: -1px;
+			left: 0px;
+			background-color: #2161c8;
+		}
+	}
+	/* PER PROMO */
+	.promo-container {
+		padding-top: 20px;
+
+		.per-promo-container {
+			background-color: white;
+			padding: 20px;
+			border: 1px solid #d1d1d1;
+
+			&:hover {
+				cursor: pointer;
+
+				.promo-img-container {
+					img {
+						opacity: 0.7;
+						transition: 0.3s all ease;
+					}
+				}
+				.promo-title {
+					color: #2161c8;
+					transition: 0.3s all ease;
+				}
+				.promo-button {
+					background-color: #2667d0;
+					transition: 0.3s all ease;
+				}
+
+			}
+
+			.promo-img-container {
+				width: 100%;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.promo-title {
+				margin-top: 10px;
+				overflow: hidden;
+				font-size: 15px;
+				font-weight: 600;
+				color: #1c1c1c;
+			}
+			.promo-date {
+				font-size: 13px;
+			}
+			.promo-button {
+				margin-top: 40px;
+				text-align: center;
+				background-color: #2161c8;
+				padding: 10px 0px 10px 0px;
+				color: white;
+				font-weight: 600;
+			}
+		}
+	}
+}

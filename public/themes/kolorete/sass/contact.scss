@@ -1,0 +1,159 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ededed;
+	color: #747474;
+}
+.top-1-container {
+	padding: 40px 0px 40px 0px;
+	background-color: #ededed;
+
+	.title-container {
+		font-size: 18px;
+		font-weight: 600;
+		color: #1c1c1c;
+	}
+}
+.top-2-container {
+	padding: 40px 0px 40px 0px;
+	background-color: white;
+	@media screen and (max-width: 900px)
+	{
+		padding: 20px 0px 20px 0px;
+	}
+
+	.content-container {
+		
+		.title-container {
+			font-size: 18px;
+			font-weight: 600;
+			color: #1c1c1c;
+			@media screen and (max-width: 900px)
+			{
+				padding-top: 20px;
+			}
+		}
+
+		.location-content-container {
+			padding: 20px 0px 20px 0px;
+
+			.title-2-container {
+				color: #1c1c1c;
+				font-weight: 700;
+			}
+			.detail-container {
+				margin-top: 5px;
+				margin-bottom: 20px;
+				font-size: 13px;
+			}
+		}
+		
+		.fill-up-container {
+			width: 100%;
+			
+			.textfield-container {
+				width: 100%;
+				padding: 10px 0px 10px 0px;
+				color: #979797;
+
+				.message-textarea
+				{
+					max-width: 525px; 
+					min-width: 525px; 
+					min-height: 175px; 
+					max-height: 200px;
+					@media screen and (max-width: 414px)
+					{
+						max-width: 353px;
+						min-width: 353px;
+					}
+					@media screen and (max-width: 375px)
+					{
+						max-width: 320px;
+						min-width: 320px;
+					}
+					@media screen and (max-width: 360px)
+					{
+						max-width: 300px;
+						min-width: 300px;
+					}
+					@media screen and (max-width: 320px)
+					{
+						max-width: 260px;
+						min-width: 260px;
+					}
+				}
+
+				.form-holder
+				{
+					// @media screen and (max-width: 414px)
+					// {
+					// 	width: 100%;
+					// 	margin-bottom: 15px;
+					// }
+					padding-bottom: 10px;
+				}
+
+				.form-control {
+					height: 40px;
+				    width: 100%;
+				    border-radius: 20px;
+				    color: #979797;
+				    font-size: 12px;
+				}
+				
+				button {
+					background-color: #48b920;
+					width: 30%;
+					text-align: center;
+					border-radius: 20px;
+					color: white;
+					border: none;
+					padding: 10px 0px 10px 0px;
+					@media screen and (max-width: 320px)
+					{
+						width: 40%;
+					}
+				}
+			}
+		}
+	}
+}
+.bot-container {
+	padding: 40px 0px 40px 0px;
+	background-color: white;
+
+	.title-container {
+		font-size: 18px;
+		font-weight: 600;
+		color: #1c1c1c;
+	}
+	.content-container {
+		padding: 20px 0px 40px 0px;
+
+		.map-container {
+			width: 100%;
+			padding-right: 25px;
+			@media screen and (max-width:414px)
+			{
+				padding-right: unset;
+			}
+
+			.map {
+				width: 100%;
+				border-radius: 20px;
+			}
+		}
+
+		.title-container {
+			font-size: 13px;
+			font-weight: 700;
+		}
+		.first-title
+		{
+			@media screen and (max-width: 414px)
+			{
+				padding-bottom: 30px;
+			}
+		}
+	}
+}

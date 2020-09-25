@@ -1,0 +1,245 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Top Banner Image (998x750) Image Dimensions",
+			"type":"image",
+			"default":"/themes/shift/img/front-banner.jpg",
+			"size":"4"
+		},
+		"home_banner_caption1" :
+		{
+			"label":"Home Top Banner Caption Image",
+			"type":"image",
+			"default":"/themes/shift/img/top-logo.png",
+			"size":"4"
+		},
+		"home_banner_caption2" :
+		{
+			"label":"Home Slogan Text",
+			"type":"textbox",
+			"default":"SCENTS.HEALTH.INFORMATION.FASHION.TECHNOLOGY",
+			"size":"4"
+		},
+		"home_our_brand_context" :
+		{
+			"label":"Our Brand Context",
+			"type":"tinymce",	
+			"default":"Our brand is a call to action for everyone that an alternative, more superior option is available for you. And it is just a click away. Try everything that we offer and you will see that SHIFTing to our brand is the best decision for you.",
+			"size":"12"
+		},
+		"home_our_brand_icon1" :
+		{
+			"label":"Our Brand Icon 1",
+			"type":"image",
+			"default":"/themes/shift/img/icon/scent.png",
+			"size":"3"
+		},
+		"home_our_brand_icon2" :
+		{
+			"label":"Our Brand Icon 2",
+			"type":"image",
+			"default":"/themes/shift/img/icon/health.png",
+			"size":"2"
+		},
+		"home_our_brand_icon3" :
+		{
+			"label":"Our Brand Icon 3",
+			"type":"image",
+			"default":"/themes/shift/img/icon/info.png",
+			"size":"2"
+		},
+		"home_our_brand_icon4" :
+		{
+			"label":"Our Brand Icon 4",
+			"type":"image",
+			"default":"/themes/shift/img/icon/fashion.png",
+			"size":"2"
+		},
+		"home_our_brand_icon5" :
+		{
+			"label":"Our Brand Icon 5",
+			"type":"image",
+			"default":"/themes/shift/img/icon/technology.png",
+			"size":"3"
+		},
+		"home_our_brand_icon1_title" :
+		{
+			"label":"Icon 1 Title",
+			"type":"textbox",
+			"default":"SCENT",
+			"size":"3"
+		},
+		"home_our_brand_icon2_title" :
+		{
+			"label":"Icon 2 Title",
+			"type":"textbox",
+			"default":"HEALTH",
+			"size":"2"
+		},
+		"home_our_brand_icon3_title" :
+		{
+			"label":"Icon 3 Title",
+			"type":"textbox",
+			"default":"INFORMATION",
+			"size":"2"
+		},
+		"home_our_brand_icon4_title" :
+		{
+			"label":"Icon 4 Title",
+			"type":"textbox",
+			"default":"FASHION",
+			"size":"2"
+		},
+		"home_our_brand_icon5_title" :
+		{
+			"label":"Icon 5 Title",
+			"type":"textbox",
+			"default":"TECHNOLOGY",
+			"size":"3"
+		},
+		"home_your_opportunity_context" :
+		{
+			"label":"Your Opportunity Context",
+			"type":"tinymce",
+			"default":"If you like the brands we have, we would like to ask you to join our ever increasing team of distributors and become our partner in promoting S.H.I.F.T.! A very good and competitive compensation package comes with it. A perfect way to add an extra flow of cash in your basket. To find out more, contact any of our TEAM LEADERS or DIRECTORS.",
+			"size":"12"
+		},
+		"home_division3_title" :
+		{
+			"label":"Division 3 Title",
+			"type":"textbox",
+			"default":"Our Belief",
+			"size":"4"
+		},
+		"home_division3_context" :
+		{
+			"label":"Division 3 Context",
+			"type":"tinymce",
+			"default":"We believe that we will make a difference in every consumers chopice. We will make it very convenient for our patrons to shop for what they need at a very affordable price. We also believe that every SHIFT partner will have a huge change in lifestyle as more and more people will SHIFT! So what are you waiting for, SHIFT to our products and become a SHIFT partner now! It's EASY... It's SIMPLE!",
+			"size":"4"
+		},
+		"home_division3_image" :
+		{
+			"label":"Division 3 Image (455x455) Image Dimensions",
+			"type":"image",
+			"default":"/themes/shift/img/belief-bg.jpg",
+			"size":"4"
+		}
+	},
+	"company":
+	{
+		"company_banner" :
+		{
+			"label":"Company Top Banner Image (998x285) Image Dimensions",
+			"type":"image",
+			"default":"/themes/shift/img/about-bg.jpg",
+			"size":"4"
+		},
+		"company_banner_caption1" :
+		{
+			"label":"Company Banner Caption 1",
+			"type":"textbox",
+			"default":"We Are",
+			"size":"4"
+		},
+		"company_banner_caption2" :
+		{
+			"label":"Company Banner Caption 2",
+			"type":"textbox",
+			"default":"Passionate",
+			"size":"4"
+		},
+		"company_who_are_we_context" :
+		{
+			"label":"Company Who are we Context",
+			"type":"tinymce",
+			"default":"The company was conceptualized by young entrepreneurs who believes that everyone can start their own bsuiness small and then make it big as long as they are passionate, dedicated and results driven.",
+			"size":"4"
+		},
+		"company_vision_context" :
+		{
+			"label":"Company Vision Context",
+			"type":"tinymce",
+			"default":"With the help of information technology and the internet, reaching your team, clients and target market can now be easily accomplished.",
+			"size":"4"
+		},
+		"company_mission_context" :
+		{
+			"label":"Company Mission Context",
+			"type":"tinymce",
+			"default":"The company believes in equal opportunity and compensation. Thus, the company have very aggressive sales platforms and developmental training programs aimed at maximizing the income of every S.H.I.F.T. PARTNER.",
+			"size":"4"
+		},
+		"company_division2_vp_context" :
+		{
+			"label":"Division 2 Vice President Context",
+			"type":"tinymce",
+			"default":"He was born in Davao City from a business-minded parents who owns a gas station, movie house, restaurant & hospital. Though he was a son born with a silver platter, he was trained by his parents to be self-sufficient. He became a working student and finished college a little longer with a Bachelor of Science in Commerce (Major in Accounting) at Cor Jesu College, Digos, Davao del Sur. Incidentally, our beloved President, Rody Duterte, became one of his schoolmates.His first employment was in January 1980 with a softdrinks company, Coca-Cola Bottlers Philippines, Inc. (Davao Plant). He rose from the ranks as a Route Salesman and 3 years after, he was promoted and was considered as the youngest District Sales Supervisor of Davao Coca-Cola Plant. With so much dedication in his work, accompanied with a track record of sales and administrative performance, he was promoted as Branch Manager in 1987. Ag ain, with ambitions to reach the top, he was promoted the following year as Regional Sales Manager in 1988. This time with Key Result Areas being achieved, he got numerous awards which includes Travel Incentives to Australia and other Asian Countries. In 1993, he was hired to be the Regional Manager of Pepsi-Cola Products Philippines to handle Eastern Visayas Operations.In 1997, he shifted his management career as a Senior Regional Manager of Cebu with Ayala Plans, Inc. Though the products and services are intangible, he was able to bring the company to the limelight of success as TOP 3 in Sales; Administration and Recruitment Operations.In 2007, he was hired as the pioneering General Manager of a networking company, Vital C Health Products, Inc. His experience in a networking company was very challenging because he was able to build a strong base of over 40,000 Distributors and created a great number of Millionaire Club Members. This is where he concluded that in MLM or Networking Business, ordinary people can earn extraordinary income!",
+			"size":"12"
+		}
+	},
+	"products":
+	{
+		"products_banner" :
+		{
+			"label":"Product Top Banner Image (998x305) Image Dimensions",
+			"type":"image",
+			"default":"/themes/shift/img/product-bg.jpg",
+			"size":"6"
+		},
+		"products_banner_context" :
+		{
+			"label":"Product Banner Context",
+			"type":"tinymce",
+			"default":"Our brand is a call to action for everyone that an alternative, more superior option is available for you. And it is just a click away. Try everything that we offer and you will see that SHIFTing to our brand is the best decision for you.",
+			"size":"6"
+		}
+	},
+	"contact":
+	{
+		"contact_banner" :
+		{
+			"label":"Contact Top Banner Image (998x447) Image Dimensions",
+			"type":"image",
+			"default":"/themes/shift/img/about-bg.jpg",
+			"size":"4"
+		},
+		"contact_banner_caption1" :
+		{
+			"label":"Contact Banner Caption 1",
+			"type":"textbox",
+			"default":"We Are",
+			"size":"4"
+		},
+		"contact_banner_caption2" :
+		{
+			"label":"Contact Banner Caption 2",
+			"type":"textbox",
+			"default":"Passionate",
+			"size":"4"
+		},
+		"contact_address":
+		{
+			"label":"Contact Address",
+			"type":"textbox",
+			"default":"7825 Allison Way, Arvada, CO 80005, USA",
+			"size":"4"
+		},
+		"contact_number":
+		{
+			"label":"Contact Number",
+			"type":"textbox",
+			"default":"Support: +01 2345 6789",
+			"size":"4"
+		},
+		"contact_email":
+		{
+			"label":"Contact Email Address",
+			"type":"textbox",
+			"default":"contact@yourwebsite.com",
+			"size":"4"
+		}
+	}
+}

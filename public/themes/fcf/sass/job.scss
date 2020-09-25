@@ -1,0 +1,236 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #ededed;
+	font-size: 14px;
+	color: #747474;
+}
+.content{
+	padding: 10px 0px 10px 0px;
+}
+.top-bg-container{
+	position: relative;
+	img{
+		width: 100%;
+	}
+
+	.top-bg-detail-container{
+		position: absolute;
+		font-family: 'Fjalla One', sans-serif;
+		color: #fff;
+		font-size: 26px;
+		bottom: 60px;
+		left: 75px;
+
+		@media screen and (max-width: 1366px){
+			bottom: 48px;
+		}
+		@media screen and (max-width: 1280px){
+			bottom: 40px;
+		}
+		@media screen and (max-width: 900px){
+			bottom: 26px;
+
+			img{
+				width: 80%;
+			}
+		}
+		@media screen and (max-width: 768px){
+			bottom: 22px;
+			left: 50px;
+
+			img{
+				width: 65%;
+			}
+		}
+		@media screen and (max-width: 600px){
+			bottom: 20px;
+			left: 40px;
+
+			img{
+				width: 45%;
+			}
+		}
+		@media screen and (max-width: 414px){
+			bottom: 6px;
+			left: 35px;
+
+			img{
+				width: 40%;
+			}
+		}
+		@media screen and (max-width: 375px){
+			bottom: 4px;
+			left: 32px;
+
+			img{
+				width: 40%;
+			}
+		}
+		@media screen and (max-width: 320px){
+			bottom: 2px;
+			left: 32px;
+
+			img{
+				width: 38%;
+			}
+		}
+
+	}	
+}
+.min-title{
+	color: #0e0e0e;
+	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 15px 0px 15px 0px;
+}
+
+.left-top-container{
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 15px;
+	/* margin-bottom: 12px; */
+
+	li{
+		line-height: 200%;
+	}
+
+	.top-title{
+		color: #004b6e;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 30px;
+		padding: 5px 0px 5px 0px;
+		border-bottom: 1px solid #e9e9e9;
+	}
+
+	.job-details-container{
+		padding-top: 20px;
+	}
+	.job-image-container{
+		padding-top: 20px;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.container-min{
+	min-height: 360px;
+}
+
+
+.icon-holder{
+	position: relative;
+	text-align: center;
+
+	i {
+		@media screen and (max-width: 900px){
+			left: 402px;
+		}
+		@media screen and (max-width: 768px){
+			left: 336px;
+		}
+		@media screen and (max-width: 600px){
+			left: 252px;
+		}
+		@media screen and (max-width: 414px){
+			left: 159px;
+		}
+		@media screen and (max-width: 375px){
+			left: 140px;
+		}
+		@media screen and (max-width: 360px){
+			left: 133px;
+		}
+		@media screen and (max-width: 320px){
+			left: 113px;
+		}
+	}
+}
+
+.fa-money{
+	font-size: 25px;
+	color: #004b6e;
+	position: absolute;
+	bottom: 14px;
+	left: 13px;
+}
+.fa-briefcase{
+	font-size: 25px;
+	color: #004b6e;
+	position: absolute;
+	bottom: 13px;
+	left: 14px;
+}
+.fa-map-marker{
+	font-size: 25px;
+	color: #004b6e;
+	position: absolute;
+	bottom: 15px;
+	left: 19px;
+
+	@media screen and (max-width: 900px){
+		left: 408px !important;
+	}
+	@media screen and (max-width: 768px){
+		left: 342px !important;
+	}
+	@media screen and (max-width: 600px){
+		left: 258px !important;
+	}
+	@media screen and (max-width: 414px){
+		left: 165px !important;
+	}
+	@media screen and (max-width: 375px){
+		left: 147px !important;
+	}
+	@media screen and (max-width: 360px){
+		left: 138px !important;
+	}
+	@media screen and (max-width: 320px){
+		left: 118px !important;
+	}
+}
+.icon-caption{
+	vertical-align: middle;
+	padding: 14px 0px 14px 0px;
+
+	@media screen and (max-width: 900px){
+		text-align: center;
+	}
+}
+
+.right-col-content{
+	padding-bottom: 10px;
+}
+.apply-container{
+	border-left: 5px solid #1c8200;
+	position: relative;
+	padding: 10px 10px 10px 0px;
+
+	@media screen and (max-width: 900px){
+		background-color: transparent;
+		border-left: none;
+	}
+
+	span{
+		position: absolute;
+		padding-left: 25px;
+		bottom: -31px;
+		color: #004b6e;
+	}
+}
+.apply-button{
+	background-color: #1c8200;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+
+	&:hover{
+		cursor: pointer;
+		background-color: #1a7800;
+	}
+}
+

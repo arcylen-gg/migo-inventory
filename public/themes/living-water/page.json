@@ -1,0 +1,107 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Banner Image (1600x700) Image Dimensions",
+			"type":"image",
+			"default":"/themes/living-water/img/home-banner.jpg",
+			"size":"12"
+		},
+		"home_about_description" :
+		{
+			"label":"Description in About Us",
+			"type":"tinymce",
+			"default":"",
+			"size":"6"
+		},
+		"home_about_image" :
+		{
+			"label":"Image in About Us",
+			"type":"image",
+			"default":"/themes/living-water/img/about-image.jpg",
+			"size":"6"
+		},
+		"home_process_image_1" :
+		{
+			"label":"Image 1 in Our Process (300x240) Image Dimension",
+			"type":"image",
+			"default":"/themes/living-water/img/process-image-1.png",
+			"size":"6"
+		},
+		"home_process_image_2" :
+		{
+			"label":"Image 2 in Our Process (300x240) Image Dimension",
+			"type":"image",
+			"default":"/themes/living-water/img/process-image-2.png",
+			"size":"6"
+		},
+		"home_process_title_1" :
+		{
+			"label":"Title in Process Image 1",
+			"type":"textbox",
+			"default":"Lorem Ipsum",
+			"size":"6"
+		},
+		"home_process_title_2" :
+		{
+			"label":"Title in Process Image 2",
+			"type":"textbox",
+			"default":"Lorem Ipsum",
+			"size":"6"
+		},
+		"home_process_description_1" :
+		{
+			"label":"Description in Process Image 1",
+			"type":"text",
+			"default":"Lorem ipsum dolor sit amet, saepe detracto albucius nec ea, ne nihil vocent pri, ius in audire comprehensam.",
+			"size":"6"
+		},
+		"home_process_description_2" :
+		{
+			"label":"Description in Process Image 2",
+			"type":"text",
+			"default":"Lorem ipsum dolor sit amet, saepe detracto albucius nec ea, ne nihil vocent pri, ius in audire comprehensam.",
+			"size":"6"
+		},
+		"home_product_image" :
+		{
+			"label":"Image of Product (520x475)",
+			"type":"image",
+			"default":"/themes/living-water/img/product-image.jpg",
+			"size":"6"
+		},
+		"home_product_description" :
+		{
+			"label":"Description of the Product",
+			"type":"tinymce",
+			"default":"",
+			"size":"6"
+		}
+
+	},
+	"contact_details":
+	{
+		"contact_company_address" :
+		{
+			"label":"Main Office",
+			"type":"text",
+			"default":"0261 BE (STALL 1) M.A. Fernando St. Santa Cruz Angat Bulacan 3012",
+			"size":"4"
+		},
+		"contact_company_email_address" :
+		{
+			"label":"Email Address of the Company",
+			"type":"textbox",
+			"default":"livingwater@gmail.com",
+			"size":"4"
+		},
+		"contact_company_contact_number" :
+		{
+			"label":"Contact Number of Company",
+			"type":"textbox",
+			"default":"09479855602 / 09988627466",
+			"size":"4"
+		}
+	}
+}

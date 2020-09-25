@@ -1,0 +1,47 @@
+	    <h4 class="modal-title"><b>Leave Action Report : {{$date_start}} to {{$date_end}}</b> <i><br> Leave Action Report </i></h4>
+
+    <div class="modal-body clearfix">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-condensed">
+                        <thead>
+                            <tr>
+                                <th class="text-center wa">Leave Name</th>
+                                <th class="text-center wa">Employee Number</th>
+                                <th class="text-center empname">Employee Name</th>
+                                <th class="text-center wa">Leave Credits</th>
+                                <th class="text-center wa">Leave Hours Remaining</th>
+                                <th class="text-center wa">Leave Hours Accumulated</th>
+                                <th class="text-center wa">Cash Converted</th>
+                                <th class="text-center wa">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(isset($leave_report))
+                            @foreach($leave_report as $leave)
+                            <tr>
+                                <td class="text-center">{{ $leave->payroll_leave_temp_name }}</td>
+                                <td class="text-center">{{ $leave->payroll_employee_id }}</td>
+                                <td class="text-center">{{ $leave->payroll_employee_display_name }}</td>
+                                <td class="text-center">{{ $leave->payroll_leave_temp_hours }}</td>
+                                <td class="text-center">{{ $leave->payroll_leave_hours_remaining }}</td>
+                                <td class="text-center">{{ $leave->payroll_leave_hours_accumulated }}</td>
+                                <td class="text-center">{{ $leave->payroll_leave_cash_converted }}</td>
+                                <td class="text-center">{{ $leave->payroll_report_date_created }}</td>
+                            </tr>
+                            @endforeach
+                            @endif
+                        </tbody>
+                    </table>
+                </div>
+    </div>
+<style>
+.wa{
+    background-color: #ffff99 !important;
+     border: 5px solid #2C2C2C;
+}
+.empname{
+    background-color: #ccffff !important;
+        border: 5px solid #2C2C2C;
+}
+
+</style>

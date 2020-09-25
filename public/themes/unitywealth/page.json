@@ -1,0 +1,106 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Top Banner Image (1600x800) Image Dimensions",
+			"type":"image",
+			"default":"/themes/unitywealth/img/front-img2.jpg",
+			"size":"6"
+		},
+		"home_banner_image_logo" :
+		{
+			"label":"Home Top Banner logo",
+			"type":"image",
+			"default":"/themes/unitywealth/img/logo-caption.png",
+			"size":"6"
+		},
+		"home_company_profile" :
+		{
+			"label":"Home Company Profile",
+			"type":"textarea",
+			"default":"Unity wealth is an affiliate marketing that provides digital training to help people on how to earn money online and how to be an effective online entrepreneur such as eBooks and video tutorials. ",
+			"size":"3"
+		},
+		"home_company_mission" :
+		{
+			"label":"Home Company Mission",
+			"type":"textarea",
+			"default":"Unity wealth is an affiliate marketing that provides digital training to help people on how to earn money online and how to be an effective online entrepreneur such as eBooks and video tutorials. ",
+			"size":"3"
+		},
+		"home_company_vision" :
+		{
+			"label":"Home Company Vision",
+			"type":"textarea",
+			"default":"Unity wealth is an affiliate marketing that provides digital training to help people on how to earn money online and how to be an effective online entrepreneur such as eBooks and video tutorials. ",
+			"size":"3"
+		},
+		"home_company_profile_image" :
+		{
+			"label":"Home Company Profile Banner",
+			"type":"image",
+			"default":"/themes/unitywealth/img/company-profile-img.jpg",
+			"size":"3"
+		}
+	},
+	"replicated-link":
+	{
+		"replicated_video_link" :
+		{
+			"label":"Replicated Video Link",
+			"type":"textbox",
+			"default":"https://www.youtube.com/embed/DqeREVV5WDE",
+			"size":"12"
+		}
+	},
+	"non-member-video":
+	{
+		"nonmember_video_link" :
+		{
+			"label":"Non-member Video Link",
+			"type":"textbox",
+			"default":"https://player.vimeo.com/video/241726583",
+			"size":"12"
+		}
+	},
+	"videos":
+	{
+		"product_video_maintenance" :
+		{
+			"label":"Product Video Maintenance",
+			"type":"maintenance",
+			"default":"",
+			"field":[
+				{"name":"video_thumbnail_780x531", "type":"image"},
+				{"name":"title", "type":"text"},
+				{"name":"video_link", "type":"text"}
+			],
+			"size":"12"
+		}
+	},
+	"footer-details":
+	{
+		"footer_company_profile" :
+		{
+			"label":"Footer Company Description",
+			"type":"textarea",
+			"default":"Unity wealth is an affiliate marketing that provides digital training to help people on how to earn money online and how to be an effective online entrepreneur such as eBooks and video tutorials.",
+			"size":"4"
+		},
+		"footer_phone_number" :
+		{
+			"label":"Footer Contact Number",
+			"type":"textbox",
+			"default":"+63900 - 000 - 0000",
+			"size":"4"
+		},
+		"footer_email_address" :
+		{
+			"label":"Footer Email Address",
+			"type":"textbox",
+			"default":"unitywealth@gmail.com",
+			"size":"4"
+		}
+	}
+}

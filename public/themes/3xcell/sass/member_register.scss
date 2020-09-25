@@ -1,0 +1,415 @@
+@import "../../../assets/front/sass/mixin";
+
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+body
+{
+	background-color: #ededed;
+}
+
+.register
+{
+	font-family: $content-text;
+	letter-spacing: 0.2px;
+	margin: 25px 0;
+	background-color: #fff;
+	table
+	{
+		table-layout: fixed;
+		width: 100%;
+		tr
+		{
+			@media screen and (max-width: 768px)
+			{
+				width: 100%;
+				display: block;
+			}
+		}
+		td
+		{
+			vertical-align: top;
+			@media screen and (max-width: 768px)
+			{
+				width: 100%;
+				display: block;
+			}
+		}
+		.c1
+		{
+			width: 50%;
+			@media screen and (max-width: 768px)
+			{
+				width: 100%;
+				display: block;
+			}
+		}
+		.c2
+		{
+			width: 50%;
+			@media screen and (max-width: 768px)
+			{
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+	.register-side
+	{
+		img
+		{
+			width: 100%;
+		}
+	}
+	.register-header
+	{
+		padding: 10px 40px;
+		border-bottom: 1px solid #e3e5e8;
+		@media screen and (max-width: 500px)
+		{
+			padding: 15px;
+		}
+		.title
+		{
+			color: $text-dark;
+			font-size: 20px;
+			font-weight: 700;
+			padding: 15px 0;
+			@media screen and (max-width: 581px)
+			{
+				text-align: center;
+			}
+		}
+		.or
+		{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 30px;
+			@media screen and (max-width: 581px)
+			{
+				display: block;
+				text-align: center;
+				margin-bottom: 25px;
+				margin-right: 0;
+			}
+		}
+		.social-button
+		{
+			display: inline-block;
+			vertical-align: middle;
+			@media screen and (max-width: 581px)
+			{
+				display: block;
+				text-align: center;
+			}
+			.holder
+			{
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 25px;
+				@media screen and (max-width: 523px)
+				{
+					margin-right: 0;
+				}
+				@media screen and (max-width: 448px)
+				{
+					margin-bottom: 15px;
+					&:last-child
+					{
+						margin-bottom: 0;
+					}
+				}
+				&.fb
+				{
+					background-color: #3c66c4;
+				}
+				&.gp
+				{
+					background-color: #cf4332;
+				}
+				&:last-child
+				{
+					margin-right: 0;
+				}
+				.img
+				{
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 10px;
+					img
+					{
+						
+					}
+				}
+				.name
+				{
+					display: inline-block;
+					vertical-align: middle;
+					color: #fff;
+					font-size: 12.24px;
+					font-weight: 600;
+					text-align: left;
+					padding: 5px 10px;
+					letter-spacing: 0.5px;
+					margin-top: 3px;
+					.fa
+					{
+						font-size: 22.25px;
+						vertical-align: middle;
+						margin-right: 7.5px;
+					}
+				}
+			}		
+		}
+		.left
+		{
+			@media screen and (min-width: 991px)
+			{
+				float: left;
+			}
+		}
+		.right
+		{
+			@media screen and (min-width: 991px)
+			{
+				float: right;
+			}
+		}
+	}
+	.register-form
+	{
+		padding: 50px;
+		padding-top: 25px;
+		padding-left: 75px;
+		@media screen and (max-width: 500px)
+		{
+			padding: 15px;
+			max-width: 420px;
+			margin: auto;
+		}
+		.form-group
+		{
+			margin-bottom: 25px;
+			&:last-child
+			{
+				margin-bottom: 0;
+			}
+			.register-label
+			{
+				color: $text-dark;
+				font-size: 13px;
+				font-weight: 600;
+			}
+			.radio-inline
+			{
+				color: $text-dark;
+				font-size: 13px;
+				font-weight: 600;
+				margin-right: 25px;
+				input
+				{
+					margin-top: 3px;
+				}
+			}
+			.gender-input
+			{
+				margin-top: 10px; 
+				margin-left: 25px;
+				@media screen and (max-width: 768px)
+				{
+					margin-left: 0;
+				}
+			}
+			.form-input
+			{
+				margin-top: 5px;
+				.form-control
+				{
+					border: 0;
+					border-bottom: 1px solid #e0e0e0;
+					box-shadow: none;
+					color: $text-light;
+					font-weight: $regular;
+					font-size: 13px;
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+			.date-holder
+			{
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 25px;
+				&:last-child
+				{
+					margin-right: 0;
+				}
+			}
+			.checkbox
+			{
+				text-align: left;
+				label
+				{
+					font-size: 13px;
+					color: $text-light;
+					font-weight: $regular;
+				}
+				input
+				{
+					vertical-align: middle;
+					margin-top: 2px;
+				}
+				span
+				{
+					@include transition(0.2s);
+					color: #2161C8;
+
+					&:hover
+					{
+						opacity: 0.8;
+					}
+				}
+			}
+			.choice
+			{
+				text-align: left;
+				@media screen and (max-width: 991px)
+				{
+					text-align: center;
+				}
+				.holder
+				{
+					display: inline-block;
+					vertical-align: middle;
+					@media screen and (max-width: 991px)
+					{
+						display: block;
+					}
+					a
+					{
+						@include transition(0.2s);
+
+						color: $text-dark !important;
+						font-weight: $regular;
+						color: #2161C8 !important;
+						font-size: 15px !important;
+
+						&:hover
+						{
+							opacity: 0.8;
+						}
+					}
+					.btn
+					{
+						@include transition(0.2s);
+						background-color: #2161C8;
+						color: #fff;
+
+						@media screen and (max-width: 991px)
+						{
+							width: 100%;
+						}
+
+						&:hover
+						{
+							opacity: 0.8;
+						}
+					}
+				}
+
+				.or
+				{
+					color: $text-light;
+					font-size: 11px;
+					font-weight: $regular;
+					margin: 15px 15px;
+					@media screen and (max-width: 991px)
+					{
+						display: block;
+					}
+				}
+
+				.login-href
+				{
+					color: #2161C8;
+					font-size: 13px;
+					font-weight: 600;
+
+					@media screen and (max-width: 991px)
+					{
+						display: block;
+					}
+				}
+			}
+		}
+	}	
+}
+
+.modal-agreement
+{
+	.modal-header
+	{
+		background-color: #2161C8;
+		color: #fff;
+		font-size: 13px;
+		font-weight: 600;
+	}
+	.modal-body
+	{
+		.contract
+		{
+			/* white-space: pre-wrap; */
+			height: 420px;
+			overflow-y: auto;
+			
+			.step
+			{
+				padding: 10px 0;
+			}
+
+			.holder
+			{
+				.title-holder
+				{
+					color: $text-dark;
+					font-weight: $bold;
+					font-size: 13px;
+					padding: 10px 0;
+				}
+
+				.para-holder
+				{
+					
+				}
+			}
+		}
+	}
+	.modal-footer
+	{
+		.btn
+		{
+			color: #ffffff;
+			font-weight:$bold;
+			font-size: 13px;
+			border-radius: 1.5px;
+			padding: 10px 25px;
+			margin-left: 12.5px;
+			&:last-child
+			{
+				margin-left: 0;
+			}
+		}
+		.btn-semi
+		{
+			background-color: rgba(33,97,200,0.8);
+		}
+		.btn-pure
+		{
+			background-color: #2161C8;
+		}
+	}
+}

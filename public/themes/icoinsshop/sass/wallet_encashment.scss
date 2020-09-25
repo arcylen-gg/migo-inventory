@@ -1,0 +1,133 @@
+@import "../../../assets/front/sass/mixin";
+
+$content-text: "Lato", sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+.btn-cust-paysett 
+{
+    @include transition(0.2s);
+
+    background-color: #037058;
+    color: #fff;
+
+    &:hover 
+    {
+        color: #fff;
+        opacity: 0.8;
+    }
+}
+
+.btn-cust-reqpay 
+{
+    @include transition(0.2s);
+
+    background-color: #E1890B;
+    color: #fff;
+
+    &:hover 
+    {
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    @media screen and (max-width: 500px) 
+    {
+        margin-top: 10px;
+    }
+}
+
+.wallet-encashment 
+{
+    font-family: $content-text;
+    padding: 15px;
+    letter-spacing: 0.2px;
+
+    .main-member-header 
+    {
+        .left 
+        {
+            .text 
+            {
+                .name 
+                {
+                    font-size: 21px;
+                    font-weight: $bold;
+                    color: $text-dark !important;
+                }
+
+                .sub 
+                {
+                    font-size: 15px !important;
+                    color: $text-light !important;
+                }
+            }
+        }
+
+        .right 
+        {
+            @media screen and (max-width: 991px) 
+            {
+                margin-top: 25px;
+
+                .text-right 
+                {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
+    .wallet-encashment-content 
+    {
+        margin-top: 50px;
+
+        .title 
+        {
+            color: $text-dark;
+            font-weight: $bold;
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+
+        .table-holder 
+        {
+            margin-bottom: 50px;
+
+            table 
+            {
+                thead 
+                {
+                    tr 
+                    {
+                        th 
+                        {
+                            color: $text-light;
+                            font-weight: $bold;
+                            font-size: 15px;
+                            border-color: #ececec;
+                        }
+                    }
+                }
+
+                tbody 
+                {
+                    tr 
+                    {
+                        td 
+                        {
+                            font-size: 15px;
+                            color: $text-light;
+                            font-weight: $regular;
+                            border-color: #ececec;
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

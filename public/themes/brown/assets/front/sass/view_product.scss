@@ -1,0 +1,372 @@
+.intro
+{
+	// background-image: url("/assets/front/img/product-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 25px 0 35px;
+	text-align: center;
+	.image
+	{
+		img
+		{
+			width: 100%;
+			border: 1px solid #ddd;
+		}
+		
+		.slick-slide
+		{
+			border: none;
+		}
+		
+		.slider-nav .holder 
+		{
+      		margin: 10px 5px; 
+			border: none;
+			
+			img
+			{
+				width: 100%;
+        		cursor: pointer;
+        		border: 1px solid #ddd;
+			}
+		}
+		.slider-nav .slick-current
+		{
+			img
+			{
+				box-shadow: 0 0 5px #51cbee;
+    			// margin-top: -4px;
+    			border: 1px solid #51cbee;
+			}
+		}
+		.slick-arrow
+		{
+			color: #232323;
+		}
+	}
+	.image-galeery
+	{
+		margin-top: 20px;
+   		height: 120px;
+    	background-color: #ddd;
+	}
+	.info
+	{
+		background-color: #fff;
+		padding: 20px;
+		text-align: left;
+		max-height: 80%;
+		.name
+		{
+			font-size: 25px;
+			font-weight: 700;
+			border-bottom: 3px solid #b4b4b4;
+			margin-bottom: 8%;
+			.top-price
+			{
+				color: #e22a51;
+			}
+		}
+		.desc-title
+		{
+			font-size: 18.75px;
+			font-weight: 700;
+			margin-bottom: 3%;
+		}
+		.desc
+		{
+			font-size: 14.58px;
+			color: #6a6a6a;
+			font-weight: 300;
+			margin-bottom: 25px;
+		}
+		.item-number-title
+		{
+			font-size: 18.75px;
+			font-weight: 700;
+			margin-bottom: 3%;
+		}
+		.item-number
+		{
+			font-size: 14.58px;
+			color: #6a6a6a;
+			font-weight: 300;
+			margin-bottom: 25px;
+		}
+		.available-stocks-title
+		{
+			font-size: 18.75px;
+			font-weight: 700;
+			margin-bottom: 3%;
+		}
+		.available-stocks
+		{
+			font-size: 14.58px;
+			color: #6a6a6a;
+			font-weight: 300;
+			margin-bottom: 25px;
+
+			&.available-stocks[value='0']
+			{
+				color: #e22a51;
+			}
+		}
+
+		.size-title
+		{
+			font-size: 18.75px;
+			font-weight: 700;
+			margin-bottom: 3%;
+		}
+		.size-desc
+		{
+			font-size: 14.58px;
+			color: #6a6a6a;
+			font-weight: 300;
+			margin-bottom: 25px;
+			input
+			{
+				margin-right: 2%;
+			}
+		}
+		.price
+		{
+			font-size: 20.83px;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+		.stock
+		{
+			font-size: 14.58px;
+			font-weight: 300;
+		}
+		.quantity
+		{
+			table
+			{
+				margin-left: auto;
+				width:100%;
+			}
+			.adjust
+			{
+				background-color: #191919;
+				color: #fff;
+				font-size: 14.58px;
+				font-weight: 300;
+				padding: 7px 20px;
+				cursor: pointer;
+			}
+			.input-adjust
+			{
+				border-radius: 0;
+				box-shadow: none;
+				border: 0;
+				border: 1px solid #9d9d9d;
+				text-align: center;
+			}
+			.btn
+			{
+				text-align: center;
+				background-color: #191919;
+				color: #fff;
+				border: 0;
+				border-radius: 0;
+				font-size: 14.58px;
+				font-family: "Oswald", sans-serif;
+				font-weight: 100;
+				width: 100%;
+				img
+				{
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
+.reviews
+{
+	border-bottom: 3px solid #b4b4b4;
+	margin-bottom: 3%;
+	.review-title
+	{	
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 25px;
+		font-family: "Oswald",  sans-serif;
+		font-weight: 500;
+	}
+	.purchase-count
+	{
+		display: inline-block;
+		vertical-align: middle;
+		.people-count
+		{
+			font-weight: 600;
+		}
+		.purchaser-logo
+		{
+			margin-right: 3px;
+		}
+	}
+}
+
+.comments
+{
+	font-family: "Roboto", sans-serif;
+	.comment-title
+	{
+		font-size: 18.75px;
+		font-family: "Oswald", sans-serif;
+		font-weight: 600;
+		margin-bottom: 2%;
+	}
+	.comment-info
+	{
+		color: #292b30;
+		max-height: 300px;
+		overflow-y: overlay;
+		padding-right: 3%;
+		margin-bottom: 5%;
+
+		.comment-sender
+		{
+			display: inline-block;
+			font-size: 14.58px;
+			.name
+			{
+				color: black;
+				font-weight: 600;
+			}
+		}
+		.comment-date
+		{
+			color: #878787;
+			font-size: 12.5px;
+			display: inline-block;
+			vertical-align: middle;
+
+		}
+		.comment-desc
+		{
+			color: #878787;
+			font-size: 14.58px;
+			margin-bottom: 3%;
+		}
+	}
+	.comment-info::-webkit-scrollbar {
+    width: 12px;
+	}
+
+	.comment-info::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	    border-radius: 10px;
+	}
+
+	.comment-info::-webkit-scrollbar-thumb {
+	    border-radius: 10px;
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}
+
+	.login-title
+	{
+		font-family: "Oswald", sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 6%;
+		.login
+		{
+			color: #e22a51;
+		}
+	}
+}
+
+.rel-product
+{
+	margin-bottom: 30%;
+	.rel-product-title
+	{
+		font-family: "Oswald", sans-serif;
+		font-size: 18.75px;
+		font-weight: 600;
+		color: #292b30;
+		padding-bottom: 1%;
+		border-bottom: 3px solid #b4b4b4;
+		margin-bottom: 1%;
+		.product
+		{
+			color: #de7c99;
+		}
+	}
+	.list
+	{
+		.prod-name
+		{
+			margin-top: 2%;
+			margin-bottom: 2%;
+			font-size: 18.75px;
+			font-family: "Oswald", sans-serif;
+		}
+		.prod-price
+		{
+			font-size: 14.58px;
+			font-family: "Oswald", sans-serif;
+			font-weight: 600;
+			color: #e22a51;
+		}
+	}
+}
+
+.other-great-choices
+{
+	.other-great-choices-title
+	{
+		font-family: "Oswald", sans-serif;
+		font-size: 18.75px;
+		font-weight: 600;
+		color: #292b30;
+		padding-bottom: 1%;
+		border-bottom: 3px solid #b4b4b4;
+		margin-bottom: 1%;
+		.product
+		{
+			color: #de7c99;
+		}
+	}
+	.list
+	{
+		.prod-name
+		{
+			margin-top: 2%;
+			margin-bottom: 2%;
+			font-size: 18.75px;
+			font-family: "Oswald", sans-serif;
+		}
+		.prod-price
+		{
+			font-size: 14.58px;
+			font-family: "Oswald", sans-serif;
+			font-weight: 600;
+			color: #e22a51;
+		}
+	}
+}
+
+.related
+{
+	.title
+	{
+		font-size: 16.67px;
+		font-weight: 700;
+		margin: 40px 0;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+.note
+{
+	margin: 5px;
+	color: #e22a51;
+}

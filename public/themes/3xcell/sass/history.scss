@@ -1,0 +1,243 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ededed;
+	color: #747474;
+}
+.top-1-container {
+	padding: 40px 0px 40px 0px;
+	background-color: #ededed;
+
+	.title-container {
+		font-size: 18px;
+		font-weight: 600;
+		color: #1c1c1c;
+	}
+}
+.top-2-container {
+	padding: 40px 0px 40px 0px;
+	background-color: white;
+	.about-holder
+	{
+		@media screen and (max-width: 414px)
+		{
+			display: inline-block;
+			width: 100%;
+		}
+
+		.title-container {
+			font-size: 18px;
+			font-weight: 600;
+			color: #1c1c1c;
+		}
+		.top-2-content {
+			padding-top: 20px;
+
+			p {
+				font-size: 13px;
+				text-align: justify;
+			}
+		}
+	}
+	.image-holder
+	{
+		@media screen and (max-width: 414px)
+		{
+			display: inline-block;
+			width: 100%;
+		}
+		.img-container {
+			margin-top: 75px;
+			text-align: center;
+			@media screen and (max-width: 900px)
+			{
+				margin-top: unset;
+			}
+			@media screen and (max-width: 414px)
+			{
+				width: 70%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			img{
+				@media screen and (max-width: 900px)
+				{
+					width: 100%;
+				}
+			}
+		}
+	}	
+}
+
+.mid-container {
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 327px;
+	@media screen and (max-width: 414px)
+	{
+		height: 370px;
+	}
+	.mid-content {
+		padding: 100px 0px 40px 0px;
+		.vision-holder
+		{
+			@media screen and (max-width: 414px)
+			{
+				display: inline-block;
+				width: 100%;
+			}
+			.mid-content-single {
+				
+				.title-container {
+					width: 30%;
+					@media screen and (max-width: 900px)
+					{
+						width: 45%;
+					}
+					@media screen and (max-width: 600px)
+					{
+						width: 58%;
+					}
+					@media screen and (max-width: 414px)
+					{
+						width: 41%;
+					}
+					@media screen and (max-width: 375px)
+					{
+						width: 45%;
+					}
+					@media screen and (max-width: 360px)
+					{
+						width: 48%;
+					}
+					@media screen and (max-width: 320px)
+					{
+						width: 54%;
+					}
+
+					h1 {
+						color: white;
+						font-size: 25px;
+						margin-top: -7px;
+					}
+					h2 {
+						color: #fcff39;
+						font-size: 13px;
+						margin-top: -5px;
+					}
+				}
+				.detail-container {
+					padding-top: 20px;
+					color: white;
+					line-height: 20px;
+					font-size: 13px;
+					@media screen and (max-width: 414px)
+					{
+						padding-top: unset;
+						padding-bottom: 35px;
+					}
+				}
+			}
+		}
+		.mission-holder
+		{
+			@media screen and (max-width: 414px)
+			{
+				display: inline-block;
+				width: 100%;
+			}
+			.mid-content-single {
+				
+				.title-container {
+					width: 30%;
+					@media screen and (max-width: 900px)
+					{
+						width: 45%;
+					}
+					@media screen and (max-width: 600px)
+					{
+						width: 58%;
+					}
+					@media screen and (max-width: 414px)
+					{
+						width: 41%;
+					}
+
+					h1 {
+						color: white;
+						font-size: 25px;
+						margin-top: -7px;
+					}
+					h2 {
+						color: #fcff39;
+						font-size: 13px;
+						margin-top: -5px;
+					}
+				}
+				.detail-container {
+					padding-top: 20px;
+					color: white;
+					line-height: 20px;
+					font-size: 13px;
+					@media screen and (max-width: 414px)
+					{
+						padding-top: unset;
+						padding-bottom: 35px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 3XCELL PERMITS */
+.bot-container {
+	padding: 50px 0px 100px 0px;
+	background-color: white;
+
+	.title-container {
+		position: relative;
+		padding: 10px 10px 10px 0px;
+		font-size: 18px;
+		font-weight: 600;
+		color: #1c1c1c;
+		border-bottom: 1px solid #d1d1d1;
+	}
+		
+		.line-bot {
+			position: absolute;
+			width: 5%;
+			height: 1px;
+			bottom: -1px;
+			left: 0px;
+			background-color: #48b920;
+		}
+
+	.bot-content {
+		padding-top: 20px;
+
+		// @media screen and (max-width: 414px)
+		// {
+		// 	width: 50%;
+		// 	margin-bottom: 15px;
+		// 	display: inline-block;
+		// }
+
+		.img-container {
+
+			img {
+				width: 100%;
+			}
+
+			&:hover {
+				cursor: pointer;
+
+				img {
+					opacity: 0.7;
+					transition: 0.3s all ease;
+				}
+			}
+		}
+	}
+}

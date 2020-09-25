@@ -1,0 +1,54 @@
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+
+.videos-wrapper
+{
+	font-family: $content-text;
+	padding: 15px;
+	color: #344049;
+
+	.title
+	{
+		padding-bottom: 10px;
+		span 
+		{
+			font-size: 21px;
+			font-weight: 700;
+		}
+	}
+
+	.per-video-container
+	{
+		padding: 10px 10px 18px 10px;
+
+		.thumbnail
+		{
+			margin-bottom: 12px !important;
+			img 
+			{
+				width: 100%;
+			}
+		}
+		.video-title
+		{
+			padding-left: 3px;
+			font-weight: $bold;
+			font-size: 21px;
+
+			@media screen and (max-width: 450px)
+			{
+				font-size: 15px;	
+			}
+
+			a 
+			{
+				color: #344049;
+			}
+		}
+	}
+}

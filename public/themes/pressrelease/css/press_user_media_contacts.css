@@ -1,0 +1,17 @@
+.background-container{padding:30px 0px;min-height:820px}
+.background-container .pressview .media-container{padding:20px 0px 20px 0px}
+.background-container .pressview .media-container .tab{float:left;border:1px solid #ccc;background-color:#f1f1f1;width:17%;border-right:none;height:98px}
+.background-container .pressview .media-container .tabcontent{background-color:#fff;float:left;padding:0px 10px;border:1px solid #ccc;width:83%}
+.background-container .pressview .media-container button{display:block;color:black;padding:15px 13px;width:100%;border:none;outline:none;text-align:center;cursor:pointer;transition:0.3s;font-size:13px}
+.background-container .pressview .media-container button.active{background-color:#ccc}
+.background-container .pressview .media-container .press-media-container{padding:30px 10px 50px 10px;border:1px solid #ccc;min-height:700px}
+.background-container .pressview .media-container .press-media-container .press-holder-container table{font-family:arial, sans-serif;border-collapse:collapse;width:100%;display:block;height:600px;overflow-y:scroll;text-align:center;background-color:#FFFFFF}
+.background-container .pressview .media-container .press-media-container .press-holder-container th{border:1px solid #dddddd;text-align:center;padding-top:12px;padding-bottom:12px;background-color:#4CAF50;color:white}
+.background-container .pressview .media-container .press-media-container .press-holder-container td{border:1px solid #dddddd;text-align:center;padding:10px;vertical-align:middle}
+.background-container .pressview .media-container .press-media-container .press-holder-container tr:nth-child(odd){background-color:#f2f2f2}
+.background-container .pressview .media-container .press-media-container .press-holder-container button{display:inline-block;vertical-align:middle;width:90px}
+.background-container .pressview .media-container .add-media-container{padding:20px 40px 50px 40px;min-height:700px}
+.background-container .pressview .media-container .add-media-container .title-container{font-size:25px;color:#316df9;font-weight:700;padding-top:20px}
+.background-container .pressview .media-container .add-media-container .title{color:#404040;font-size:15px;padding-top:20px;padding-bottom:5px}.background-container .pressview .media-container .add-media-container input{color:#404040;height:40px;font-size:15px;width:80%;background-color:inherit;display:inline-block;vertical-align:middle}.background-container .pressview .media-container .add-media-container textarea{color:#404040;font-size:15px;background-color:inherit;padding:10px;max-height:300px;min-height:300px;max-width:80%;min-width:80%}.background-container .pressview .media-container .add-media-container .button-container{padding-top:30px}.background-container .pressview .media-container .add-media-container .button-container button{background-color:#316df9;color:#fff;font-size:15px;text-decoration:none;padding:10px 20px;width:16%}
+.title-container{font-size:25px;color:#316df9;font-weight:700;padding-top:20px;padding-bottom:10px}
+/*# sourceMappingURL=press_user_media_contacts.css.map */

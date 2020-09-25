@@ -1,0 +1,343 @@
+$color_1: #FCC209;
+$color_2: #fff;
+$color_3: #000;
+$background_color_1: #FCC209;
+$border_color_1: #000;
+
+.section-title 
+{
+	h2 
+	{
+		color: $color_1;
+
+		&:before 
+		{
+			background-color: $background_color_1;
+		}
+		&:after 
+		{
+			background-color: $background_color_1;
+		}
+		span 
+		{
+			color: #30A9DF; //$color_1
+		}
+	}
+}
+#switcher 
+{
+	.theme-click 
+	{
+		background-color: $background_color_1;
+	}
+}
+#scrollUp 
+{
+	i 
+	{
+		&:hover 
+		{
+			background: #FCC209;
+			color: $color_2;
+		}
+	}
+}
+header 
+{
+	.logo 
+	{
+		&:before 
+		{
+			//background: #fbb829;
+		}
+	}
+}
+.header-top-area 
+{
+	.navbar-nav 
+	{
+		>li.active 
+		{
+			>a 
+			{
+				&::before 
+				{
+					background: #FCC209;
+				}
+			}
+		}
+	}
+}
+.navbar-default 
+{
+	.navbar-nav 
+	{
+		>li 
+		{
+			>a 
+			{
+				&:focus 
+				{
+					color: $color_1;
+				}
+				&:hover 
+				{
+					color: $color_1;
+				}
+			}
+		}
+	}
+}
+.menu-bg 
+{
+	.navbar-default 
+	{
+		.navbar-nav 
+		{
+			li 
+			{
+				a 
+				{
+					&:hover 
+					{
+						color: $color_1;
+					}
+				}
+			}
+		}
+	}
+}
+.banner-content 
+{
+	.btn 
+	{
+		&:before 
+		{
+			background: #FCC209;
+		}
+		color: $color_1;
+		border: 1px solid #FCC209;
+		&:hover 
+		{
+			color: $color_3;
+		}
+		&:focus 
+		{
+			color: $color_3;
+		}
+		&:active 
+		{
+			color: $color_3;
+		}
+	}
+}
+.readmore 
+{
+	color: $color_1;
+	border: 1px solid #FCC209;
+	&:before 
+	{
+		background: #FCC209;
+	}
+	&:hover 
+	{
+		color: $color_3;
+		border: 1px solid #FCC209;
+		&:before 
+		{
+			border: 1px solid #FCC209;
+		}
+	}
+	&:focus 
+	{
+		color: $color_3;
+		border: 1px solid #FCC209;
+		&:before 
+		{
+			border: 1px solid #FCC209;
+		}
+	}
+	&:active 
+	{
+		color: $color_3;
+		border: 1px solid #FCC209;
+		&:before 
+		{
+			border: 1px solid #FCC209;
+		}
+	}
+}
+.we-do 
+{
+	>ul 
+	{
+		li 
+		{
+			i 
+			{
+				color: $color_1;
+			}
+		}
+	}
+}
+.progress-bar 
+{
+	background-color: $background_color_1;
+}
+.service-callouts 
+{
+	.service-box 
+	{
+		i.fa 
+		{
+			color: $color_1;
+		}
+	}
+}
+.testimonial-img 
+{
+	>i 
+	{
+		background: #FCC209;
+	}
+}
+.testimonial-rating 
+{
+	li 
+	{
+		i 
+		{
+			color: $color_1;
+		}
+	}
+}
+.testimonials-wrapper 
+{
+	.carousel-indicators 
+	{
+		.active 
+		{
+			background: #FCC209;
+		}
+	}
+}
+.textimonial-text 
+{
+	>i 
+	{
+		color: $color_1;
+	}
+}
+.satisfied-wrapper 
+{
+	.counter 
+	{
+		.icon 
+		{
+			span 
+			{
+				border: 2px solid #FCC209;
+				color: $color_1;
+			}
+		}
+	}
+}
+.pricebox 
+{
+	.price_title 
+	{
+		.ratings 
+		{
+			i 
+			{
+				color: $color_1;
+			}
+		}
+	}
+}
+.pricing_item.active 
+{
+	background: #FCC209;
+	color: $color_2;
+	color: $color_3;
+	.pricebox 
+	{
+		border-color: $border_color_1;
+		.price 
+		{
+			p 
+			{
+				>strong 
+				{
+					color: $color_3;
+				}
+			}
+		}
+		.price_title 
+		{
+			.ratings 
+			{
+				i 
+				{
+					color: $color_3;
+				}
+			}
+		}
+	}
+	p 
+	{
+		color: $color_3;
+	}
+	h3 
+	{
+		color: $color_3;
+	}
+	.availability 
+	{
+		&:before 
+		{
+			color: $color_3;
+		}
+	}
+}
+.team-social 
+{
+	a 
+	{
+		background: #FCC209;
+		&:hover 
+		{
+			color: $color_1;
+		}
+	}
+}
+.caption-text 
+{
+	h3 
+	{
+		>a 
+		{
+			&:hover 
+			{
+				color: $color_1;
+			}
+		}
+	}
+}
+.contact-form 
+{
+	.fa 
+	{
+		color: $color_1;
+	}
+}
+.contact-address 
+{
+	.contact-info 
+	{
+		.contact-icon 
+		{
+			color: $color_1;
+		}
+	}
+}

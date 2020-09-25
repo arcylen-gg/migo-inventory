@@ -1,0 +1,267 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Top Banner Image (1600x675) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/home-banner.jpg",
+			"size":"6"
+		},
+		"home_banner_description" :
+		{
+			"label":"Description in Home Banner",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+			"size":"6"
+		},
+		"home_services_image1" :
+		{
+			"label":"Services 1 Image (80x80) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper-image-1.png",
+			"size":"3"
+		},
+		"home_services_image2" :
+		{
+			"label":"Services 2 Image (80x80) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper-image-2.png",
+			"size":"3"
+		},
+		"home_services_image3" :
+		{
+			"label":"Services 3 Image (80x80) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper-image-3.png",
+			"size":"3"
+		},
+		"home_services_image4" :
+		{
+			"label":"Services 4 Image (80x80) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper-image-4.png",
+			"size":"3"
+		},
+		"home_services_title1" :
+		{
+			"label":"Title of Services 1",
+			"type":"textbox",
+			"default":"Services 1",
+			"size":"3"
+		},
+		"home_services_title2" :
+		{
+			"label":"Title of Services 2",
+			"type":"textbox",
+			"default":"Services 2",
+			"size":"3"
+		},
+		"home_services_title3" :
+		{
+			"label":"Title of Services 3",
+			"type":"textbox",
+			"default":"Services 3",
+			"size":"3"
+		},
+		"home_services_title4" :
+		{
+			"label":"Title of Services 4",
+			"type":"textbox",
+			"default":"Services 4",
+			"size":"3"
+		},
+		"home_services_description1" :
+		{
+			"label":"Description in Services 1",
+			"type":"tinymce",
+			"default":"Lorem, ipsum, dolor, sit amet",
+			"size":"3"
+		},
+		"home_services_description2" :
+		{
+			"label":"Description in Services 2",
+			"type":"tinymce",
+			"default":"Lorem, ipsum, dolor, sit amet",
+			"size":"3"
+		},
+		"home_services_description3" :
+		{
+			"label":"Description in Services 3",
+			"type":"tinymce",
+			"default":"Lorem, ipsum, dolor, sit amet",
+			"size":"3"
+		},
+		"home_services_description4" :
+		{
+			"label":"Description in Services 4",
+			"type":"tinymce",
+			"default":"Lorem, ipsum, dolor, sit amet",
+			"size":"3"
+		},
+		"home_company_description" :
+		{
+			"label":"Description of the Company",
+			"type":"tinymce",
+			"default":"Philippine Archipelago Ports and Terminal Services Inc. aims to be a key player in the industry of port operation and management. We provide safe, clean and convenient port facilities and passenger terminal buildings.",
+			"size":"6"
+		},
+		"home_company_image" :
+		{
+			"label":"Company Image (530x300) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper2-image.jpg",
+			"size":"6"
+		},
+		"home_expertise_description" :
+		{
+			"label":"Expertise Description",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+			"size":"12"
+		},
+		"home_expertise_image1" :
+		{
+			"label":"Expertise Image 1 (275x175) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper3-image1.jpg",
+			"size":"3"
+		},
+		"home_expertise_image2" :
+		{
+			"label":"Expertise Image 2 (275x175) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper3-image2.jpg",
+			"size":"3"
+		},
+		"home_expertise_image3" :
+		{
+			"label":"Expertise Image 3 (275x175) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper3-image3.jpg",
+			"size":"3"
+		},
+		"home_expertise_image4" :
+		{
+			"label":"Expertise Image 4 (275x175) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper3-image4.jpg",
+			"size":"3"
+		},
+		"home_expertise_title1" :
+		{
+			"label":"Title of Expertise 1",
+			"type":"textbox",
+			"default":"LOREM IPSUM DOLOR",
+			"size":"3"
+		},
+		"home_expertise_title2" :
+		{
+			"label":"Title of Expertise 2",
+			"type":"textbox",
+			"default":"LOREM IPSUM DOLOR",
+			"size":"3"
+		},
+		"home_expertise_title3" :
+		{
+			"label":"Title of Expertise 3",
+			"type":"textbox",
+			"default":"LOREM IPSUM DOLOR",
+			"size":"3"
+		},
+		"home_expertise_title4" :
+		{
+			"label":"Title of Expertise 4",
+			"type":"textbox",
+			"default":"LOREM IPSUM DOLOR",
+			"size":"3"
+		},
+		"home_expertise_description1" :
+		{
+			"label":"Description in Expertise 1",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+			"size":"3"
+		},
+		"home_expertise_description2" :
+		{
+			"label":"Description in Expertise 2",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+			"size":"3"
+		},
+		"home_expertise_description3" :
+		{
+			"label":"Description in Expertise 3",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+			"size":"3"
+		},
+		"home_expertise_description4" :
+		{
+			"label":"Description in Expertise 4",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+			"size":"3"
+		},
+		"home_banner_paptsi-carrers" :
+		{
+			"label":"Banner of Paptsi Careers (1670x850) Image Dimensions",
+			"type":"image",
+			"default":"/themes/paptsi-v2/img/wrapper4-banner.jpg",
+			"size":"6"
+		},
+		"home_paptsi-career_description" :
+		{
+			"label":"Description in Paptsi Career",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+			"size":"6"
+		},
+		"home_company_address" :
+		{
+			"label":"Address of the Company",
+			"type":"text",
+			"default":"Unit 4B 4th Floor UNIOIL Center Bldg. Business Park Alyala Alabang Muntinlupa City PH",
+			"size":"4"
+		},
+		"home_company_email-address" :
+		{
+			"label":"Email Address of the Company",
+			"type":"textbox",
+			"default":"paptsi@gmail.com",
+			"size":"4"
+		},
+		"home_company_contact-number" :
+		{
+			"label":"Contact Number of Company",
+			"type":"textbox",
+			"default":"Call us 02-833-7634",
+			"size":"4"
+		}
+	},
+	"contact_details":
+	{
+		"contact_company_address" :
+		{
+			"label":"Address of the Company",
+			"type":"text",
+			"default":"Unit 4B 4th Floor UNIOIL Center Bldg. Business Park Alyala Alabang Muntinlupa City PH",
+			"size":"4"
+		},
+		"contact_company_email-address" :
+		{
+			"label":"Email Address of the Company",
+			"type":"textbox",
+			"default":"paptsi@gmail.com",
+			"size":"4"
+		},
+		"contact_company_contact-number" :
+		{
+			"label":"Contact Number of Company",
+			"type":"textbox",
+			"default":"Call us 02-833-7634",
+			"size":"4"
+		}
+	}
+}

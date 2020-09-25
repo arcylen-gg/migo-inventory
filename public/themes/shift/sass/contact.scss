@@ -1,0 +1,98 @@
+@import "variables";
+@import "mixin";
+
+
+.contact
+{
+	.header
+	{
+		background-size: cover;
+		background-position: center;
+		padding: 150px 0 50px;
+		.first
+		{
+			font-size: 60px;
+			font-weight: 300;
+			color: #fff;
+			line-height: 50px;
+		}
+		.second
+		{
+			color: #d4b044;
+			font-size: 32.5px;
+			font-weight: 300;
+			line-height: 35px;
+		}
+	}
+	section
+	{
+		.bread-crumb
+		{
+			background-color: #f0f0f0;
+			padding: 7.5px;
+			.holder
+			{
+				display: inline-block;
+				color: #666666;
+				font-size: 15px;
+				font-weight: 300;
+				margin: 0 5px;
+			}
+		}
+		.title
+		{
+			color: #121212;
+			font-weight: 300;
+			font-size: 35px;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		form
+		{
+			.form-group
+			{
+				label
+				{
+					color: #585858;
+					font-weight: 300;
+					font-size: 18px;
+				}
+				.form-control
+				{
+					box-shadow: none;
+					border-radius: 1px;
+					border: 1px solid #c3c3c3;
+				}
+				textarea
+				{
+					height: 320px;
+				}
+			}
+		}
+		#map
+		{
+			height: 300px;
+			margin-top: 25px;
+		}
+		.info-holder
+		{
+			.title
+			{
+				font-size: 15px;
+				font-weight: 300;
+				margin-bottom: 15px;
+				img
+				{
+					margin-right: 10px;
+				}
+			}
+			.desc
+			{
+				font-size: 15px;
+				font-weight: 300;
+				font-family: $content-text;
+				color: #585858;
+			}
+		}
+	}
+}

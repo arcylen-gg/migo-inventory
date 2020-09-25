@@ -1,0 +1,9 @@
+.background-container{padding:30px 0px;min-height:820px}
+.background-container .pressview .press-container{background-color:#fff;min-height:700px;padding:30px}
+.background-container .pressview .press-container .title-container{font-size:25px;color:#316df9;font-weight:700;padding-top:20px}
+.background-container .pressview .press-container .title{color:#404040;font-size:16px;padding-top:25px;padding-bottom:5px;font-weight:700}
+.background-container .pressview .press-container input{color:#404040;height:40px;font-size:15px;width:80%;background-color:inherit;display:inline-block;vertical-align:middle;padding:6px 12px;border:1px solid #ccc;border-radius:4px}
+.background-container .pressview .press-container iframe{min-height:300px;max-height:300px}
+.background-container .pressview .press-container .button-container{padding-top:30px}
+.background-container .pressview .press-container .button-container button{padding:9px 30px;background-color:#316df9;color:#fff;font-size:15px;text-decoration:none;border:none}
+/*# sourceMappingURL=press_admin_email_edit.css.map */

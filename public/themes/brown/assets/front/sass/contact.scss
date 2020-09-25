@@ -1,0 +1,105 @@
+.contact-container
+{
+	padding: 50px 0;
+	.title
+	{
+		font-size: 25px;
+		color: #3a3a3a;
+		font-family: "Oswald", sans-serif;
+		font-weight: 500;
+		margin-bottom: 15px;
+
+		.intouch-label
+		{
+			color: #de7c99;
+		}
+
+		.business-label
+		{
+			color: #de7c99;
+		}
+	}
+	label
+	{
+		color: #3a3a3a;
+		font-size: 14.58px;
+		font-weight: 300;
+		font-family: "Roboto", sans-serif;
+	}
+	.form-control
+	{
+		border-radius: 2px;
+		box-shadow: none;
+	}
+	.btn
+	{
+		border: 0;
+		border-radius: 0;
+		background: none;
+		background-color: #e22a51;
+		font-size: 14.59px;
+		font-weight: 300;
+		text-shadow: none;
+		padding: 6px 30px;
+	}
+	.info
+	{
+		margin-bottom: 25px;
+		td
+		{
+			vertical-align: top;
+		}
+		.icon
+		{
+			width: 30px;
+			.fa
+			{
+				color: #aeaeae;
+				font-size: 25px;
+			}
+			.fa-envelope
+			{
+				font-size: 15px;
+			}
+		}
+		.text
+		{
+			color: #3a3a3a;
+			font-size: 14.58px;
+			font-family: "Roboto", sans-serif;
+			padding-bottom: 20px;
+			font-weight: 300;
+		}
+	}
+}
+.map-title
+{
+	text-align:center;
+	font-size: 25px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	.map-title-pink
+	{
+		color: #de7c99;
+	}
+}
+.map-container
+{
+	background-color: #2e2e2e;
+	padding: 30px 0 60px;
+	color: #fff;
+	margin-bottom: -40px;
+	.title
+	{
+		margin-bottom: 25px;
+		font-size: 18.75px;
+		font-weight: 700;
+		text-align: center;
+	}
+	iframe
+	{
+
+	}
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WACA,CACC,gBAAgB,CAAE,IAAI,CACtB,iCACA,CACC,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI,CAGlB,yDACA,CACC,MAAM,CAAE,cAAc,CACtB,MAAM,CAAE,OAAO,CACf,6DACA,CACC,KAAK,CAAE,IAAI",
+"sources": ["../sass/legalities.scss"],
+"names": [],
+"file": "legalities.css"
+}

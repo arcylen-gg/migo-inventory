@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEC,wBACA,CACC,UAAU,CAAE,MAAM,CAClB,cAAc,CAAE,MAAM,CAEtB,4BACA,CACC,KAAK,CAAE,IAAI",
+"sources": ["../sass/certificate.scss"],
+"names": [],
+"file": "certificate.css"
+}

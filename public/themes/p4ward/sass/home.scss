@@ -1,0 +1,852 @@
+@import "../../../assets/front/sass/mixin";
+
+$display-text: 'Lato', sans-serif;
+$content-text: 'Ubuntu', sans-serif;
+$light: 300;
+$regular: 400;
+$bold: 700;
+$text-light: #555;
+$text-dark: #1c1c1c;
+
+body
+{
+	background-color: transparent;
+	color: $text-light;
+	font-family: $display-text;
+
+}
+
+/* SLIDER */
+.slider-wrapper 
+{
+	position: relative;
+	width: 100%;
+}
+
+.slick-next
+{
+	right: 0;
+}
+
+.slick-prev
+{
+	left: 0;
+}
+
+.slick-next, .slick-prev
+{
+	width: 50px;
+	height: 50px;
+	z-index: 99;
+}
+
+.wrapper-1
+{
+	padding: 50px 0px;
+	@media screen and (max-width: 768px)
+	{
+		padding: 0 0 50px 0;
+	}
+	@media screen and (max-width: 425px)
+	{
+		padding: 0 0 30px 0;
+	}
+
+
+	.title-container
+	{
+		font-size: 30px;
+		@media screen and (max-width: 425px)
+		{
+			text-align: center;
+		}
+
+		.title-blue
+		{
+			color: #0466af;
+			font-size: 30px;
+
+		}
+		.title-orange
+		{
+			color: #f4ac00;
+			font-size: 30px;
+			
+		}
+		span
+		{
+			display: inline-block;
+			vertical-align: middle;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			padding: 0px 2px;
+			img
+			{
+				display: block;
+			}
+		}
+	}
+
+	.details-container
+	{
+		padding: 0px 0px 15px 0px;
+		p
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #585858;
+			font-size: 17px;
+			margin-top: 20px;
+			@media screen and (max-width: 375px)
+			{
+				font-size: 14px;
+			}
+		}
+		@media screen and (max-width: 425px)
+		{
+			text-align: justify;
+		}
+	}
+
+	.button-container
+	{
+		font-family: 'Ubuntu', sans-serif;
+		margin-bottom: 50px;
+
+		a
+		{
+			@include transition(0.3s);
+			background-color: #0466af;
+			padding: 10px 20px;
+			text-align: center;
+			width: 120px;
+			text-decoration: none;
+			color: #fff;
+
+			&:hover
+			{
+				opacity: 0.8;
+			}
+		}
+	}
+
+	.right-container
+	{
+		background-color: #0466af;
+		min-height: 400px;
+		padding: 40px;
+		@media screen and (max-width: 425px)
+		{
+			min-height: 365px;
+			padding: 30px 40px;
+		}
+		@media screen and (max-width: 320px)
+		{
+			padding: 20px 30px;
+		}
+
+		.title-container
+		{
+			padding-bottom: 10px;
+
+			.title-white
+			{
+				color: #fff;
+				font-size: 30px;
+
+			}
+
+			.title-orange
+			{
+				color: #f4ac00;
+				font-size: 30px;
+				
+			}
+
+			span
+			{
+				display: inline-block;
+				vertical-align: middle;
+				font-family: 'Cantarell', sans-serif;
+				font-style: italic;
+				padding: 0px 2px;
+
+			}
+		}
+
+		p
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #fff;
+			font-size: 15px;
+			margin-left: 7px;
+			@media screen and (max-width: 375px)
+			{
+				font-size: 14px;
+			}
+		}
+
+		.subtitle-container
+		{
+			margin-top: 35px;
+
+			span
+			{
+				display: inline-block;
+				vertical-align: middle;
+				font-family: 'Ubuntu', sans-serif;
+				color: #fff;
+				padding: 0px 5px 10px 5px;
+			}
+
+			.title
+			{
+				font-size: 20px;
+				@media screen and (max-width: 375px)
+				{
+					font-size: 18px;
+				}
+			}
+		}
+
+	}
+
+}
+
+.wrapper-2
+{
+	padding: 30px 0px 40px 0px;
+	background-color: #0466af;
+
+	.title-container
+	{
+		text-align: center;
+		font-size: 35px;
+
+		.title-white
+		{
+			color: #fff;
+		}
+
+		.title-orange
+		{
+			color: #f4ac00;
+		}
+
+		span
+		{
+			display: inline-block;
+			vertical-align: middle;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			padding: 0px 2px;
+
+			img
+			{
+				display: block;
+			}
+		}
+	}
+
+	.bottom-container
+	{
+		margin-top: 40px;
+		@media screen and (max-width: 425px)
+		{
+			margin-top: 0px;
+		}
+
+		.image-holder
+		{
+			width: 100%;
+			margin-bottom: 20px;
+
+			img
+			{
+				width: 100%;
+			}
+		}
+
+		.title
+		{
+			font-size: 25px;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			color: #fff;
+			@media screen and (max-width: 425px)
+			{
+				text-align: center;
+			}
+		}
+
+		.details-container
+		{
+			p
+			{
+				font-family: 'Open+Sans', sans-serif;
+				color: #fff;
+				font-size: 15px;
+				padding: 15px 0px 0px 0px;
+			}
+			@media screen and (max-width: 425px)
+			{
+				text-align: justify;
+			}
+		}
+	}
+}
+
+.wrapper-3
+{
+	background-color: #fff;
+	padding: 30px 0px 50px 0px;
+
+	.title-container
+	{
+		text-align: center;
+		font-size: 35px;
+
+		.title-blue
+		{
+			color: #0466af;
+		}
+
+		.title-orange
+		{
+			color: #f4ac00;
+		}
+
+		span
+		{
+			display: inline-block;
+			vertical-align: middle;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			padding: 0px 2px;
+			img
+			{
+				display: block;
+			}
+		}
+	}
+
+	.product-container
+	{
+		padding: 50px;
+		@media screen and (max-width: 425px)
+		{
+			padding: 30px 50px 0px 50px;
+		}
+
+		.percent-container
+		{
+			color: #0466af;
+			font-family: 'Cantarell', sans-serif;
+			font-size: 25px;
+			@media screen and (max-width: 320px)
+			{
+				font-size: 20px
+			}
+		}
+
+		.product-title-container
+		{
+			color: #f4ac00;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			font-size: 30px;
+			padding: 0px 90px;
+			@media screen and (max-width: 500px)
+			{
+				font-size: 25px;
+			}
+			@media screen and (max-width: 425px)
+			{
+				padding: 0px;
+			}
+			@media screen and (max-width: 320px)
+			{
+				font-size: 17px;
+			}
+		}
+
+		.product-image
+		{
+			padding: 30px 0px;
+			
+			@media screen and (max-width: 500px)
+			{
+				width: 90%;
+				margin: auto;
+
+				img
+				{
+					width: 100%;
+				}
+			}
+			@media screen and (max-width: 320px)
+			{
+				width: 100%;
+			}
+		}
+
+		.button-container
+		{
+			margin: auto;
+
+			a
+			{
+				text-decoration: none;
+			
+				button
+				{
+					@include transition(0.3s);
+					border: 2px solid #0466af;
+					padding: 10px 40px;
+					width: 180px;
+					font-size: 15px;
+					background-color: inherit;
+
+					&:hover
+					{
+						background-color: #0466af;
+						cursor: pointer;
+						color: #fff;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+.wrapper-4
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 140px 50px;
+	background-size: cover;
+	@media screen and (max-width: 768px)
+	{
+		padding: 50px 50px;
+	}
+	@media screen and (max-width: 320px)
+	{
+		padding: 50px 0px;
+	}
+
+	.benefits-container
+	{
+		padding: 0px 15px;
+
+		.image-holder
+		{
+			text-align: center;
+
+			@media screen and (max-width: 800px)
+			{
+				margin-top: 20px;
+			}
+
+		}
+
+		.title-container
+		{
+			text-align: center;
+			color: #f4ac00;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			font-weight: 700;
+			font-size: 25px;
+			padding: 20px 0px 0px 0px;
+			@media screen and (max-width: 375px)
+			{
+				font-size: 20px
+			}
+		}
+
+		.details-container
+		{
+			text-align: center;
+			font-family: 'Open+Sans', sans-serif;
+			color: #fff;
+			font-size: 18px;
+			padding: 15px 0px 0px 0px;
+			@media screen and (max-width: 768px)
+			{
+				padding: 15px 0px 40px 0px;
+			}
+			@media screen and (max-width: 375px)
+			{
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+.wrapper-5
+{
+	background-color: #fff;
+	padding-bottom: 20px;
+	padding: 80px 0px 50px 0px;
+	@media screen and (max-width: 768px)
+	{
+		padding: 50px 0px 50px 0px;
+	}
+	@media screen and (max-width: 425px)
+	{
+		padding: 30px 0 30px 0;
+	}
+
+	.title-container
+	{
+		font-size: 25px;
+		font-family: 'Cantarell', sans-serif;
+		font-style: italic;
+		color: #0466af;
+		@media screen and (max-width: 425px)
+		{
+			text-align: center;
+		}
+		@media screen and (max-width: 375px)
+		{
+			font-size: 20px;
+		}
+	}
+
+	.details-container
+	{
+		p
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #585858;
+			font-size: 15px;
+			padding: 5px 0px 0px 0px;
+		}
+		@media screen and (max-width: 425px)
+		{
+			margin-top: 15px;
+			text-align: justify;
+		}
+	}
+
+	.image-holder
+	{
+		padding: 20px 0px 0px 0px;
+		text-align: center;
+		width: 100%;
+
+		img
+		{
+			width: 100%;
+		}
+	}
+	
+}
+
+.wrapper-6
+{
+	padding: 30px 0px 50px 0px;
+	background-color: #0466af;
+	@media screen and (max-width: 425px)
+	{
+		padding: 30px 0 0 0;
+	}
+	@media screen and (max-width: 320px)
+	{
+		padding: 30px 0px;
+	}
+
+	.title-container
+	{
+		text-align: center;
+		font-size: 35px;
+		@media screen and (max-width: 320px)
+		{
+			font-size: 30px;
+		}
+
+		.title-white
+		{
+			color: #fff;
+		}
+
+		.title-orange
+		{
+			color: #f4ac00;
+		}
+
+		span
+		{
+			display: inline-block;
+			vertical-align: middle;
+			font-family: 'Cantarell', sans-serif;
+			font-style: italic;
+			padding: 0px 2px;
+
+			img
+			{
+				display: block;
+			}
+		}
+	}
+
+	.holder
+	{
+		padding:  15px 5px; 
+		margin: auto 5px;
+		height: 500px;
+		@media screen and (max-width: 320px)
+		{
+			height: 700px;
+		}
+
+		.says-container
+		{
+			padding: 0px 50px;
+		}
+
+		.feedback-container
+		{
+			margin: 50px 0px 100px 0px;
+			background-color: #fff;
+
+			.top-container
+			{
+				padding: 10px;
+				text-align: left;
+				border-bottom: 1px solid #d4d4d4;
+				
+				.left
+				{
+					.image-holder
+					{
+						text-align: center;
+						width: 60%;
+						margin: auto;
+
+						img
+						{
+							width: 100%;
+							border-radius: 100%;
+						}
+
+						@media screen and (max-width: 800px)
+						{
+							width: 15%;
+							margin: 0;
+						}
+					}
+
+					@media screen and (max-width: 800px)
+					{
+						margin-left: 15px;
+					}
+				}
+
+				.right
+				{
+					.name
+					{
+						font-family: 'Open+Sans', sans-serif;
+						font-weight: 700;
+						font-size: 18px;
+						color: #000;
+						padding: 7px 0px 0px 0px;
+					}
+					.date
+					{
+						font-family: 'Open+Sans', sans-serif;
+						font-size: 15px;
+						color: #0466af;
+					}
+
+					@media screen and (max-width: 800px)
+					{
+						margin: -50px 0 0 80px;
+					}
+				}
+
+			}
+			.bottom-container
+			{
+				
+				.description
+				{
+					font-family: 'Open+Sans', sans-serif;
+					font-size: 17px;
+					color: #4e4e4e;
+					padding: 20px 25px;
+					text-align: left;
+					min-height: 270px;
+				}
+
+				.star
+				{
+					text-align: left;
+					padding: 0px 25px 10px 25px;
+				}
+			}
+		}
+	}
+}
+
+// Network Marketing Without Recruitment PDF
+.wrapper-x
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 50px 0px;
+	text-align: center;
+	background-size: cover;
+	
+	.wrapper-x-title
+	{
+		color: #fff;
+		font-family: 'Cantarell', sans-serif;
+		font-style: italic;
+		font-size: 25px;
+		@media screen and (max-width: 425px)
+		{
+			font-size: 18px;
+		}
+	}
+
+	.btn-container
+	{
+		padding: 30px 0 0 0;
+		margin: auto;
+
+		a
+		{
+			text-decoration: none;
+		
+			button
+			{
+				@include transition(0.3s);
+				border: 2px solid #F4AC00;
+				padding: 10px 40px;
+				width: 180px;
+				font-size: 15px;
+				background-color: inherit;
+				color: #F4AC00;
+
+				&:hover
+				{
+					border: 2px solid #0466AF;
+					background-color: #0466AF;
+					cursor: pointer;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.wrapper-7
+{
+	padding: 50px 0px;
+
+	.title-container
+	{
+		font-size: 25px;
+		font-family: 'Cantarell', sans-serif;
+		font-style: italic;
+		color: #0466af;
+		padding-bottom: 30px;
+	}
+
+	input
+	{
+		padding: 0px 10px;
+		color: #545454;
+		height: 50px;
+		font-size: 18px;
+		width: 100%;
+		border: 1px solid #919191;
+	}
+
+	textarea
+	{
+		padding: 10px 10px;
+		color: #545454;
+		height: 50px;
+		font-size: 18px;
+		width: 100%;
+		max-height: 150px;
+		max-width: 100%;
+		min-height: 150px;
+		min-width: 100%;
+		border: 1px solid #919191;
+	}
+
+	.button-container
+	{
+		padding: 20px 0px;
+		text-align: left;
+		@media screen and (max-width: 768px)
+		{
+			margin-bottom: 20px;
+		}
+
+		a
+		{
+			@include transition(0.3s);
+			background-color: #0466af;
+			width: 180px;
+			color: #fff;
+			font-size: 15px;
+			padding: 10px 40px;
+			text-decoration: none;
+
+			&:hover
+			{
+				opacity: 0.8;
+			}
+		}
+	}
+
+	.icon
+	{
+		vertical-align: middle;
+	}
+
+	.title
+	{
+		font-size: 25px;
+		font-family: 'Cantarell', sans-serif;
+		font-style: italic;
+		color: #0466af;
+		padding: 0px 0px 10px 10px;
+		vertical-align: middle;
+	}
+
+	.details-container
+	{
+		p
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #767676;
+			font-size: 16px;
+			padding: 10px 0px 25px 50px;
+		}
+	}
+
+	.number-container
+	{
+		p:nth-child(1)
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #767676;
+			font-size: 16px;
+			padding: 10px 0px 0px 50px;
+		}
+		
+		p:nth-child(2)
+		{
+			font-family: 'Open+Sans', sans-serif;
+			color: #767676;
+			font-size: 16px;
+			padding: 0px 0px 0px 50px;
+		}
+	}
+}

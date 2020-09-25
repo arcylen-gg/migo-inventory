@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASA,IAAI,CACH,gBAAgB,CAAE,WAAW,CAC7B,KAAK,CALO,IAAI,CAMhB,WAAW,CAZG,oBAAqB,CAepC,UACA,CACC,WAAW,CAhBG,sBAAuB,CAiBrC,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,MAAM,CAEf,sBACA,CACC,KAAK,CAhBK,OAAO,CAiBjB,SAAS,CAAE,IAAI,CACf,WAAW,CAtBH,GAAG,CA0Bb,UACA,CACC,WAAW,CA9BG,sBAAuB",
+"sources": ["../sass/terms_and_conditions.scss"],
+"names": [],
+"file": "terms_and_conditions.css"
+}

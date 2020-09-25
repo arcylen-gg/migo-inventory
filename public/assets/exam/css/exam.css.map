@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEC,yBACA;EACC,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;AAEhB,gCACA;EACC,WAAW,EAAE,eAAe;EAC5B,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,WAAW;AAExB,8BACA;EACC,UAAU,EAAE,MAAM",
+"sources": ["../sass/exam.scss"],
+"names": [],
+"file": "exam.css"
+}

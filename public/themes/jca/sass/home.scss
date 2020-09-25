@@ -1,0 +1,676 @@
+$display-text: 'Raleway', sans-serif;
+$content-text: 'Open Sans', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$text-light: #555;
+$text-dark: #1c1c1c;
+
+body{
+	background-color: transparent;
+	color: $text-light;
+}
+/* SLIDER */
+.slider-wrapper {
+	width: 100%;
+	height: 700px;
+	background-color: #fff8f0;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media screen and (max-width: 991px)
+	{
+		background-image: none !important;
+		height: 400px;
+	}
+	@media screen and (max-width: 414px)
+	{
+		background-image: none !important;
+		height: 350px;
+	}
+
+	.container {
+		position: relative;
+		.caption-logo-container {
+			position: absolute;
+			width: 49%;
+			top: 90px;
+			right: 8%;
+			img 
+			{
+				width: 100%;
+			}
+
+			@media screen and (max-width: 991px)
+			{
+				width: 45%;
+				position: static;
+				margin: auto;
+				margin-top: 75px;
+			}
+			@media screen and (max-width: 450px)
+			{
+				width: 75%;	
+				top: 80%;
+			}
+		}
+		.caption-container {
+			text-align: center;
+			position: absolute;
+			top: 350px;
+			right: 0;
+			.head-text {
+				font-family: $display-text;
+				font-size: 55px;
+				font-weight: $light;
+				color: #019771;
+				
+				&:last-child {
+					color: #b2802e;
+					margin-top: -10px;
+				}
+			}
+			@media screen and (max-width: 991px)
+			{
+				width: 100%;
+				position: static;
+				margin-top: 20px;
+				.head-text
+				{
+					font-size: 36px;
+				}
+			}
+			@media screen and (max-width: 450px)
+			{
+				.head-text
+				{
+					font-size: 26px;
+				}
+			}
+			@media screen and (max-width: 375px)
+			{
+				.head-text
+				{
+					font-size: 21px;
+				}
+			}
+		}
+	}
+}
+/* WHO WE ARE */
+.wrapper-1 {
+	font-family: $content-text;
+	padding: 25px 0px;
+	overflow: hidden;
+
+	.title-container {
+		text-align: center;
+		span {
+			font-family: $display-text;
+			font-size: 30px;
+			color: #019771;
+			&:last-child {
+				color: #b07d2a;
+			}
+		}
+	}
+	.content-container {
+		padding: 25px 0px 40px 0px;
+		color: $text-light;
+
+		.content-title {
+			font-size: 20px;
+			font-weight: $regular;
+			font-family: $display-text;
+			color: $text-dark;
+		}
+		.context {
+			padding-top: 20px;
+			font-size: 15px;
+			font-weight: $regular;
+		}
+		.image-container {
+			padding-left: 85px;
+
+			@media screen and (max-width: 991px)
+			{
+				padding-left: 0px;
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
+
+/* WHY JCA */
+.wrapper-2 {
+	background-color: #f4f4f4;
+	font-family: $content-text;
+	padding: 25px 0px;
+	
+	.title-container {
+		text-align: center;
+		span {
+			font-family: $display-text;
+			font-size: 30px;
+			color: #019771;
+			&:last-child {
+				color: #b07d2a;
+			}
+		}
+	}
+	.content-container {
+		padding: 25px 0px 15px 0px;
+
+		.per-image-container {
+			position: relative;
+			font-family: $content-text;
+			overflow: hidden;
+			
+			@media screen and (max-width: 991px)
+			{
+				margin-top: 10px;
+			}
+
+			&:hover {
+				img {
+					-moz-transform: scale(1.1);
+					-webkit-transform: scale(1.1);
+					transform: scale(1.1);
+				}
+			}
+
+			img {
+				width: 100%;
+				-moz-transition: all 0.3s;
+				-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+			}
+
+			.content-text-container {
+				position: absolute;
+				top: 7%;
+				left: 10%;
+				color: #fff;
+
+				h1 {
+					font-family: $display-text;
+					font-size: 25px;
+					font-weight: $regular;
+				}
+
+				.title-line {
+					padding-top: 2px;
+					width: 40px;
+					background-color: #ffd185;
+				}
+				p {
+					font-size: 15px;
+					margin-top: 15px;
+					padding-right: 30px;
+
+					@media screen and (max-width: 375px)
+					{
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+	.jca-title-container
+	{
+		text-align: center;
+		border-bottom: 1px solid #dedede;
+		padding-bottom: 35px;
+		padding-top: 75px;
+		.main-title
+		{
+			font-family: $display-text;
+			font-size: 30px;
+			color: #b07d2a;
+			margin-bottom: 5px;
+			.shade-green
+			{
+				color: #019771;
+			}
+		}
+		.sub-title
+		{
+			font-family: $content-text;
+			font-size: 15px;
+			color: #555555;
+			.shade-black
+			{
+				color: #1c1c1c;
+			}
+		}
+	}
+	.bulleted-list-container
+	{
+		display: inline-block;
+		padding: 15px 0px 15px 0px;
+		border-bottom: 1px solid #dedede;
+		
+		ul
+		{
+			padding-left: 10px;
+			list-style-type: square;
+			.liststyle
+			{
+				color: #b17d2a;
+			}
+			li
+			{
+				p 
+				{
+					font-family: $content-text;
+					font-size: 15px;
+					color: #555555;
+					margin-bottom: 30px;
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+	.button-container
+	{
+		text-align: center;
+		padding: 48px 0px 19px 0px;
+		.legalities-button
+		{
+			border: 1px solid #019771;
+			background-color: transparent;
+			padding: 0px;
+			.button-img
+			{
+				display: inline-block;
+				background-color: #019771;
+				padding: 7px 10px 7px 10px;
+				vertical-align: bottom;
+			}
+			.button-name
+			{
+				display: inline-block;
+				font-family: $display-text;
+				font-size: 15px;
+				color: #019771;
+				font-weight: bold;
+				margin-bottom: 6px;
+				vertical-align: super;
+				padding: 0px 25px 0px 10px;
+			}
+		}
+	}
+}
+
+
+.wrapper-3
+{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 50px;
+	padding-bottom: 40px;
+
+	@media screen and (max-width: 991px)
+	{
+		background-image: none !important;
+		padding-bottom: 135px !important;
+	}
+	@media screen and (max-width: 991px)
+	{
+		padding-bottom: 350px !important;
+	}
+	@media screen and (max-width: 414px)
+	{
+		padding-bottom: 420px !important;
+	}
+	@media screen and (max-width: 320px)
+	{
+		padding-bottom: 520px !important;
+	}
+
+	.jca-title-container
+	{
+		.title-company
+		{
+			font-family: $display-text;
+			font-size: 25px;
+			color: #b07d2a;
+			margin-bottom: -8px;
+
+			@media screen and (max-width: 414px)
+			{
+				font-size: 18px;
+			}
+		}
+		.title-mission
+		{
+			font-family: $display-text;
+			font-size: 40px;
+			// color: #019771;
+			color: #acacac;
+			display: inline-block;
+			margin-bottom: 25px;
+			cursor: pointer;
+			
+			@media screen and (max-width: 414px)
+			{
+				font-size: 30px;
+			}
+
+		}
+		.title-vision
+		{
+			font-family: $display-text;
+			font-size: 40px;
+			color: #acacac;
+			display: inline-block;
+			margin-left: 20px;
+			margin-bottom: 25px;
+			cursor: pointer;
+
+			@media screen and (max-width: 414px)
+			{
+				font-size: 30px;
+			}
+		}
+	}
+	.mission-vision-container
+	{
+		height: 438.6px;
+		.sub-title
+		{
+			font-family: $display-text;
+			font-size: 20px;
+			color: #019771;
+			margin-bottom: -5px;
+		}
+		.content
+		{
+			font-family: $content-text;
+			font-size: 15px;
+			color: #555555;
+			text-align: justify;
+			margin-bottom: 30px;
+		}
+		.bulleted-list:before
+		{
+			content: "";
+			background-color: #b07d2a;
+			line-height: 1em;
+			width: .5em;
+			height: .5em;
+			float: left;
+			margin: .40em .25em 0;
+
+			.content
+			{
+				font-family: $content-text;
+				font-size: 15px;
+				color: #555555;
+				text-align: justify;
+				margin-bottom: 30px;
+			}
+		}
+		.bulleted-list
+		{
+			display: inline-block;
+
+			.content
+			{
+				font-family: $content-text;
+				font-size: 15px;
+				color: #555555;
+				text-align: justify;
+				margin-bottom: 30px;
+			}
+		}
+		.list-content
+		{
+			padding-left:15px;
+		}
+		ul
+		{
+			padding-left: 10px;
+			list-style-type: square;
+			.liststyle
+			{
+				color: #b17d2a;
+			}
+			li
+			{
+				p 
+				{
+
+				}
+			}
+		}
+	}
+
+
+	.img-background
+	{
+		width: 445px;
+		height: 514px;
+		margin-left: 98px;
+		margin-top: 34px;
+		max-width: 445px;
+		max-height: 514px;
+		// width: 100%;
+	}
+}
+
+.wrapper-4
+{
+	background-color: #f4f4f4;
+	padding: 25px 0px;
+	overflow: hidden;
+
+	.jca-title-container
+	{
+		text-align: center;
+		padding: 30px 0px 45px 0px;
+		.main-title
+		{
+			font-family: $display-text;
+			font-size: 30px;
+			color: #b07d2a;
+			.shade-green
+			{
+				color: #019771;
+			}
+		}
+	}
+	.products-services-container
+	{
+		padding: 0px 0px 40px 0px;
+		text-align: center;
+
+		.img-container
+		{
+			width: 50%;
+			margin: auto;
+
+			img 
+			{
+				width: 100%;
+			}
+
+			@media screen and (max-width: 414px)
+			{
+				width: 100%;
+			}
+		}
+
+		.img-title
+		{
+			font-size: 15px;
+			text-align: center;
+			color: #019771;
+			margin-top: 20px;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.wrapper-5
+{
+
+	.mobile-view
+	{
+		display: none;
+		@media screen and (max-width: 991px)
+		{
+			display: block !important;
+		}
+	}
+	.mobile-view-2
+	{
+		@media screen and (max-width: 991px)
+		{
+			display: none !important;
+		}
+	}
+
+	.img-container
+	{
+		padding: 50px 0px 50px 0px;
+		text-align: center;
+	}
+
+	.details-container
+	{
+		padding: 50px 0px 50px 0px;
+		font-family: $display-text;
+
+		.header
+		{
+
+			font-weight: $regular;
+			font-size: 25px;
+			color: #019771;
+
+			span
+			{
+				color: #b07d2a;
+			}
+		}
+
+		.sub-header
+		{
+			padding: 20px 0px 20px 0px;
+			font-weight: $regular;
+			font-size: 20px;
+			color: #1e1c21;
+
+			span
+			{
+				color: #019771
+			}
+		}
+
+		.benefits
+		{
+			padding: 20px 0px 20px 0px;
+
+			.header
+			{
+				font-family: $display-text;
+				font-weight: $regular;
+				font-size: 15px;
+			}
+
+			ul
+			{
+				@extend .header;
+				font-family: $content-text;
+				padding-top: 20px;
+				
+				li
+				{
+					color: #555555;
+				}
+			}
+			p 
+			{
+				font-family: $content-text;
+			}
+		}
+	}
+}
+
+.wrapper-6
+{
+	
+	background-color: #f4f4f4;
+
+	.details-container
+	{
+		padding: 50px 0px 50px 0px;
+
+		.header
+		{
+			font-family: $display-text;
+			font-weight: $regular;
+			font-size: 25px;
+			color: #019771;
+
+			span
+			{
+				color: #b07d2a;
+			}
+		}
+		.benefits
+		{
+			padding: 20px 0px 20px 0px;
+
+			.header
+			{
+				font-family: $display-text;
+				font-weight: $regular;
+				font-size: 15px;
+			}
+
+			ul
+			{
+				@extend .header;
+				font-family: $content-text;
+				padding-top: 20px;
+				
+				li
+				{
+					color: #555555;
+				}
+			}
+		}
+
+		.details
+		{
+			font-family: $content-text;
+			padding: 20px 0px 20px 0px;
+			font-weight: $regular;
+			font-size: 15px;
+			color: #555555;
+		}
+	}
+
+	.img-container
+	{
+		padding: 50px 0px 50px 0px;
+		text-align: center;
+	}
+}
+
+.highlighted
+{
+	color: #019771 !important;
+}

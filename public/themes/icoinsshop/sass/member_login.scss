@@ -1,0 +1,156 @@
+@import "../../../assets/front/sass/mixin";
+
+$content-text: "Open Sans", sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+body 
+{
+    background-color: #ededed;
+}
+
+.alert 
+{
+    background-color: #DA473F !important;
+    color: white;
+    border: none !important;
+}
+
+.login-wrapper 
+{
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //padding: 30px;
+
+    .login 
+    {
+        font-family: $content-text;
+        letter-spacing: 0.2px;
+        //margin: 0px 360px;
+        background-color: #fff;
+        margin: auto;
+        padding: 50px;
+        width: 40%;
+
+        @media screen and (max-width: 800px) 
+        {
+            width: 100% !important;
+        }
+
+        .logo-holder 
+        {
+            //width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .login-form 
+        {
+            padding: 30px 0 0 0;
+
+            .form-group 
+            {
+                margin-bottom: 25px;
+
+                &:last-child
+                {
+                    margin-bottom: 0;
+                }
+
+                .form-input 
+                {
+                    margin-top: 10px;
+
+                    .login-label 
+                    {
+                        color: $text-dark;
+                        font-size: 15px;
+                        font-weight: $bold;
+                        letter-spacing: 0.5px;
+                        padding: 10px 0;
+                    }
+
+                    .form-control 
+                    {
+                        border: 0;
+                        border-bottom: 1px solid #e0e0e0;
+                        box-shadow: none;
+                        color: $text-light;
+                        font-weight: $regular;
+                        font-size: 15px;
+                        letter-spacing: 0.5px;
+                    }
+                }
+            }
+
+            .button-container 
+            {
+                padding: 40px 0 0 0;
+
+                .btn-login 
+                {
+                    @include transition(0.3s);
+
+                    background-color: #016F56;
+                    color: #fff;
+                    border: 1px solid #016F56;
+                    padding: 15px 50px;
+                    border-radius: 4px;
+                    width: 100%;
+
+                    &:hover 
+                    {
+                        color: #fff;
+                        border: 1px solid #E1890B;
+                        background-color: #E1890B;
+                        box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+        }
+    }
+
+    .create-account 
+    {
+        letter-spacing: 0.2px;
+
+        //margin: 30px 360px;
+        background-color: #fff;
+        padding: 50px;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+        margin-top: 30px;
+        width: 40%;
+
+        @media screen and (max-width: 800px) 
+        {
+            width: 100% !important;
+        }
+
+        span 
+        {
+            margin-right: 5px;
+
+            a 
+            {
+                @include transition(0.2s);
+
+                text-decoration: none;
+                color: #016F56;
+
+                &:hover 
+                {
+                    color: #E1890B;
+                }
+            }
+        }
+    }
+}

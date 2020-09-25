@@ -1,0 +1,119 @@
+@import "../../../assets/front/sass/mixin";
+
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+.wallet-encashment
+{
+	font-family: $content-text;
+	padding: 15px;
+	letter-spacing: 0.2px;
+
+	.main-member-header
+	{
+		.left {
+
+			.text {
+
+				.name {
+					font-size: 21px;
+					font-weight: $bold;
+					color: $text-dark !important;
+				}
+				.sub {
+					font-size: 15px !important;
+					color: $text-light !important;
+				}
+			}
+		}
+		.right
+		{
+			@media screen and (max-width: 991px)
+			{
+				margin-top: 25px;
+				.text-right
+				{
+					text-align: left !important;
+				}
+			}
+		}
+	}
+
+	.wallet-encashment-content
+	{
+		margin-top: 50px;
+		.title
+		{
+			color: $text-dark;
+			font-weight: $bold;
+			font-size: 17px;
+			margin-bottom: 15px;
+		}
+		.table-holder
+		{
+			margin-bottom: 50px;
+			table
+			{
+				thead
+				{
+					tr
+					{
+						th
+						{
+							color: $text-light;
+							font-weight: $bold;
+							font-size: 15px;
+							border-color: #ececec;
+						}
+					}
+				}
+				tbody
+				{
+					tr
+					{
+						td
+						{
+							font-size: 15px;
+							color: $text-light;
+							font-weight: $regular;
+							border-color: #ececec;
+							background-color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.btn-custom-primary
+{
+	background-color: #006CC5;
+	border: 1px solid #006CC5;
+	color: #fff;
+	@include transition(0.3s);
+
+	&:hover
+	{
+		background-color: inherit;
+		color: #006CC5;
+	}
+}
+
+.btn-custom-default
+{
+	background-color: #FF8500;
+	border: 1px solid #FF8500;
+	color: #fff;
+	@include transition(0.3s);
+
+	&:hover
+	{
+		background-color: inherit;
+		color: #FF8500;
+	}
+}

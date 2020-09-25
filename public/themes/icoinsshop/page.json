@@ -1,0 +1,68 @@
+{
+	"home":
+	{
+		"home_caption_header" :
+		{
+			"label":"Header Caption in Homepage",
+			"type":"text",
+			"default":"Where your future digital currencies begin",
+			"size":"4"
+		},
+		"home_caption_subheader" :
+		{
+			"label":"Subheader Caption in Homepage",
+			"type":"text",
+			"default":"Join the community of ICOinssop.com to educate on different ICO’s  and be updated on crypto market trends!",
+			"size":"4"
+		},
+		"home_kro_value" :
+		{
+			"label":"Krops Value",
+			"type":"textbox",
+			"default":"1 KRO = $1.36",
+			"size":"4"
+		},
+		"home_about_image" :
+		{
+			"label":"About Us Image",
+			"type":"image",
+			"default":"/themes/icoinsshop/img/aboutus-img-1.png",
+			"size":"6"
+		},
+		"home_about_description" :
+		{
+			"label":"About Us Description",
+			"type":"tinymce",
+			"default":"ICOins Shop is a privately owned marketing company, introducing and educating the people on different ICO’s to start an opportunity for everyone on the future generation of digital currencies.",
+			"size":"6"
+		},
+		"home_mission" :
+		{
+			"label":"Mission ",
+			"type":"tinymce",
+			"default":"To help our clients successfully launch their ICO through market intelligence, creativity and strategic vision, and to build an organization that attracts, develops, and retains outstanding people worldwide as we grow our business.",
+			"size":"6"
+		},
+		"home_vision" :
+		{
+			"label":"Vision",
+			"type":"tinymce",
+			"default":"ICOins Shop is dedicated in providing our clients with results-oriented advertising, public relations, and total be marketing support to be the top ICO marketing company.",
+			"size":"6"
+		},
+		"home_how_it_works_description" :
+		{
+			"label":"How It Works Description",
+			"type":"tinymce",
+			"default":"Icoins shop is an e-commerce site for ICO with  marketing program that provides digital currency education and services to help people understand the essence of ICO to digital currency world and teach them how can they make these as an opportunity.",
+			"size":"6"
+		},
+		"home_how_it_works_image" :
+		{
+			"label":"How It Works Image",
+			"type":"image",
+			"default":"/themes/icoinsshop/img/howitworks-img.png",
+			"size":"6"
+		}
+	}
+}

@@ -1,0 +1,324 @@
+.intro
+{
+	background-image: url("/assets/front/img/intro-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	.container
+	{
+		min-height: 400px;
+		position: relative;
+	}
+	.text
+	{
+		text-align: center;
+		margin-top: 25px;
+		.sub
+		{
+			color: #fec927;
+			font-size: 18.75px;
+			font-weight: 700;
+			margin: 0;
+		}
+		.main
+		{
+			font-size: 75px;
+			color: #fff;
+			opacity: 0.5;
+			margin: 0;
+			letter-spacing: 15px;
+		}
+		.mini-sub
+		{
+			font-size: 15.09px;
+			color: #fff;
+			margin: 0;
+			letter-spacing: 2px;
+		}
+	}
+	.bottom-text
+	{
+		position: absolute;
+		background-color: rgba(25,25,25,0.5);
+		width: 100%;
+		width: calc(100% - 30px);
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		font-size: 12.5px;
+		color: #fff;
+		padding: 10px 50px;
+		strong
+		{
+			color: #fec927;
+		}
+		p
+		{
+			margin: 0;
+		}
+	}
+}
+.main
+{
+	.statement
+	{
+		background-color: #191919;
+		color: #fff;
+		padding: 25px 0 30px;
+		.col-md-4
+		{
+			border-right: 1px solid #696969;
+			&:last-child
+			{
+				border-right: 0;
+			}
+		}
+		.holder
+		{
+			padding: 0 25px;
+			@media screen and (max-width: 768px)
+			{
+				margin-bottom: 25px;
+			}
+			.head-info
+			{
+				font-size: 16.67px;
+				font-weight: 700;
+				text-align: center;
+				td
+				{
+					padding-bottom: 15px;
+				}
+				.icon
+				{
+					width: 60px;
+					img
+					{
+						width: 100%;
+					}
+				}
+			}
+			.content-info
+			{
+				color: #b1b1b1;
+				font-size: 12.5px;
+				font-weight: 300;
+			}
+		}
+	}
+	.list-container
+	{
+		.title
+		{
+			font-size: 18.75px;
+			font-weight: 700;
+			margin: 25px 0;
+			text-align: center;
+		}
+	}
+}
+.maternity-line
+{
+    width: 100%; 
+    height: 20px; 
+    border-bottom: 1px solid #ddd; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+.maternity-title
+{
+	padding: 0 10px;
+	z-index: 2;
+	text-align: center;
+	font-size: 29.17px;
+	background-color: #ffffff;
+	.maternity-clothes
+	{
+		color: #de7c99;
+	}
+}
+
+.maternity-products
+{
+	position: relative;
+	padding-bottom:20px;
+	.left
+	{
+		float:left;
+		width:34%;
+		img
+		{
+			width: 100%;
+			display: flex;
+		}
+		.product-left1
+		{
+			margin-bottom: 1%;
+			position: relative;
+
+			.title
+			{
+				position: absolute;
+				bottom: 110px;
+				text-align: center;
+			    left: 0;
+			    right: 81px;
+			    margin: auto;
+			    font-family: "BerlingEF-Bold", sans-serif;
+			    font-size: 30px;
+			    opacity: 0.5;
+			}
+			.shop-now
+			{
+				position: absolute;
+			    bottom: 35px;
+				left: 75px;
+				button
+				{
+					font-size: 12.5px;
+					font-weight: 600;
+				    color: black;
+				    background-color: transparent;
+				    border: 1px solid #787878;
+				    padding: 5px 20px;
+				    text-transform: uppercase;
+				}
+			}
+			@media screen and (max-width: 600px)
+			{
+			    .shop-now
+				{
+					position: absolute;
+				    bottom: 20px;
+	    			left: 40px;
+					button
+					{
+						font-size: 6.5px;
+						font-weight: 600;
+					    color: black;
+					    background-color: transparent;
+					    border: 1px solid #787878;
+					    padding: 5px 20px;
+					    text-transform: uppercase;
+					}
+				}
+			}
+
+		}
+		.product-left2
+		{
+			position: relative;
+
+			.title
+			{
+				position: absolute;
+				bottom: 110px;
+				text-align: center;
+			    left: 95px;
+			    right: 0;
+			    margin: auto;
+			    font-family: "BerlingEF-Bold", sans-serif;
+			    font-size: 40px;
+			    opacity: 0.5;
+			}
+
+			.shop-now
+			{
+				position: absolute;
+			    bottom: 35px;
+    			right: 59px;
+				button
+				{
+					font-size: 12.5px;
+					font-weight: 600;
+				    color: black;
+				    background-color: transparent;
+				    border: 1px solid #787878;
+				    padding: 5px 20px;
+				    text-transform: uppercase;
+				}
+			}
+			@media screen and (max-width: 600px)
+			{
+			    .shop-now
+				{
+					position: absolute;
+				    bottom: 20px;
+	    			right: 28px;
+					button
+					{
+						font-size: 6.5px;
+						font-weight: 600;
+					    color: black;
+					    background-color: transparent;
+					    border: 1px solid #787878;
+					    padding: 5px 20px;
+					    text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+	.right
+	{
+		float:right;
+		width: 65%;
+
+		img
+		{
+			width: 100%;
+		}
+		.product-right
+		{
+			position: relative;
+
+			.title
+			{
+				position: absolute;
+				bottom: 252px;
+			    left: 270px;
+			    right: 0px;
+			    margin: auto;
+			    font-family: "BerlingEF-Bold", sans-serif;
+			    font-size: 60px;
+			    opacity: 0.5;
+			}
+
+			.shop-now
+			{
+				position: absolute;
+			    bottom: 84px;
+    			right: 174px;
+				button
+				{
+					font-size: 18.75px;
+					font-weight: 600;
+				    color: black;
+				    background-color: transparent;
+				    border: 1px solid #787878;
+				    padding: 5px 20px;
+				    text-transform: uppercase;
+				}
+			}
+			@media screen and (max-width: 600px)
+			{
+			    .shop-now
+				{
+					position: absolute;
+				    bottom: 50px;
+	    			right: 94px;
+					button
+					{
+						font-size: 10.75px;
+						font-weight: 600;
+					    color: black;
+					    background-color: transparent;
+					    border: 1px solid #787878;
+					    padding: 5px 20px;
+					    text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

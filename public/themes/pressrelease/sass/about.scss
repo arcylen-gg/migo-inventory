@@ -1,0 +1,78 @@
+.main-wrapper
+{
+    padding-bottom: 30px;
+    padding-top: 90px;
+    min-height: 600px;
+    @media screen and (max-width: 768px)
+    {
+       padding-top: 30px;
+       min-height: 800px;
+    }
+    @media screen and (max-width: 425px)
+    {
+       padding-top: 30px;
+       min-height: 585px;
+    }
+    @media screen and (max-width: 320px)
+    {
+       padding-top: 30px;
+       min-height: 525px;
+    }
+
+    .title-container
+    {
+        font-size: 30px;
+        font-weight: 700;
+        color: #585858;
+        text-align: left;
+        padding-top: 40px;
+        @media screen and (max-width: 425px)
+        {
+          text-align: center;
+          font-size: 25px;
+        }
+        @media screen and (max-width: 320px)
+        {
+          text-align: center;
+          font-size: 23px;
+        }
+    }
+    .about-container
+    {
+        font-size: 23px;
+        padding-top: 20px;
+        text-align: justify;
+        @media screen and (max-width: 768px)
+        {
+           padding-bottom: 40px;
+        }
+        @media screen and (max-width: 425px)
+        {
+          text-align: center;
+          font-size: 18px;
+        }
+        @media screen and (max-width: 320px)
+        {
+          text-align: center;
+          font-size: 16px;
+        }
+        .desc-black
+        {
+            color: #6b6a6a
+        }
+    }
+    .image-holder
+    {
+        width: 100%;
+        @media screen and (max-width: 768px)
+        {
+           width: 90%;
+           margin: auto;
+        }
+    }
+    img
+    {
+        width: 100%;
+        border-radius: 5px;
+    }
+}

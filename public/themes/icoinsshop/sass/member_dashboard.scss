@@ -1,0 +1,550 @@
+@import "../../../assets/front/sass/mixin";
+
+$display-text: 'Ubuntu', sans-serif;
+$content-text: 'Open Sans', sans-serif;
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+
+@media screen and (max-width: 800px)
+{
+	.holder
+	{
+		.mob-center
+		{
+			text-align: center;
+			
+			.text
+			{
+				.pull-left
+				{
+					float: none !important;
+				}
+			}
+		}
+	}
+}
+
+.dashboard
+{
+	font-family: $content-text;
+
+	.align-icon
+	{
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+	.brown-icon-money
+	{
+		margin-top: -7px;
+	}
+
+	.title
+	{
+		font-family: $content-text;
+		color: $text-dark;
+		font-size: 18px;
+		letter-spacing: 0.5px;
+		font-weight: normal;
+		background-color: #fff;
+		padding: 5px 15px;
+		margin-top: 5px;
+		border: 1px solid #ddd;
+
+		.title-button
+		{
+			//mixin
+			@include transition(0.2s);
+			font-weight: bold;
+			font-size: 14px;
+			text-decoration: none;
+			margin-top: 3px;
+			text-transform: uppercase;
+			float: right;
+
+			@media screen and (max-width: 500px)
+			{
+				float: none;
+			}
+		}
+	}
+
+	.sub-container
+	{
+		padding: 10px 20px;
+		border: 1px solid #ddd;
+		margin-top: -1px;
+		background-color: #fff;
+		margin-bottom: 10px;
+	}
+
+	// .mob-view
+	// {
+	// 	min-height: 392px;
+	// 	max-height: 392px;
+	// 	overflow-y: auto;
+	// }
+
+	.table-holder
+	{
+		.table
+		{
+			thead	
+			{
+				tr
+				{
+					th
+					{
+						border-bottom: 0;
+						text-align: left;
+						color: #344049;
+						font-size: 14px;
+						padding-bottom: 15px;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+				}
+			}
+			tbody
+			{
+				background-color: #ededed;
+				tr
+				{
+					position: relative;
+					.progress
+					{
+						width: 10%;
+						background-color: #ddd;
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						height: 100%;
+					}
+					td
+					{
+						border: 0;
+						text-align: left;
+						border-bottom: 1px solid #ededed;
+						font-size: 14px;
+						color: #344049;
+					}
+				}
+			}
+		}
+	}
+	.chart-legend
+	{
+
+		.holder
+		{
+			font-size: 15px;
+
+			.color
+			{
+				display: inline-block;
+				vertical-align: middle;
+				background-color: #ddd;
+				width: 12px;
+				height: 6px;
+				margin-right: 7.5px;
+			}
+			.name
+			{
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 15px;
+				letter-spacing: 0.5px;
+				font-weight: bold;
+				font-family: $content-text;
+				color: #0466AF;
+
+				span
+				{
+					color: #333;
+					width: 200px;
+					display: inline-block;
+					font-weight: normal;
+				}
+
+				.hand
+				{
+					color: #0466AF;
+					cursor: pointer;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.chart-holder
+	{
+		margin: 20px;
+		text-align: center;
+
+		#income_summary
+		{
+			margin: auto !important;
+		}
+	}
+
+	.unilevel-holder
+	{
+		
+		.holder
+		{
+			margin-bottom: 7.5px;
+			border-bottom: 1px solid #eee;
+			padding-bottom: 10px;
+
+			.label2
+			{
+				color: #344049;
+				font-size: 16px;
+				font-weight: 600;
+				margin-top: 5px;
+			}
+			.progress2
+			{
+				color: #344049;
+				font-size: 14px;
+
+				text-align: center;
+				background-color: #ededed;
+				padding: 5px 0;
+				letter-spacing: 0.5px;
+			}
+			&:last-child
+			{
+				margin-bottom: 0;
+				border-bottom: none;
+			}
+		}
+	}
+	.border-holder
+	{
+
+		.wow
+		{
+			margin-bottom: 15px;
+			.left
+			{
+				@media screen and (min-width: 991px)
+				{
+					float: left;
+				}
+			}
+			.right
+			{
+				@media screen and (min-width: 991px)
+				{
+					float: right;
+				}
+			}
+		}
+		.badge
+		{
+			padding: 7.5px 10px;
+			background-color: #36b1b9;
+			font-size: 13px;
+			font-weight: 700;
+			border-radius: 15px;
+		}
+		.holder
+		{
+			margin-bottom: 15px;
+			border-bottom: 1px solid #eee;
+			padding-bottom: 10px;
+
+			&:last-child
+			{
+				margin-bottom: 0;
+				border-bottom: none;
+			}
+			.color
+			{
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 10px;
+				margin-top: 5px;
+				overflow: hidden;
+				border-radius: 100%;
+
+				img
+				{
+					width: 50px;
+					height: 50px;
+				}
+			}
+			.text
+			{
+				display: inline-block;
+				vertical-align: top;
+				width: 190px;
+
+				.name
+				{
+					color: #344049;
+					font-size: 16px;
+					font-weight: 600;
+				}
+				.email
+				{
+					color: #344049;
+					font-size: 16px;
+				}
+				.date
+				{
+					color: #85939e;
+					font-size: 16px;
+					opacity: 0.5;
+				}
+
+				@media screen and (max-width: 800px)
+				{
+					display: block;
+					width: auto;
+				}
+			}
+			.action
+			{
+				margin-top: 10px;
+			}
+		}
+	}
+	.activities
+	{
+		.holder
+		{
+			padding-bottom: 25px;
+			position: relative;
+			padding-left: 30px;
+			.message
+			{
+				color: #344049;
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+			.date
+			{
+				color: #85939e;
+				font-size: 16px;
+				opacity: 0.5;
+			}
+			.wallet
+			{
+				color: #85939e;
+				font-size: 14px;
+				float: right;
+				opacity: 0.4;
+
+			}
+			.circle-line
+			{
+				position: absolute;
+				left: 0;
+				top: 0;
+				text-align: center;
+				height: 100%;
+				bottom: 0;
+				.circle
+				{
+
+				}
+				.line
+				{
+					position: absolute;
+					top: 15px;
+					height: calc(100% - 10px);
+					left: 5.5px;
+					width: 4px;
+					img
+					{
+						height: 100%;
+						width: 4px;
+					}
+				}
+			}
+			&:last-child
+			{
+				.circle-line
+				{
+					.line
+					{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+// POPUP USE PRODUCT CODE
+
+
+
+
+// POPUP VERIFY PLACEMENT
+.popup-verify-placement
+{
+
+	font-family: $content-text;
+
+	.modal-content
+	{
+		.modal-title
+		{
+			font-weight: 400;
+		}
+
+		.modal-body
+		{
+			.message
+			{
+				text-align: center;
+				margin-bottom: 10px;
+				color: red;
+				font-size: 14px;
+				text-transform: uppercase; 
+			}
+
+			.input
+			{
+				width: 100%;
+				font-size: 16px;
+				border: none;
+				border: 1px solid #c9c9c9;
+				margin: 5px 0px;
+				margin-bottom: 15px;
+				padding: 5px;
+				border-radius: 2px; 
+			}
+
+			label
+			{
+				color: #000;
+				text-align: center;
+				text-transform: uppercase;
+				opacity: 0.8; 
+			}
+			
+			.labeld
+			{
+				color: #272c2f;
+			    text-align: center;
+			    text-transform: uppercase;
+			}
+
+			select
+			{
+				width: 100%;
+				font-size: 16px;
+				border: none;
+				border: 1px solid #e1890b;
+				margin: 5px 0px;
+				margin-bottom: 15px;
+				padding: 5px;
+				border-radius: 2px; 
+			}
+
+			.btn-container
+			{
+				text-align: center;
+				font-weight: 600;
+				font-size: 14px;
+				text-transform: uppercase;
+				padding-bottom: 20px; 
+
+				.btn-verify-placement
+				{
+		        	 @include transition(0.2s);
+			         color: #fff;
+			         background-color: #e1890b;
+			         padding: 10px 40px;
+			         border: 2px solid #e1890b;
+			         border-radius: 2px;
+			         width: 100%;
+			         margin-top: 20px;
+			         text-transform: uppercase; 
+
+			         &:hover
+			         {
+			         	// color: #fff;
+			         	//background-color: #e1890b;
+			         	opacity: 0.8; 
+			         }
+				}
+			}
+		}
+	}
+}
+
+/* Success */
+.popup-success
+{
+	.modal-content
+	{
+		.modal-header
+		{
+			background-color: #0466AF;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			.modal-title
+			{
+				color: #FFF;
+				font-size: 15px;
+			}
+		}
+
+		.modal-body
+		{
+			text-align: center;
+
+			img
+			{
+				padding: 20px 0px;
+			}
+
+			.text-header
+			{
+				font-weight: bold;
+				font-size: 25px;
+				color: #344049;
+				padding-top: 5px;
+			}
+
+			.text-caption
+			{
+				@extend .text-header;
+				font-size: 15px;
+				padding-bottom: 30px;
+			}
+
+	    	.btn-container
+	    	{
+				text-align: center;
+				font-family: "Arial";
+				font-weight: bold;
+				font-size: 13px;
+				padding-bottom: 20px;
+
+				.btn-ok
+				{
+					color: #fff;
+					background-color: #0466AF;
+					padding: 12px 60px;
+					border: 2px solid #0466AF;
+					border-radius: 2px;
+				}
+			}
+		}
+	}
+}

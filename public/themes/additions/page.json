@@ -1,0 +1,172 @@
+{
+	"home":
+	{
+		"home_slider" :
+		{
+			"label":"Slider Maintenance",
+			"type":"gallery",
+			"default":"",
+			"size":"12"
+		},
+		"maternity_title":
+		{
+			"label":"Maternity Title",
+			"type":"textbox",
+			"default":"MATERNITY CLOTHES",
+			"size":"6"
+		},
+		"maternity_bottom_title":
+		{
+			"label":"Maternity Bottom Title",
+			"type":"textbox",
+			"default":"BOTTOMS",
+			"size":"6"
+		},
+		"maternity_dress_title":
+		{
+			"label":"Maternity Dress Title",
+			"type":"textbox",
+			"default":"BOTTOMS",
+			"size":"6"
+		},
+		"maternity_tops_title":
+		{
+			"label":"Maternity Tops Title",
+			"type":"textbox",
+			"default":"TOPS",
+			"size":"6"
+		},
+		"new_title":
+		{
+			"label":"New Title",
+			"type":"textbox",
+			"default":"WHAT'S NEW",
+			"size":"12"
+		}
+	},
+	"about":
+	{
+		"about_image" :
+		{
+			"label":"About Us Cover Image",
+			"type":"image",
+			"default":"/themes/additions/front/about.jpg",
+			"size":"6"
+		},
+		"about_title" :
+		{
+			"label":"About Us Title",
+			"type":"textbox",
+			"default":"ABOUT US",
+			"size":"6"
+		},
+		"about_description" :
+		{
+			"label":"About Us Description",
+			"type":"textbox",
+			"default":"Our company was formed on August 2009. Our typical customers are pregnant women and we do our best provide them the products and services they need at a competitive price. The company pays homepage to the fundamental philosophy we have utilized in building our businesses. We believe in 'mutual success'. We build mutually beneficial professional alliances with our customers, suppliers, and our employees that help all to grow and prosper. Our main business office is Taytay, Rizal and we have branches in all leading Department Stores nationwide. From all of our locations, we want to provide superior products and the best customer service.",
+			"size":"6"
+		},
+		"mission_title" : 
+		{
+			"label":"Mission Title",
+			"type":"textbox",
+			"default":"OUR MISSION",
+			"size":"12"
+		},
+		"mission_description" : 
+		{
+			"label":"Mission Description",
+			"type":"textbox",
+			"default":"We are the #1 supplier of garments in the country, a hassle-free one stop solution to expectant mothers needs in all their maternity wear requirements. Our key strength lies in the production of the best quality and style to suit even discriminating tastes with our able in-house design and development team as well as management team.",
+			"size":"12"
+		},
+		"vision_title" : 
+		{
+			"label":"Vision Title",
+			"type":"textbox",
+			"default":"OUR VISION",
+			"size":"12"
+		},
+		"vision_description" : 
+		{
+			"label":"Vision Description",
+			"type":"textbox",
+			"default":"The top and most sought maternity garments leader in the country.",
+			"size":"12"
+		},
+		"core_title" : 
+		{
+			"label":"Core Values Title",
+			"type":"textbox",
+			"default":"OUR VISION",
+			"size":"12"
+		},
+		"core_description" : 
+		{
+			"label":"Core Values Description",
+			"type":"tinymce",
+			"default":"<p>INTEGRITYRESPECT</p><p>PROFESSIONALISM</p><p>EMPOWERMENT</p><p>QUALITY SERVICE</p><p>CUSTOMER SATISFACTION</p><p>PASSION FOR EXCELLENCE</p>",
+			"size":"12"
+		}
+	},
+	"contact":
+	{
+		"contact_title" :
+		{
+			"label":"Contact Title",
+			"type":"textbox",
+			"default":"Get In Touch With Us",
+			"size":"6"
+		},
+		"location_title" :
+		{
+			"label":"Location Title",
+			"type":"textbox",
+			"default":"Location",
+			"size":"6"
+		},
+		"location_address" :
+		{
+			"label":"Location Address",
+			"type":"textbox",
+			"default":"Business Hours",
+			"size":"6"
+		},
+		"location_phone" :
+		{
+			"label":"Location Phone",
+			"type":"textbox",
+			"default":"123456789",
+			"size":"6"
+		},
+		"location_email" :
+		{
+			"label":"Location Email",
+			"type":"textbox",
+			"default":"test@test.com",
+			"size":"6"
+		},
+		"business_title" :
+		{
+			"label":"Business Title",
+			"type":"textbox",
+			"default":"Business Hours",
+			"size":"6"
+		},
+		"business_hours" :
+		{
+			"label":"Business Hours",
+			"type":"textbox",
+			"default":"Monday - Friday at 9:00am - 6:00pm",
+			"size":"6"
+		},
+		"map_title" :
+		{
+			"label":"Map Title",
+			"type":"textbox",
+			"default":"FIND US ON MAP",
+			"size":"6"
+		}
+	}
+}

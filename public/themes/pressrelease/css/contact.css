@@ -1,0 +1,9 @@
+.main-wrapper{padding-bottom:20px}
+.main-wrapper .title-container{font-size:25px;font-weight:700;color:#585858;text-align:left;padding:20px 0px}.main-wrapper input{padding:0px 10px;color:#545454;height:50px;font-size:18px;width:100%;border:1px solid #919191}
+.main-wrapper textarea{padding:10px 10px;color:#545454;height:50px;font-size:18px;width:100%;max-height:150px;max-width:100%;min-height:150px;min-width:100%;border:1px solid #919191}
+.main-wrapper .button-container{padding:20px 0px}@media screen and (max-width: 425px){.main-wrapper .button-container{padding-top:35px;text-align:center}}
+.main-wrapper .button-container button{background-color:#316df9;color:#fff;font-size:18px;padding:15px 50px;text-decoration:none;border:none}
+.main-wrapper .background-border .background-container{text-align:left;min-height:0px}@media screen and (max-width: 425px){.main-wrapper .background-border .background-container{text-align:center}}
+.main-wrapper .background-border .background-container .title-info-container{font-size:25px;font-weight:700;color:#585858;padding:30px 0px 5px 0px}
+.main-wrapper .background-border .background-container i{padding-right:5px;color:#585858;font-size:25px}.main-wrapper .background-border .background-container span{font-size:20px}
+/*# sourceMappingURL=contact.css.map */

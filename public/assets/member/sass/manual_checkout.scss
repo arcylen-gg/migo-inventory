@@ -1,0 +1,101 @@
+$font-family: "Rubik", sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+
+.wrapper-1
+{
+	text-align: center;
+	font-family: $font-family;
+	padding: 50px 0px 50px 0px;
+	
+	.texts-1
+	{
+		font-weight: $regular;
+		font-size: 16px;
+	}
+
+	.order
+	{
+		font-weight: $medium;
+		font-size: 25px;
+	}
+
+	.amount
+	{
+		font-weight: $regular;
+		font-size: 20px;
+		color: #ff2a00;
+	}
+
+	.texts-2
+	{
+		@extend .texts-1;
+	}
+
+	.file-container
+	{
+		font-family: $font-family !important;
+		margin-top: 20px;
+		border: 2px solid #f4f4f4;
+		display: inline-block;
+		padding: 15px;
+		border-radius: 4px;
+
+		form
+		{
+			padding: 20px;
+
+			input
+			{
+				font-weight: $light;
+				font-size: 16px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.wrapper-2
+{
+	background-color: #ededed;
+	padding: 50px 0px 50px 0px;
+	font-family: $font-family;
+
+	.account-list-container
+	{
+		background-color: #fff;
+		border-radius: 4px;
+		margin-top: 20px;
+		min-height: 650;
+		max-height: 650;
+
+		.text-header
+		{
+			font-weight: $medium;
+			font-size: 16px;
+			color: #006cc5;
+			padding: 15px 0px 15px 0px;
+			margin: 0px 20px 0px 20px;
+			text-align: center;
+			border-bottom: 2px solid #d2d2d2;
+		}
+
+		.content
+		{
+			text-align: left;
+			white-space: pre-wrap;
+			padding: 20px;
+		}
+	}
+
+	.step-by-step-container	
+	{
+		@extend .account-list-container;
+
+		.text-header
+		{
+			color: #ff8500;
+		}
+	}
+}

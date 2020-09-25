@@ -1,0 +1,401 @@
+.background-container
+{
+	padding: 30px 0px;
+	min-height: 900px;
+	
+	.pressview
+	{
+		.press-release-container
+		{
+			padding: 20px 0px 20px 0px;	
+			.tab
+			{
+				float: left;
+				border: 1px solid #ccc;
+				background-color: #f1f1f1;
+				width: 14%;
+				border-right: none;
+				height: 98px;
+				@media screen and (max-width: 768px)
+				{
+				   display: inline-block;
+				   float: none;
+				   width: 100%;
+				}
+			}
+
+			.tabcontent 
+			{
+				background-color: #fff;
+				float: left;
+				padding: 0px 10px;
+				border: 1px solid #ccc;
+				width: 83%;
+				@media screen and (max-width: 768px)
+				{
+				   float: none;
+				   width: 100%;
+				   margin-top: 15px;
+				}
+			}
+
+			button
+			{
+				display: block;
+				background-color: inherit;
+				color: black;
+				padding: 15px 13px;
+				width: 100%;
+				border: none;
+				outline: none;
+				text-align: center;
+				cursor: pointer;
+				transition: 0.3s;
+				font-size: 13px;
+			}
+
+			button:hover
+			{
+				background-color: #ddd;
+			}
+
+			button.active
+			{
+				background-color: #ccc;
+			}
+
+			.press-release-content
+			{
+				.create-release-container
+				{
+					padding: 20px 40px 50px 40px;
+					min-height: 700px;
+					@media screen and (max-width: 768px)
+					{
+					   padding: 0px 10px 30px 10px;
+					}
+					.title-container
+					{
+						font-size: 25px;
+						color: #316df9;	
+						font-weight: 700;
+						padding-top: 20px;
+						@media screen and (max-width: 425px)
+						{
+						   text-align: center;
+						}
+					}
+						
+					.title
+					{
+						color: #404040;
+						font-size: 16px;
+						padding-top: 25px;
+						padding-bottom: 5px;
+						font-weight: 700;
+					}
+
+					input
+					{
+						color: #404040;
+						height: 40px;
+						font-size: 15px;
+						width: 80%;
+						background-color: inherit;
+						display: inline-block;
+						vertical-align: middle;
+						@media screen and (max-width: 425px)
+						{
+						   width: 100%;
+						}
+					}
+
+					span
+					{
+						display: inline-block;
+						vertical-align: middle;
+						padding-left: 10px;
+						a
+						{
+							background-color: #316df9;
+							color: #fff;
+							font-size: 13px;
+							padding: 8px 8px;
+							text-decoration: none;
+							display: inline-block;
+							vertical-align: middle
+						}
+					}
+
+					iframe
+					{
+						min-height: 300px;
+						max-height: 300px;
+					}
+
+					.button-container
+					{
+						padding-top: 30px;
+						@media screen and (max-width: 425px)
+						{
+						   text-align: center;
+						}
+						.button
+						{
+							button
+							{
+								padding: 9px 30px;
+								background-color: #316df9;
+								color: #fff;
+								font-size: 15px;
+								text-decoration: none;
+								@media screen and (max-width: 320px)
+								{
+								   font-size: 13px;
+								}
+							}
+						}
+						.preview-button
+						{
+							a
+							{
+								padding: 15px 40px;
+								background-color: #316df9;
+								color: #fff;
+								font-size: 15px;
+								text-decoration: none;
+								@media screen and (max-width: 320px)
+								{
+								   font-size: 13px;
+								}
+							}
+						}
+					}
+				}
+
+				.choose-recipient-container
+				{
+					padding: 20px 40px 50px 40px;
+					min-height: 400px;
+					@media screen and (max-width: 768px)
+					{
+					   padding: 0px 10px 30px 10px;
+					}
+					.chosen-container
+					{
+						min-width: 65%;
+						@media screen and (max-width: 425px)
+						{
+						   min-width: 100%;
+						}
+						.search-choice
+						{
+							margin-top: 10px;
+							padding-left: 0px;
+						}
+					}
+					.title-container
+					{
+						font-size: 25px;
+						color: #316df9;	
+						font-weight: 700;
+						padding-top: 20px;
+						@media screen and (max-width: 425px)
+						{
+						   text-align: center;
+						}
+					}
+					.title
+					{
+						color: #404040;
+						font-size: 16px;
+						padding-top: 25px;
+						padding-bottom: 5px;
+						font-weight: 700;
+					}
+
+					input
+					{
+						color: #404040;
+						height: 40px;
+						font-size: 15px;
+						width: 50%;
+						background-color: inherit;
+						display: inline-block;
+						vertical-align: middle;
+						@media screen and (max-width: 425px)
+						{
+						   width: 67%;
+						}
+						@media screen and (max-width: 375px)
+						{
+						   width: 69%;
+						}
+						@media screen and (max-width: 320px)
+						{
+						   width: 63%;
+						}
+					}
+
+					span
+					{
+						display: inline-block;
+						vertical-align: middle;
+						a
+						{
+							background-color: #316df9;
+							color: #fff;
+							font-size: 13px;
+							padding: 12px 15px;
+							text-decoration: none;
+							display: inline-block;
+							vertical-align: middle;
+							@media screen and (max-width: 375px)
+							{
+							   font-size: 10px;
+							}
+						}
+					}
+					.result-container
+					{
+						font-size: 15px;
+						font-weight: 700;
+					}
+
+					.button-container
+					{
+						padding-top: 30px;
+						.preview-button
+						{
+							padding-right: 20px;
+							button
+							{
+								background-color: #316df9;
+								color: #fff;
+								font-size: 15px;
+								text-decoration: none;
+								padding: 10px 20px;
+							}
+						}
+					}
+				}
+
+				.send-release-container
+				{
+					padding: 20px 40px 50px 40px;
+					min-height: 700px;
+					@media screen and (max-width: 768px)
+					{
+					   padding: 0px 10px 30px 10px;
+					}
+					@media screen and (max-width: 425px)
+					{
+					   text-align: center
+					}
+					.title-container
+					{
+						font-size: 25px;
+						color: #316df9;	
+						font-weight: 700;
+						padding-top: 20px;
+					}
+					.title
+					{
+						color: #404040;
+						font-size: 25px;
+						padding-top: 30px;
+						font-weight: 700;
+					}
+					.content
+					{
+						color: #404040;
+						font-size: 18px;
+					}
+					.button-container
+					{
+						padding-top: 30px;
+						button
+						{
+							display: inline-block;
+							background-color: #316df9;
+							color: #fff;
+							font-size: 15px;
+							text-decoration: none;
+							padding: 15px 20px;
+							margin-right: 15px;
+							width: 150px;
+							@media screen and (max-width: 425px)
+							{
+							   margin: auto;
+							}
+						}
+					}
+				}		
+			}
+		}
+	}
+}
+
+.popup-preview
+{
+	.modal-content
+	{
+		height: 595px;
+		.modal-body
+		{
+			overflow: hidden;
+			overflow-y: scroll;
+			height: 525px;
+			#preview_headline
+			{
+				text-align: center;
+				font-size: 35px; 
+				color: #cd3d35;
+				font-weight: 700;
+				font-family: 'PT Serif';
+				padding-bottom: 15px;
+			}
+			#preview_content
+			{
+				color: #404040;
+				font-size: 18px;
+				font-family: 'PT Sans';
+				text-align: justify;
+				border-bottom: 1px solid #ededed;
+				padding: 20px 0px;
+			}
+			.about-title
+			{
+				font-size: 23px; 
+				color: #404040;
+				font-weight: 700;
+				font-family: 'PT Serif';
+				padding: 20px 0px;
+			}
+			#preview_boiler_content
+			{
+				color: #404040;
+				font-size: 18px;
+				font-family: 'PT Sans';
+				text-align: justify;
+				padding-bottom: 20px;
+			}
+			.logo-holder
+			{
+				text-align: center;
+				// box-shadow: 0px 12px 25px -15px rgba(0,0,0,0.2);
+				padding: 15px 20px;
+				// border: 1px solid #ededed;
+				width: 100%;
+				img
+				{
+					max-width: 100%;
+				}
+			}
+		}
+		.modal-footer
+		{
+			padding: 15px 0px 0px 0px;
+		}
+	}
+}

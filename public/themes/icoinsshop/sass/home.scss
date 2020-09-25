@@ -1,0 +1,580 @@
+@import "../../../assets/front/sass/mixin";
+
+$display-text: "Ubuntu", sans-serif;
+$content-text: "Open Sans", sans-serif;
+
+body 
+{
+    background-color: transparent;
+}
+
+.slick-next 
+{
+    right: 0;
+    display: none;
+}
+
+.slick-prev 
+{
+    left: 0;
+    display: none;
+}
+
+.slick-next, .slick-prev 
+{
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+.slick-slide img 
+{
+    margin: auto;
+}
+
+/* SLIDER */
+
+.slider-wrapper 
+{
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $display-text;
+    display: -webkit-flex;
+
+    /* Safari */
+    -webkit-align-items: center;
+
+    /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+
+    .holder 
+    {
+        position: relative;
+
+        //padding: 150px 0 100px 0;
+        padding: 100px 0;
+
+        .caption-container 
+        {
+            .text-1 
+            {
+                color: #fff;
+                font-size: 40px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+
+            .text-2 
+            {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+                padding: 10px 0;
+            }
+        }
+
+        .button-container 
+        {
+            padding: 20px 0 20px 0;
+
+            a 
+            {
+                text-decoration: none;
+            }
+
+            .btn-join 
+            {
+                @include transition(0.3s);
+
+                background-color: #016f56;
+                color: #fff;
+                border: none;
+                padding: 10px 25px;
+                border-bottom: 4px solid #025c37;
+
+                &:hover 
+                {
+                    color: #016f56;
+                    background-color: #fff;
+                    border-bottom: 4px solid #025c37;
+                }
+            }
+        }
+
+        .card 
+        {
+            background-color: #fff;
+
+            //padding: 20px;
+            width: 50%;
+            float: right;
+
+            .card-content 
+            {
+                .title 
+                {
+                    padding: 20px;
+
+                    span 
+                    {
+                        color: #000;
+                        font-weight: 500;
+                        font-size: 25px;
+
+                        .underline 
+                        {
+                            border-bottom: 2px solid #016f56;
+                            width: 30px;
+                        }
+                    }
+                }
+
+                .card-holder 
+                {
+                    background-color: #f3f3f3;
+                    padding: 20px;
+
+                    .icon-text-container 
+                    {
+                        display: inline-block;
+                        padding: 10px 0 10px 0;
+
+                        img 
+                        {
+                            vertical-align: inherit;
+                        }
+
+                        span 
+                        {
+                            display: inline-block;
+                            padding-left: 5px;
+
+                            .text-1 
+                            {
+                                font-size: 15px;
+                                font-weight: 400;
+                                color: #5f9f0d;
+                            }
+
+                            .text-2 
+                            {
+                                color: #1c1c1c;
+                                font-family: $content-text;
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+
+                    .border 
+                    {
+                        border-bottom: 1px solid #cfcfcf;
+                        margin: 5px 0 10px 0;
+                    }
+
+                    .details 
+                    {
+                        color: #585858;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+
+                    .button-container 
+                    {
+                        padding: 10px 0 10px 0;
+
+                        a 
+                        {
+                            text-decoration: none;
+                        }
+
+                        .btn-buy-tokens 
+                        {
+                            @include transition(0.4s);
+
+                            background-color: #5f9f0d;
+                            color: #fff;
+                            border: none;
+                            border-bottom: 4px solid #53870f;
+                            padding: 8px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .scroll-down 
+    {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 93%;
+
+        //text-align: center;
+        //padding-top: 100px;
+
+        a 
+        {
+            text-decoration: none;
+
+            img 
+            {}
+        }
+    }
+}
+
+// ABOUT US
+.wrapper-1 
+{
+    padding: 90px 0 120px 0;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+    .wrapper-title 
+    {
+        font-family: $display-text;
+        font-size: 30px;
+        color: #1c1c1c;
+
+        span 
+        {
+            color: #e1890b;
+        }
+    }
+
+    .img-holder 
+    {
+        //width: 50%;
+        margin: auto;
+        padding: 50px 0;
+
+        img 
+        {
+            //width: 100%;
+       
+        }
+    }
+
+    .wrapper-texts 
+    {
+        font-family: $content-text;
+        font-size: 15px;
+        color: #585858;
+        padding: 0 200px;
+        line-height: 2;
+    }
+}
+
+// MISSION VISION
+.wrapper-2 
+{
+    transform: skewY(4deg);
+    background-color: #082c22;
+    text-align: center;
+
+    .unskew 
+    {
+        transform: skewY(-4deg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 120px 0 150px 0;
+
+        .img-holder 
+        {
+            margin: auto;
+        }
+
+        .title 
+        {
+            font-family: $display-text;
+            color: #df8709;
+            font-size: 24px;
+            font-weight: 400;
+            padding: 20px 0;
+
+            .underline 
+            {
+                border-bottom: 1px solid #fff;
+                padding: 10px 15px;
+                width: 0;
+                margin: auto;
+            }
+        }
+
+        .texts 
+        {
+            font-family: $content-text;
+            font-size: 15px;
+            font-weight: 400;
+            color: #fff;
+            padding: 0 65px;
+            line-height: 2;
+        }
+    }
+}
+
+// HOW IT WORKS
+.wrapper-3 
+{
+    padding: 100px 0 120px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+    .wrapper-title 
+    {
+        font-family: $display-text;
+        font-size: 30px;
+        color: #1c1c1c;
+        text-align: center;
+        padding-bottom: 80px;
+
+        span 
+        {
+            color: #e1890b;
+        }
+    }
+
+    .left 
+    {
+        .text-header 
+        {
+            font-family: $display-text;
+            color: #e1890b;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        .text-content 
+        {
+            line-height: 2;
+            font-family: $content-text;
+            font-size: 15px;
+            font-weight: 400;
+            color: #585858;
+            padding-top: 10px;
+        }
+    }
+
+    .right 
+    {
+        text-align: center;
+
+        .img-holder 
+        {
+            img 
+            {}
+        }
+    }
+}
+
+// PRODUCTS
+.wrapper-4 
+{
+    transform: skewY(4deg);
+    background-color: #e1890b;
+
+    .unskew 
+    {
+        transform: skewY(-4deg);
+        padding-top: 90px;
+        padding-bottom: 120px;
+
+        .wrapper-title 
+        {
+            font-family: $display-text;
+            font-size: 30px;
+            color: #1c1c1c;
+            padding-bottom: 30px;
+
+            span 
+            {
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .underline 
+            {
+                border-bottom: 2px solid #082c22;
+                width: 30px;
+            }
+        }
+
+        .product-holder 
+        {
+            background-color: #fff;
+            height: 355px;
+            margin: 20px 10px 0 10px;
+
+            .top 
+            {
+                img 
+                {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .bottom 
+            {
+                .texts 
+                {
+                    padding: 20px 15px;
+                    color: #7e7e7e;
+                    font-weight: 15px;
+                    font-weight: 400;
+                    line-height: 2;
+                }
+
+                .btn-container 
+                {
+                    padding: 0px 15px 20px 15px;
+                    display: inline-block;
+
+                    a 
+                    {
+                        text-decoration: none;
+                    }
+
+                    .btn-more-info 
+                    {
+                        @include transition(0.3s);
+
+                        padding: 15px 33px 13px 33px;
+                        background-color: #016f56;
+                        color: #fff;
+                        border: 2px solid #016f56;
+                        border-bottom: 4px solid #025c37;
+
+                        &:hover 
+                        {
+                            padding: 15px 33px;
+                            background-color: inherit;
+                            color: #016f56;
+                            border: 2px solid #016f56;
+                            border-bottom: 2px solid #025c37;
+                        }
+                    }
+
+                    .btn-buy-tokens 
+                    {
+                        @include transition(0.3s);
+
+                        padding: 15px 33px;
+                        background-color: inherit;
+                        color: #016f56;
+                        border: 2px solid #016f56;
+                        margin-left: 16px;
+
+                        &:hover 
+                        {
+                            padding: 15px 33px 13px 33px;
+                            background-color: #016f56;
+                            color: #fff;
+                            border: 2px solid #016f56;
+                            border-bottom: 4px solid #025c37;
+                        }
+                    }
+                }
+            }
+
+            .img-holder 
+            {
+                text-align: center;
+                padding: 125px 0 10px 0;
+
+                img 
+                {}
+            }
+
+            .text 
+            {
+                color: #585858;
+
+                //font-family: $display-text;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// NEWS AND ANNOUNCEMENTS
+.wrapper-5 
+{
+    //background-color: #f2f2f2;
+    padding: 90px 0 120px 0;
+
+    .wrapper-title 
+    {
+        font-family: $display-text;
+        font-size: 30px;
+        color: #1c1c1c;
+        padding-bottom: 50px;
+
+        span 
+        {
+            color: #e1890b;
+        }
+    }
+
+    .news-holder 
+    {
+        background-color: #f2f2f2;
+        cursor: pointer;
+        margin: 0 10px;
+
+        .img-holder 
+        {
+            width: 90%;
+
+            img 
+            {
+                object-fit: cover;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 500px) 
+            {
+                width: 100%;
+            }
+        }
+
+        .caption-holder 
+        {
+            padding: 20px 15px;
+
+            //margin-left: -10px;
+
+            .caption 
+            {
+                font-family: $display-text;
+                color: #1c1c1c;
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+            .date 
+            {
+                font-family: $display-text;
+                padding-top: 20px;
+                color: #016f56;
+                font-size: 15px;
+            }
+
+            @media screen and (max-width: 1080px) 
+            {
+                padding: 5px 15px;
+            }
+        }
+    }
+}

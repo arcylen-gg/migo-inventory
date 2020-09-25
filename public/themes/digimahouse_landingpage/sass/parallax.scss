@@ -1,0 +1,34 @@
+/* background setup */
+.background
+{
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+
+.fullscreen
+{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.fullscreen.overflow/* ,
+.fullscreen.overflow .caption-container */
+{
+    height:auto;
+    min-height:100%;
+}
+
+.not-fullscreen
+{
+    height:50%;
+}

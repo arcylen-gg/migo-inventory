@@ -1,0 +1,134 @@
+.background-container
+{
+	padding: 30px 0px;
+	min-height: 900px;
+
+	.press-view-holder
+	{
+		background-color: #fff;
+		min-height: 820px;
+		padding: 40px;
+		@media screen and (max-width: 425px)
+		{
+		   padding: 25px;
+		}
+		@media screen and (max-width: 320px)
+		{
+		   padding: 20px;
+		}
+		.title-container
+		{
+			a
+			{
+				font-size: 20px;
+				font-weight: 700;
+				border-bottom: 1px solid #000;
+				text-decoration: none;
+				color: #404040;
+			}
+		}
+		.date-container
+		{
+			font-size: 13px;
+			padding-top: 5px;
+		}
+		.subtitle-container
+		{
+			padding-top: 8px;
+			font-size: 17px;
+			text-align: justify;
+		}
+		.details-container
+		{
+			padding-top: 8px;
+			font-size: 17px;
+			text-align: justify;
+			text-indent: 30px;
+			@media screen and (max-width: 425px)
+			{
+			   font-size: 15px;
+			}
+			@media screen and (max-width: 320px)
+			{
+			   font-size: 13px;
+			}
+		}
+		.border
+		{
+			border-bottom: 1px solid #ededed;
+			padding: 15px 0px;
+		}
+		.title-about-container
+		{
+			padding: 40px 0px 15px 0px;
+			font-size: 20px;
+			color: #404040;
+			font-family: 'PT Sans';
+			font-weight: 700;
+		}
+	}
+
+	.press-others-holder
+	{
+		background-color: #ededed;
+		min-height: 820px;
+		padding: 20px;
+		@media screen and (max-width: 425px)
+		{
+		   padding: 25px;
+		}
+		.header
+		
+		{
+			font-size: 18px;
+			font-weight: 700;
+			text-decoration: none;
+			color: #404040;
+			padding-bottom: 10px;
+			padding-top: 20px;
+			background-color: #ededed;
+		}
+		.title-container
+		{
+			// text-overflow: ellipsis;
+			// overflow: hidden;
+			// white-space: nowrap;
+			// a
+			// {
+			// 	font-size: 20px;
+			// 	font-weight: 700;
+			// 	text-decoration: none;
+			// 	color: #404040;
+			// 	border-bottom: 1px solid #404040;
+			// }
+			font-weight: 700;
+			font-size: 15px;
+			font-family: 'Lato';
+		}
+		.date-container
+		{
+			margin-top: 5px;
+			color: rgba(0,0,0,0.5);
+			font-weight: 700;
+			span
+			{
+				margin-right: 8px;
+			}
+		}
+		.border
+		{
+			border: 1px solid #ccc;
+			margin: 10px 0px;
+		}
+		.logo-holder
+		{
+			text-align: center;
+			padding: 15px 20px;
+			width: 100%;
+			img
+			{
+				max-width: 100%;
+			}
+		}
+	}
+}

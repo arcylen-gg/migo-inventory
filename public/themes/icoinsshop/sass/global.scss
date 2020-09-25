@@ -1,0 +1,359 @@
+@import "../../../assets/front/sass/mixin";
+
+$display-text: 'Ubuntu', sans-serif;
+$content-text: 'Open Sans', sans-serif;
+
+body 
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row-no-padding 
+{
+    >div 
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/* GLOBAL ELEMENTS */
+
+.slick-next 
+{
+    right: 1px;
+    z-index: 50;
+}
+
+.slick-prev 
+{
+    left: 0px;
+    z-index: 50;
+}
+
+.slick-prev,
+.slick-next 
+{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* TEXT OVERFLOW */
+
+.text-overflow 
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// .content
+// {
+// 	padding-top: 5px;
+// }
+
+/* HEADER */
+
+.header-container 
+{
+    background-color: #e1890b;
+    position: fixed; //fixed
+    width: 100%;
+    z-index: 99; 
+    // top: 0;
+
+    @media screen and (max-width: 800px) 
+    {
+        padding: 0;
+    }
+
+    .active 
+    {
+        //border-bottom: 2px solid #fff;
+        //padding-bottom: 7px;
+    }
+
+    @include transition(0.4s);
+
+    .nav-holder 
+    {
+        padding: 10px 0;
+    }
+
+    .image-logo-holder 
+    {
+        @include transition(0.4s);
+        display: inline-block;
+
+        width: 80%;
+
+        .logo-2 
+        {
+            display: none;
+        }
+
+        img 
+        {
+            width: 100%;
+        }
+    }
+
+    nav 
+    {
+        padding: 15px 0 5px 0; 
+        //margin-left: -50px;
+
+        display: inline-block;
+
+        ul 
+        {
+            li 
+            {
+                display: inline-block;
+                font-size: 13px;
+                font-family: $display-text;
+
+                a 
+                {
+                    @include transition(0.2s);
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 0 15px;
+                    vertical-align: middle;
+                    opacity: 0.7;
+
+                    &:hover 
+                    {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    .navigation 
+    {
+        &__link 
+        {
+            &.active 
+            {
+                @include transition(0.2s); 
+                //border-bottom: 2px solid #fff;
+                opacity: 1;
+            }
+        }
+    }
+
+    .nav 
+    {
+        padding: 18px 0 0 0;
+
+        .active 
+        {
+            opacity: 1;
+        }
+
+        ul 
+        {
+            float: right;
+            font-family: $display-text;
+
+            li 
+            {
+                display: inline-block;
+
+                a 
+                {
+                    @include transition(0.2s);
+                    text-decoration: none;
+                    color: #fff;
+                    opacity: 0.7;
+
+                    &:hover 
+                    {
+                        opacity: 1;
+                    }
+                }
+
+                .btn-signin 
+                {
+                    @include transition(0.2s);
+                    border: none;
+                    border-bottom: 4px solid #a76200;
+                    padding: 0 15px 5px 15px; 
+                    //margin-top: -2;
+                    color: #fff;
+                    background-color: inherit; 
+                    //vertical-align: middle;
+                }
+
+                .pr 
+                {
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* HEADER-FIXED */
+
+.header-fixed 
+{
+    -webkit-box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+
+    @media screen and (min-width: 991px) 
+    {
+        &.header-container 
+        {
+            background-color: #fff;
+            padding: 3px 0px;
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+            top: 0;
+
+            .nav-holder 
+            {
+                padding: 0 0;
+            }
+
+            .image-logo-holder 
+            {
+                @include transition(0.4s);
+
+                width: 75%;
+
+                .logo-1 
+                {
+                    display: none;
+                }
+
+                .logo-2 
+                {
+                    display: block;
+                }
+            }
+
+            nav 
+            {
+                ul 
+                {
+                    li 
+                    {
+                        a 
+                        {
+                            @include transition(.2s);
+                            color: #000;
+
+                            &:hover 
+                            {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .navigation 
+            {
+                &__link 
+                {
+                    &.active 
+                    {
+                        @include transition(0.2s); 
+                        //border-bottom: 2px solid #000;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .nav 
+            {
+                ul 
+                {
+                    li 
+                    {
+                        a 
+                        {
+                            color: #000;
+                        }
+
+                        .btn-signin 
+                        {
+                            color: #000;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+
+/* FOOTER */
+
+footer 
+{
+    background-color: #082c22;
+    padding: 50px 0;
+
+	.border
+	{
+		border-top: 1px solid #39564e;
+		padding-bottom: 20px;
+		margin-top: 50px;
+	}
+
+    .bottom-text
+    {
+        font-family: $display-text;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+/* SCROLL TO TOP */
+
+.scroll-up 
+{
+    padding: 15px 15px 18px 15px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 888;
+
+    &:hover 
+    {
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 900px) 
+    {
+        right: 0px;
+        bottom: 58px;
+    }
+
+    @media screen and (max-width: 600px) 
+    {
+        right: 0px;
+        bottom: 58px;
+    }
+
+    @media screen and (max-width: 360px) 
+    {
+        right: 0px;
+        bottom: 58px;
+    }
+}

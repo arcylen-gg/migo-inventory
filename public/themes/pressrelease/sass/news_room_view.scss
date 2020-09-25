@@ -1,0 +1,173 @@
+.border-container
+{
+	.border-background-container
+	{
+		border-radius: 5px;
+		background-color: #fff;
+		padding: 10px;
+		min-height: 700px;
+		@media screen and (max-width: 425px)
+		{
+		   padding: 10px;
+		}
+		@media screen and (max-width: 375px)
+		{
+		   padding: 0px;
+		}
+		.left-container	
+		{
+			padding: 10px;
+			.heading-container
+			{
+				color: #cd3d35;
+				font-size: 30px;
+				text-align: center;
+				font-weight: 700;
+				font-family: 'PT Serif';
+				padding: 0px 20px 0px 20px;
+				@media screen and (max-width: 425px)
+				{
+				   padding: none;
+				   font-size: 45px;
+				}
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 40px;
+				}
+				@media screen and (max-width: 320px)
+				{
+				   font-size: 35px;
+				}
+			}
+			.sender-container
+			{
+				color: #404040;
+				font-size: 18px;
+				text-align: center;
+				font-family: 'Lato';
+				padding-top: 5px;
+				@media screen and (max-width: 425px)
+				{
+				   font-size: 15px;
+				}
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 13px;
+				}
+				.sender-name
+				{
+					font-weight: 700;
+				}
+			}
+			.date-container
+			{
+				color: #404040;
+				text-align: center;
+				padding-top: 8px;
+				padding-bottom: 10px;
+				font-size: 15px;
+				@media screen and (max-width: 425px)
+				{
+				   font-size: 12px;
+				}
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 10px;
+				}
+			}
+			.content-container
+			{
+				padding-bottom: 10px;
+				text-align: justify;
+				font-weight: 400;
+				color: #404040;
+				font-size: 15px;
+				font-family: 'PT Sans';
+				@media screen and (max-width: 425px)
+				{
+				   font-size: 15px;
+				}
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 13px;
+				}
+			}
+			.border
+			{
+				border-bottom: 1px solid #ededed;
+			}
+			.title-about-container
+			{
+				padding: 20px 0px 15px 0px;
+				font-size: 20px;
+				color: #404040;
+				font-family: 'PT Sans';
+				font-weight: 700;
+				@media screen and (max-width: 375px)
+				{
+				   font-size: 20px;
+				}
+			}
+		}
+		.right-container
+		{
+			padding: 10px;
+			.logo-holder
+			{
+				text-align: center;
+				// box-shadow: 0px 12px 25px -15px rgba(0,0,0,0.2);
+				padding: 15px 20px;
+				// border: 1px solid #ededed;
+				width: 100%;
+				img
+				{
+					max-width: 100%;
+				}
+			}
+			.company-name-container
+			{
+				text-align: center;
+				padding: 20px;
+				font-size: 23px;
+				font-weight: 700;
+				.company-name
+				{
+					font-family: 'PT Serif';
+				}
+			}
+			.header
+			{
+				font-size: 20px;
+				text-align: center;
+				padding: 30px 0px 10px 0px;
+				font-family: 'Lato';
+			}
+			.release-container
+			{
+				border-bottom: 1px solid #ededed;
+				padding: 20px 5px;
+				.title
+				{
+					font-weight: 700;
+					font-size: 15px;
+					font-family: 'Lato';
+				}
+				.date-container
+				{
+					margin-top: 5px;
+					color: rgba(0,0,0,0.5);
+					font-weight: 700;
+					span
+					{
+						margin-right: 8px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.modal
+{
+	
+}

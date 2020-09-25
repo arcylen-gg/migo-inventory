@@ -1,0 +1,105 @@
+$display-text: 'Raleway', sans-serif;
+$content-text: 'Ubuntu', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$text-light: #555;
+$text-dark: #1c1c1c;
+
+body{
+	color: $text-light;
+	background-image: url('../img/front-img2.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.subheader-container
+{
+	display: none;
+}
+.header-container
+{
+	display: none;
+}
+footer
+{
+	display: none;
+}
+.bottom 
+{
+	display: none;
+}
+/* SLIDER */
+.slider-wrapper {
+	/* width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; */
+
+
+	.container {
+		padding-top: 100px;
+		padding-bottom: 75px;
+		text-align: center;
+		position: relative;
+
+		.media-wrapper
+		{
+			/* position: absolute;
+			left: 13%;
+			margin-top: 75px; */
+			margin: auto;
+			width: 75%;
+
+			@media screen and (max-width: 450px)
+			{
+				width: 100%;
+			}
+		}
+
+
+		.btn-container
+		{
+			margin-top: 25px !important;
+			padding-top: 20px;
+			margin: auto;
+			background-color: #00a4e6;
+			padding: 10px 0px;
+			width: 18%;
+			border-radius: 40px;
+			text-align: center;
+			color: #fff;
+
+			&:hover
+			{
+				cursor: pointer;
+				background-color: #76b83f;
+			}
+			@media screen and (max-width: 991px)
+			{
+				width: 80%;
+			}
+		}
+
+		a 
+		{
+			text-decoration: none;
+		}
+		/* span 
+		{
+			position: absolute;
+			color: #fff;
+			top: 620px;
+			right: 50%;
+			i 
+			{
+				font-size: 18px;
+			}
+		} */
+	}
+}
+

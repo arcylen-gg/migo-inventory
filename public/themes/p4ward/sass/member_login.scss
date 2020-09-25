@@ -1,0 +1,333 @@
+@import "../../../assets/front/sass/mixin";
+
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+body
+{
+	background-color: #ededed;
+}
+
+.alert
+{
+    background-color: #DA473F !important;
+    color: white;
+    border:none !important;
+}
+
+.register
+{
+	font-family: $content-text;
+	letter-spacing: 0.2px;
+	margin: 25px 0;
+	background-color: #fff;
+	table
+	{
+		table-layout: fixed;
+		width: 100%;
+		td
+		{
+			vertical-align: top;
+		}
+		.c1
+		{
+			width: 494px;
+			@media screen and (max-width: 991px)
+			{
+				width: 100%;
+				display: none;
+			}
+		}
+		.c2
+		{
+			width: 100%;
+			display: block;
+		}
+	}
+	.register-side
+	{
+		img
+		{
+			width: 100%;
+		}
+	}
+	.register-form
+	{
+		padding: 50px;
+		padding-top: 25px;
+		padding-left: 75px;
+		@media screen and (max-width: 500px)
+		{
+			padding: 15px;
+		}
+		.social-button
+		{
+			margin-bottom: 100px;
+			@media screen and (max-width: 1199px)
+			{
+				text-align: left;
+			}
+			@media screen and (max-width: 991px)
+			{
+				margin-bottom: 25px;
+			}
+			.holder
+			{
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 25px;
+				@media screen and (max-width: 1199px)
+				{
+					margin-right: 0;
+					margin-bottom: 15px;
+					&:last-child
+					{
+						margin-bottom: 0;
+					}
+				}
+				@media screen and (max-width: 991px)
+				{
+					margin-bottom: 0;
+				}
+				@media screen and (max-width: 535px)
+				{
+					width: 100%;
+				}
+				&.fb
+				{
+					background-color: #3c66c4;
+				}
+				&.gp
+				{
+					background-color: #cf4332;
+				}
+				&:last-child
+				{
+					margin-right: 0;
+				}
+				.img
+				{
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 10px;
+					img
+					{
+						
+					}
+				}
+				.name
+				{
+					display: inline-block;
+					vertical-align: middle;
+					color: #fff;
+					font-size: 12.24px;
+					font-weight: 600;
+					text-align: left;
+					padding: 5px 10px;
+					letter-spacing: 0.5px;
+					margin-top: 3px;
+					.fa
+					{
+						font-size: 22.25px;
+						vertical-align: middle;
+						margin-right: 7.5px;
+					}
+				}
+			}
+			.holder.gp.g-signin2
+			{
+				text-decoration: none;
+				.abcRioButton
+				{
+					background-color: #cf4332 !important;
+					color: #fff !important;
+					text-align: left !important;
+					padding: 5px 10px !important;
+					letter-spacing: 0.5px !important;
+					height: 35px !important;
+					width: auto !important;
+					padding: 0 !important;
+					text-decoration: none !important;
+				}
+				.abcRioButtonContents
+				{
+					font-size: 12.24px !important;
+					font-weight: 600 !important;
+					padding: 0 10px;
+					span
+					{
+						display: none !important;
+					}
+					&:before
+					{
+						font-family: FontAwesome;
+						content: "\f0d5";
+						font-size: 22.25px;
+						vertical-align: middle;
+						margin-right: 7.5px;
+						font-weight: 400;
+					}
+					&:after
+					{
+						content: "Sign in with Google+";
+						font-family: $content-text !important;
+						letter-spacing: 0.5px !important;
+					}
+				}
+				.abcRioButtonIcon
+				{
+					display: none;
+				}
+			}
+		}
+		.form-group
+		{
+			margin-bottom: 25px;
+			&:last-child
+			{
+				margin-bottom: 0;
+			}
+			.register-label
+			{
+				color: $text-dark;
+				font-size: 13px;
+				font-weight: $bold;
+				letter-spacing: 0.5px;
+			}
+			.radio-inline
+			{
+				color: #344049;
+				font-size: 11px;
+				font-weight: 600;
+				margin-right: 25px;
+				input
+				{
+					margin-top: 2px;
+				}
+			}
+			.form-input
+			{
+				margin-top: 5px;
+				.form-control
+				{
+					border: 0;
+					border-bottom: 1px solid #e0e0e0;
+					box-shadow: none;
+					color: $text-light;
+					font-weight: $regular;
+					font-size: 13px;
+					letter-spacing: 0.5px;
+				}
+			}
+			.date-holder
+			{
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 25px;
+				&:last-child
+				{
+					margin-right: 0;
+				}
+			}
+			.checkbox
+			{
+				font-size: 11px;
+				color: #9d9d9d;
+				font-weight: 600;
+				text-align: center;
+				input
+				{
+					vertical-align: middle;
+					margin-top: 2px;
+				}
+				span
+				{
+					color: #0466AF;
+				}
+			}
+			.choice
+			{
+				text-align: center;
+
+				.holder
+				{
+					display: inline-block;
+					vertical-align: middle;
+					
+					.btn
+					{
+						@include transition(0.2s);
+						background-color: #0466AF;
+						color: #fff;
+
+						&:hover
+						{
+							opacity: 0.8;
+						}
+					}
+
+					@media screen and (max-width: 370px)
+					{
+						display: block;
+					}
+				}
+				.or
+				{
+					color: $text-light;
+					font-size: 11px;
+					font-weight: $regular;
+					margin: 0 15px;
+
+					@media screen and (max-width: 370px)
+					{
+						display: block;
+						margin: 15px 15px;
+					}
+				}
+				.login-href
+				{
+					@include transition(0.2s);
+					color: #0466AF;
+					font-size: 15px;
+					font-weight: $regular;
+
+					@media screen and (max-width: 370px)
+					{
+						display: block;
+					}
+
+					&:hover
+					{
+						opacity: 0.8;
+					}
+				}
+				.btn-brown
+				{
+					@media screen and (min-width: 125px)
+					{
+						width: 125px;
+					}
+					&:hover {
+						background-color: #0466AF;
+					}
+				}
+			}
+			.forgot
+			{
+				margin-top: 25px;
+				font-size: 13px;
+				font-weight: $regular !important;
+				letter-spacing: 0.5px !important;
+
+				a {
+					color: $text-dark !important;
+					font-weight: $bold !important;
+				} 
+			}
+		}
+	}	
+}

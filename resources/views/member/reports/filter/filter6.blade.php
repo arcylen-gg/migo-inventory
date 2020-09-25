@@ -1,0 +1,123 @@
+<div class="panel panel-default panel-block panel-title-block">
+    <div class="panel-heading">
+    	<form class="global-submit filter" method="get" action="{{$action}}" >
+    	{!! csrf_field() !!}
+    	<input type="hidden" name="report_type" value="plain" class="report_type_i">
+    	<input type="hidden" name="report_field_type" class="report_field_type" value="{{$report_code or ''}}">
+        <input type="hidden" name="item_id" class="item_id" value="{{$item_id or ''}}">
+        <div>
+            <div class="col-md-2">
+                <select class="form-control input-sm report_period" name="report_period">
+                    <option value="all">All Dates</option>
+                    <option value="custom">Custom</option>
+                    <option value="today">Today</option>
+                    <option value="this_week">This Week</option>
+                    <option value="this_week_to_date">This Week to Date</option>
+                    <option value="this_month">This Month</option>
+                    <option value="this_month_to_date">This Month to Date</option>
+                    <option value="this_quarter">This Quarter</option>
+                    <option value="this_quarter_to_date">This Quarter to Date</option>
+                    <option value="this_year">This Year</option>
+                </select>
+            </div>
+            <div class="col-md-2"><input type="text" class="form-control from_report_a datepicker" name="from" placeholder="Start Date"></div>
+            <div class="col-md-2"><input type="text" class="form-control form_report_b datepicker" name="to" placeholder="End Date"></div>
+            <div class="col-md-6">&nbsp;</div>
+            <button class="btn btn-custom-red-white margin-right-10 btn-pdf pull-right" onclick="report_file('pdf')"><i class="fa fa-file-pdf-o"></i>&nbsp;Export to PDF</button>
+            <button class="btn btn-custom-green-white margin-right-10 btn-pdf pull-right" onclick="report_file('excel')"><i class="fa fa-file-excel-o"></i>&nbsp;Export to Excel</button>
+            
+        </div>
+        <br> <br> <br>
+
+         <div  class="form-group row clearfix">
+            @if(isset($_item_type))
+            <div class="col-md-3">
+                <select name="selected_item_type" class="form-control filter-item-type">
+                    <option value="">All Item Type</option>
+                    @foreach($_item_type as $item_type)
+                        <option value="{{ $item_type->item_type_id }}">
+                            @if($check_terms_to_be_used == 1)
+                            {{$item_type->item_type_name == 'Bundle' ? 'Set' : $item_type->item_type_name}}
+                            @else
+                            {{ $item_type->item_type_name }}
+                            @endif
+                        </option>
+                    @endforeach
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-control category-select" name="selected_category">
+                    <option value="0">All Category</option>
+                    @include("member.load_ajax_data.load_category", ['add_search' => "",'_category' => $_item_category,'type_id' => ''])
+                </select>
+            </div>
+            @endif
+            <div class="col-md-3"><button class="btn btn-primary run-report" onclick="$('.report_type_i').val('plain')" >Run Report</button></div>
+            
+        </div>
+      
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var new_report = new new_report();
+    function new_report()
+    {
+        init();
+
+        function init()
+        {
+            event_run_report_click();
+        }
+        function event_run_report_click()
+        {
+            $(document).on("click", ".run-report", function()
+            {
+                $.ajax({
+                url: '/member/report/accounting/date_period',
+                dataType: 'json',
+                data: $("form.filter").serialize(),
+                })
+                .done(function(data) {
+                    if(data.period != 'all')
+                    {
+                        $(".from_report_a").val(data.start_date);
+                        $(".form_report_b").val(data.end_date);
+                    }
+                    else
+                    {
+                        $(".from_report_a").val("");
+                        $(".form_report_b").val("");
+                    }
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+            });
+        }
+    }
+
+    function report_file(type)
+    {     
+        var link        = $("form.filter").attr("action");
+        var serialize   = $("form.filter").serialize();
+        var link        = link + '?' + serialize + '&report_type=' + type;
+
+        console.log(link);
+        window.open(link);
+
+        // var date_from  = $('.from_report_a').val();
+        // var date_to    = $('.form_report_b').val();
+        // var period     = $('.report_period').val();
+        // var link       = $("form.filter").attr("action");
+        // var report_field_type = $('.report_field_type').val();
+        // var token      = $("input[name='_token']").val();
+        // var link       = link + '?_token='+token+'&report_type=' + type + '&report_field_type=' + report_field_type + '&report_period=' + period + '&from=' + date_from + '&to=' + date_to
+
+        // console.log(link);
+        // // window.open( link + '?report_type=' + type + '&from=' + date_from + '&to=' + date_to + '&report_field_type=' + report_field_type + '&report_period=' + period);
+        // window.open(link);
+    }
+</script>

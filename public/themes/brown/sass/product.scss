@@ -1,0 +1,238 @@
+$content-text: 'Rubik', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #585858;
+$text-dark: #404040;
+
+@mixin transition($transition)
+{
+	-webkit-transition: all $transition ease-in-out;
+	-moz-transition: all $transition ease-in-out;
+	-o-transition: all $transition ease-in-out;
+	transition: all $transition ease-in-out;
+}
+
+.ui-widget.ui-widget-content
+{
+	background-color: #D8D8D8;
+	border: 0;
+	border-radius: 15px;
+}
+.ui-slider-horizontal .ui-slider-range
+{
+	border-radius: 15px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
+{
+	background-color: #351308;
+	border: 0;
+	height: 11.19px;
+	top: 0;
+	border-radius: 15px;
+	width: 25px;
+	outline: none;
+	// margin-left: 0;
+	&:last-child
+	{
+		// margin-left: -25px;
+	}
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus
+{
+	background-color: #351308;
+}
+.ui-widget-header
+{
+	background-color: #693626;
+}
+
+.product-container
+{
+	font-family: $content-text;
+	background-color: #ededed;
+	font-weight: $regular;
+
+	.bg-container-style
+	{
+		background-color: #FFF;
+		padding: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.category-container
+	{
+		@extend .bg-container-style;
+		margin-top: 50px;
+		color: #1c1c1c;
+		overflow: hidden;
+	
+		.text-header
+		{
+			font-weight: $semi-bold;
+			padding-bottom: 20px;		
+		}
+
+		.links-category
+		{
+			.active
+			{
+				font-weight: $bold;
+				color: #301E10;
+			}
+
+			a
+			{
+				display: block;
+				color: #000;
+				padding-top: 5px;
+				text-decoration: none;
+
+				&:hover
+				{
+					@extend .active;
+				}
+			}
+		}
+	}
+
+	.filter-by-price-container
+	{
+		@extend .bg-container-style;
+		margin-bottom: 50px;
+		overflow: hidden;
+		
+		.text-header
+		{
+			font-weight: $semi-bold;
+			padding-bottom: 20px;
+			color: #1c1c1c;
+		}
+
+		.filter-control
+		{
+			padding-bottom: 20px;
+		}
+
+		.txt-price
+		{
+			font-size: 13px;
+			font-weight: $semi-bold;
+			color: #656565;
+		}
+
+		.btn-go
+		{
+			@include transition(0.2s);
+			font-size: 13px;
+			font-weight: $semi-bold;
+			color: #FFF;
+			background-color: #581f0d;
+			border: 2px solid #581f0d;
+			padding: 14px 50px;
+			margin-top: 20px;
+			border-radius: 4px;
+			cursor: pointer;
+
+			&:hover
+			{
+				background-color: inherit;
+				color: #581f0d;
+			}
+		}
+	}
+
+	.top-item-container
+	{
+		@extend .bg-container-style;
+		margin-top: 50px;
+		text-align: center;
+
+		.img-and-lbl-container
+		{
+			img
+			{
+				width: 100%;
+				height: auto;
+				object-fit: contain;
+				cursor: pointer;
+				height: 206px;
+			}
+
+			.lbl-item-name
+			{
+				font-weight: $bold;
+				font-size: 15px;
+			}
+			
+			.lbl-description
+			{
+				color: #656565;
+				font-size: 13px;
+				font-weight: $regular;
+				padding-top: 10px;
+			}
+
+			.lbl-price
+			{
+				font-weight: $semi-bold;
+				color: #ff4200;
+				font-size: 15px;
+				padding-bottom: 50px;
+			}
+		}
+	}
+
+	.bottom-item-container
+	{
+		@extend .bg-container-style;
+		overflow: hidden;
+
+		.text-header
+		{
+			font-weight: $semi-bold;
+			padding: 0px 0px 20px 20px;
+			border-bottom: 2px solid #dbdbdb;
+			color: #1c1c1c;
+		}
+
+		.img-and-lbl-container
+		{
+			text-align: center;
+			padding-top: 20px;
+
+			img
+			{
+				width: 100%;
+				object-fit: contain;
+				cursor: pointer;
+			}
+
+			.lbl-item-name
+			{
+				font-weight: $bold;
+				font-size: 15px;
+			}
+			
+			.lbl-description
+			{
+				color: #656565;
+				font-size: 13px;
+				font-weight: $regular;
+				padding-top: 10px;
+			}
+
+			.lbl-price
+			{
+				font-weight: $semi-bold;
+				color: #ff4200;
+				font-size: 15px;
+				padding-bottom: 50px;
+			}
+		}
+	}
+}
+

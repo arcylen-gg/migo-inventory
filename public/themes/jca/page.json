@@ -1,0 +1,410 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Top Banner Image (1600x700) Image Dimensions",
+			"type":"image",
+			"default":"/themes/jca/img/top-image.png",
+			"size":"12"
+		},
+		"home_banner_caption1" :
+		{
+			"label":"Home Slogan Green Text",
+			"type":"textbox",
+			"default":"Your road to financial wellness",
+			"size":"6"
+		},
+		"home_banner_caption2" :
+		{
+			"label":"Home Slogan Gold Text",
+			"type":"textbox",
+			"default":"Lifestyle at it’s finest!",
+			"size":"6"
+		},
+		"home_who_are_we_title" :
+		{
+			"label":"Who Are We Context Title",
+			"type":"textbox",
+			"default":"JCA WELLNESS INTERNATIONAL CORP",
+			"size":"4"
+		},
+		"home_who_are_we_context" :
+		{
+			"label":"Who Are We Context",
+			"type":"tinymce",
+			"default":"",
+			"size":"4"
+		},
+		"home_who_are_we_image" :
+		{
+			"label":"Who Are We Right Image (515x338) Image Dimensions",
+			"type":"image",
+			"default":"/themes/jca/img/who-we-are-pic.png",
+			"size":"4"
+		},
+		"home_why_jca_wellness_title1" :
+		{
+			"label":"Why JCA Wellness Title 1",
+			"type":"textbox",
+			"default":"We Believe",
+			"size":"4"
+		},
+		"home_why_jca_wellness_title2" :
+		{
+			"label":"Why JCA Wellness Title 2",
+			"type":"textbox",
+			"default":"We Are Safe",
+			"size":"4"
+		},
+		"home_why_jca_wellness_title3" :
+		{
+			"label":"Why JCA Wellness Title 3",
+			"type":"textbox",
+			"default":"We Aim",
+			"size":"4"
+		},
+		"home_why_jca_context1" :
+		{
+			"label":"Why JCA Context 1",
+			"type":"textarea",
+			"default":"JCA Wellness International Corporation believes that natural health and wellness has the ability to change the lives of humanity. This inspired its founders to introduce a product that will provide opportunities to aspiring entrepreneurs ways.",
+			"size":"4"
+		},
+		"home_why_jca_context2" :
+		{
+			"label":"Why JCA Context 2",
+			"type":"textarea",
+			"default":"Instead of the usual chemical-based beauty and wellness products, JCA Wellness International Corporation’s products are 100% safe and organic that will definitely have an everlasting benefits to its buyers and users.",
+			"size":"4"
+		},
+		"home_why_jca_context3" :
+		{
+			"label":"Why JCA Context 3",
+			"type":"textarea",
+			"default":"Lastly, JCA Wellness International Corporation aims to deliver these broad selection of safe and organic products that will showcase its commitment to innovate today’s beauty and wellness.",
+			"size":"4"
+		},
+		"home_benefits_subtitle" :
+		{
+			"label":"Benefits Subtitle",
+			"type":"textbox",
+			"default":"BENEFITS OF BEING A MEMBER",
+			"size":"12"
+		},
+		"home_benefits_context1" :
+		{
+			"label":"Benefits Context 1",
+			"type":"textarea",
+			"default":"Membership ID which entitles the distributor up to 40% Lifetime Discount on all JCA Wellness International Products and Services upon repeat purchase",
+			"size":"4"
+		},
+		"home_benefits_context2" :
+		{
+			"label":"Benefits Context 2",
+			"type":"textarea",
+			"default":"Opportunity to earn 15,000 a day, 90,000 a week, 360,000 a month for Override Sales Commission",
+			"size":"4"
+		},
+		"home_benefits_context3" :
+		{
+			"label":"Benefits Context 3",
+			"type":"textarea",
+			"default":"Product Gift Certificates for JCA Wellness International Products and Services Purchases",
+			"size":"4"
+		},
+		"home_legalities" :
+		{
+			"label":"JCA Wellness Legalities Image",
+			"type":"image",
+			"default":"/themes/jca/img/legalities-file.jpg",
+			"size":"12"
+		},
+		"home_mission_title1" :
+		{
+			"label":"Mission Title 1 (Green Text)",
+			"type":"textbox",
+			"default":"Bring innovation in the beauty and wellness market.",
+			"size":"3"
+		},
+		"home_mission_title2" :
+		{
+			"label":"Mission Title 2 (Green Text)",
+			"type":"textbox",
+			"default":"To build business opportunities that will start in the Philippines and provide financial freedom.",
+			"size":"3"
+		},
+		"home_mission_title3" :
+		{
+			"label":"Mission Title 3 (Green Text)",
+			"type":"textbox",
+			"default":"To build a continuous brand and consumer loyalty.",
+			"size":"3"
+		},
+		"home_mission_title4" :
+		{
+			"label":"Mission Title 4 (Green Text)",
+			"type":"textbox",
+			"default":"To expand the network globally.",
+			"size":"3"
+		},
+		"home_mission_context1" :
+		{
+			"label":"Mission Context 1",
+			"type":"textarea",
+			"default":"In this world full of chemical-based beauty and wellness product, JCA Wellness International Corp., aims to divert the market’s attention to change their usual beauty and wellness product to safe and organic products that will guarantee them a life-long benefits.",
+			"size":"3"
+		},
+		"home_mission_context2" :
+		{
+			"label":"Mission Context 2",
+			"type":"textarea",
+			"default":"JCA Wellness International Corporation will start its initial market in the Philippines and it aims to help fellow aspiring Filipino entrepreneurs to start their business venture with the right products and the right investment.",
+			"size":"3"
+		},
+		"home_mission_context3" :
+		{
+			"label":"Mission Context 3",
+			"type":"textarea",
+			"default":"As JCA Wellness International Corporation marks it image in the market as a company that focuses on using and promoting organic and safe products, it also aims to maintain the brand positioning and the consumer loyalty by continuously providing its product and taking care of its consumers as well.",
+			"size":"3"
+		},
+		"home_mission_context4" :
+		{
+			"label":"Mission Context 4",
+			"type":"textarea",
+			"default":"As this company will start its market in the Philippines, it also aims to go globally. It aims to build network, promote the products globally and give a higher opportunity to its future potential business partners.",
+			"size":"3"
+		},
+		"home_vision_context1" :
+		{
+			"label":"Vision Context 1",
+			"type":"textarea",
+			"default":"JCA Wellness International Corporation is working towards seeing itself grow into one of the most well-known network market that will expand globally. ",
+			"size":"4"
+		},
+		"home_vision_context2" :
+		{
+			"label":"Vision Context 2",
+			"type":"textarea",
+			"default":"As this corporation will be build up by various entrepreneurs that focuses on building network, planning strategic ways to keep up with the market trends, innovating their organic products and to keep on building the trust and loyalty of its consumers and network.",
+			"size":"4"
+		},
+		"home_vision_context3" :
+		{
+			"label":"Vision Context 3",
+			"type":"textarea",
+			"default":"Through this work and strategies that will be applied, JCA Wellness International Corporation guarantees to fulfill its mission in the near future.",
+			"size":"4"
+		},
+		"home_products_and_services_image" :
+		{
+			"label":"Products And Services Image (819x583) Image Dimensions",
+			"type":"image",
+			"default":"/themes/jca/img/products-img.png",
+			"size":"12"
+		},
+		"home_item1_name_green" :
+		{
+			"label":"Products And Services Item 1 Name (Green Text) ",
+			"type":"textbox",
+			"default":"Swiss Apple",
+			"size":"2"
+		},
+		"home_item1_name_gold" :
+		{
+			"label":"Products And Services Item 1 Name (Gold Text) ",
+			"type":"textbox",
+			"default":"Stem Cell Serum",
+			"size":"2"
+		},
+		"home_item1_contents" :
+		{
+			"label":"Products And Services Item 1 Contents",
+			"type":"textbox",
+			"default":"5% pure Swiss Apple Stem Cell Serum",
+			"size":"2"
+		},
+		"home_item1_benefits" :
+		{
+			"label":"Products And Services Item 1 Benefits",
+			"type":"tinymce",
+			"default":"",
+			"size":"3"
+		},
+		"home_item1_image" :
+		{
+			"label":"Products And Services Item 1 Image (401x308)",
+			"type":"image",
+			"default":"/themes/jca/img/serum.png",
+			"size":"3"
+		},
+		"home_item2_name_green" :
+		{
+			"label":"Products And Services Item 2 Name (Green Text) ",
+			"type":"textbox",
+			"default":"Swiss Apple Stem Cell Soap with",
+			"size":"2"
+		},
+		"home_item2_name_gold" :
+		{
+			"label":"Products And Services Item 2 Name (Gold Text) ",
+			"type":"textbox",
+			"default":"Glutathione and Collagen",
+			"size":"2"
+		},
+		"home_item2_contents" :
+		{
+			"label":"Products And Services Item 2 Contents",
+			"type":"textbox",
+			"default":"Swiss Apple Stem Cell, Glutathione and Collagen",
+			"size":"2"
+		},
+		"home_item2_benefits" :
+		{
+			"label":"Products And Services Item 2 Benefits",
+			"type":"tinymce",
+			"default":"",
+			"size":"3"
+		},
+		"home_item2_image" :
+		{
+			"label":"Products And Services Item 2 Image (401x308)",
+			"type":"image",
+			"default":"/themes/jca/img/stem-img.png",
+			"size":"3"
+		},
+		"home_item3_name_green" :
+		{
+			"label":"Products And Services Item 3 Name (Green Text) ",
+			"type":"textbox",
+			"default":"Stem Cell Therapy-",
+			"size":"3"
+		},
+		"home_item3_name_gold" :
+		{
+			"label":"Products And Services Item 3 Name (Gold Text) ",
+			"type":"textbox",
+			"default":"The Anti-Aging and Rejuvenation Therapy",
+			"size":"3"
+		},
+		"home_item3_benefits" :
+		{
+			"label":"Products And Services Item 3 Benefits",
+			"type":"tinymce",
+			"default":"",
+			"size":"3"
+		},
+		"home_item3_image" :
+		{
+			"label":"Products And Services Item 3 Image (401x308)",
+			"type":"image",
+			"default":"/themes/jca/img/product&services-003.png",
+			"size":"3"
+		}
+	},
+	"terms_and_conditions":
+	{
+		"terms_and_conditions_title" :
+		{
+			"label":"Terms and Conditions Title",
+			"type":"textbox",
+			"default":"General Terms and Conditions",
+			"size":"12"
+		},
+		"terms_and_conditions_context" :
+		{
+			"label":"Terms and Conditions Context",
+			"type":"tinymce",
+			"default":"",
+			"size":"12"
+		}
+	},
+	"footer_details":
+	{
+		"footer_details_address" :
+		{
+			"label":"Company Address Details",
+			"type":"textbox",
+			"default":"Unit 810 8/F Raffles Corporate Center, F. Ortigas Ave., Ortigas Center, San Antonio, Pasig City",
+			"size":"4"
+		},
+		"footer_details_number" :
+		{
+			"label":"Company Phone Number",
+			"type":"textbox",
+			"default":"(02)631-6997 / 0926-649-4134 / 0946-561-9714",
+			"size":"4"
+		},
+		"footer_email_address" :
+		{
+			"label":"Company Email Address",
+			"type":"textbox",
+			"default":"jcawellnessinternationalcorp@gmail.com",
+			"size":"4"
+		},
+		"footer_marketing_plan" :
+		{
+			"label":"Marketing Plan Image",
+			"type":"image",
+			"default":"/themes/jca/img/overview/marketing-plan.jpg",
+			"size":"3"
+		},
+		"footer_packages" :
+		{
+			"label":"Packages",
+			"type":"image",
+			"default":"/themes/jca/img/overview/packages.jpg",
+			"size":"3"
+		},
+		"footer_service_packages" :
+		{
+			"label":"Service Packages",
+			"type":"image",
+			"default":"/themes/jca/img/overview/service-packages.jpg",
+			"size":"3"
+		},
+		"footer_product_packages" :
+		{
+			"label":"Product Packages",
+			"type":"image",
+			"default":"/themes/jca/img/overview/product-packages.jpg",
+			"size":"3"
+		},
+		"footer_sales_commission" :
+		{
+			"label":"Sales Commission",
+			"type":"image",
+			"default":"/themes/jca/img/overview/sales-commission.jpg",
+			"size":"3"
+		},
+		"footer_override_sales_commission" :
+		{
+			"label":"Override Sales Commission",
+			"type":"image",
+			"default":"/themes/jca/img/overview/overide-sales-comission.jpg",
+			"size":"3"
+		},
+		"footer_product_portfolio1" :
+		{
+			"label":"Swiss Apple Stem Cell Serum",
+			"type":"image",
+			"default":"/themes/jca/img/product-portfolio/p-serum.jpg",
+			"size":"3"
+		},
+		"footer_product_portfolio2" :
+		{
+			"label":"Swiss Apple Stem Cell Soap with Glutathione and Collagen",
+			"type":"image",
+			"default":"/themes/jca/img/product-portfolio/p-soap.jpg",
+			"size":"3"
+		},
+		"footer_product_portfolio3" :
+		{
+			"label":"Stem Cell Therapy- The Anti-Aging and Rejuvenation Therapy",
+			"type":"image",
+			"default":"/themes/jca/img/product-portfolio/p-services.jpg",
+			"size":"3"
+		}
+	}
+}

@@ -1,0 +1,225 @@
+.background-container
+{
+    padding: 30px 0px;
+    min-height: 820px;
+    
+    .pressview
+    {
+        .media-container
+        {
+            padding: 20px 0px 20px 0px; 
+            .tab
+            {
+                float: left;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1;
+                width: 17%;
+                border-right: none;
+                height: 98px;
+            }
+
+            .tabcontent 
+            {
+                background-color: #fff;
+                float: left;
+                padding: 0px 10px;
+                border: 1px solid #ccc;
+                width: 83%;
+            }
+
+            button
+            {
+                display: block;
+                background-color: inherit;
+                color: black;
+                padding: 15px 13px;
+                width: 100%;
+                border: none;
+                outline: none;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.3s;
+                font-size: 13px;
+            }
+
+            button:hover
+            {
+                background-color: #ddd;
+            }
+
+            button.active
+            {
+                background-color: #ccc;
+            }
+
+            .user-update-container
+            {
+                .title-container
+                {
+                    font-size: 25px;
+                    color: #316df9; 
+                    font-weight: 700;
+                    padding-top: 20px;
+                }
+                .title
+                {
+                    color: #404040;
+                    font-size: 16px;
+                    padding-top: 25px;
+                    padding-bottom: 5px;
+                    font-weight: 700;
+                }
+                .button-container
+                {
+                    padding-top: 10px;
+                    button
+                    {
+                        width: 120px;
+                        padding: 10px 30px;
+                        background-color: #316df9;
+                        color: #fff;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .user-container 
+            {
+                .title
+                {
+                    font-size: 25px;
+                    color: #316df9; 
+                    font-weight: 700;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                }
+                table
+                {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                    display:block;
+                    height: 600px;
+                    overflow-y: scroll;
+                    text-align: center;
+                    background-color: #FFFFFF;
+                }
+
+                th
+                {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    background-color: #4CAF50;
+                    color: white;
+                }
+                td
+                {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding: 10px;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                tr:nth-child(odd)
+                {
+                    background-color: #f2f2f2;
+                }
+                button
+                {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 105px;
+
+                }
+            }
+
+            .add-media-container
+            {
+                .title-container
+                {
+                    font-size: 25px;
+                    color: #316df9; 
+                    font-weight: 700;
+                    padding-top: 20px;
+                }
+                table
+                {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                    display:block;
+                    height: 300px;
+                    overflow-y: scroll;
+                    text-align: center;
+                    background-color: #FFFFFF;
+                }
+
+                th
+                {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    background-color: #4CAF50;
+                    color: white;
+                }
+                td
+                {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding: 10px;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                tr:nth-child(odd)
+                {
+                    background-color: #f2f2f2;
+                }
+                button
+                {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 105px;
+
+                }
+                .title-container
+                {
+                    font-size: 25px;
+                    color: #316df9; 
+                    font-weight: 700;
+                    padding-top: 20px;
+                }
+                .title
+                {
+                    color: #404040;
+                    font-size: 16px;
+                    padding-top: 20px;
+                    padding-bottom: 5px;
+                    font-weight: 700;
+                }
+                .button-container
+                {
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                    button
+                    {
+                        width: 120px;
+                        padding: 10px 30px;
+                        background-color: #316df9;
+                        color: #fff;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+

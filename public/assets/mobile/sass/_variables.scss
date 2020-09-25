@@ -1,0 +1,21 @@
+/* Color Scheme */
+$font-color-1: #1c1c1c;
+$font-color-2: #868686;
+$color-1: #5E341B;
+$color-2: #422311;
+$online: #41cc89;
+
+/* Font Weight Variables */
+$bold: 700;
+$semi-bold: 500;
+$normal: 400;
+$light: 300;
+
+/* Mixin */
+@mixin panel-container 
+{
+    background-color: #ffffff;
+	min-height: 30px;
+	margin: 10px;
+	border-radius: 3.5px;
+}

@@ -1,0 +1,192 @@
+/* =Responsive Structure
+----------------------------------------------- */
+@media (max-width: 800px) 
+{
+    /* Smaller Resolution Desktops and Laptops */
+    .image-logo-holder 
+    {
+        width: 165px;
+        float: left;
+    }
+
+    .menu-nav 
+    {
+        float: right;
+        margin-top: 0;
+        background-color: #D4B044;
+        margin: 3px 0;
+    }
+
+    .top-container
+    {
+        margin-top: 0;
+        height: auto;
+        padding: 150px 0;
+        .container
+        {
+            .caption-logo-container
+            {
+                position: static;
+            }
+            .caption-container
+            {
+                position: static;
+            }
+        }
+    }
+
+    .opportunity-container 
+    {
+        background-size: cover;
+
+        .opportunity-holder 
+        {
+            margin-bottom: 50px;
+
+            .title 
+            {
+                text-align: left;
+            }
+        }
+    }
+
+    section 
+    {
+        .brand-row 
+        { 
+            .brand-holder
+            {
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    .navirino
+    {
+        ul
+        {
+            li
+            {
+                border: 0;
+            }
+        }
+    }
+
+    section.belief-container .title
+    {
+        margin-top: 0;
+    }
+
+    section.belief-container .btn-container
+    {
+
+        margin-bottom: 25px;
+    }
+
+    section.brand2-container .info .title
+    {
+        margin-top: 25px;
+    }
+
+    #bottom-footer .footer-container .inner-content img
+    {
+        max-width: 100%;
+        width: auto;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .contact
+    {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 650px) 
+{
+    /* Smaller devices */
+    section.opportunity-container .opportunity-holder .title
+    {
+        text-align: center;
+    }
+
+    section.opportunity-container .opportunity-holder .sub
+    {
+        text-align: center;
+    }
+
+    section.opportunity-container .opportunity-holder ol
+    {
+        display: inline-block;
+        li
+        {
+            text-align: left;
+        }
+    }
+
+    .opportunity-container .opportunity-holder
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) 
+{
+    /* Even Smaller devices */
+    .top-container
+    {
+        background-size: cover !important;
+    }
+
+    .bottom
+    {
+        text-align: center;
+    }
+
+    .bottom .ftr-title
+    {
+        float: none;
+    }
+
+    .bottom .ftr-title-2
+    {
+        float: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) 
+{
+    /* Even Smaller devices */
+    .top-container .container .caption-logo-container
+    {
+        width: auto;
+    }
+
+    .top-container .container .caption-logo-container img
+    {
+        width: 100%;
+    }
+
+    .top-container .container .caption-container h1
+    {
+        word-break: break-all;
+    }
+
+    .subheader-container .left-container
+    {
+        float: none;
+        text-align: center
+    }
+
+    .subheader-container .right-container
+    {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header .title
+    {
+        font-size: 45px;
+    }
+}

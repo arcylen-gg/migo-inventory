@@ -1,0 +1,315 @@
+$content-text: 'Rubik', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #585858;
+$text-dark: #404040;
+
+.zoomLens
+{
+	cursor: zoom-in !important;
+}
+.product-bg
+{
+	background-color: #ededed;
+	.product-content
+	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		table
+		{
+			width: 100%;
+			table-layout: fixed;
+			td
+			{
+				vertical-align: top;
+			}
+			.left
+			{
+				background-color: #fff;
+				padding: 25px;
+				border-right: 7.5px solid #ededed;
+				@media screen and (max-width: 991px)
+				{
+					display: block;
+				}
+				.product-holder
+				{
+					.product-title
+					{
+						color: $text-dark;
+						font-size: 20px;
+						font-weight: $regular;
+						border-bottom: 1px solid #dbdbdb;
+						padding-bottom: 10px;
+					}
+					.product-main
+					{
+						margin-top: 10px;
+						.product-img
+						{
+							@media screen and (max-width: 991px)
+							{
+								margin-bottom: 25px;
+							}
+							table
+							{
+								width: 100%;
+								table-layout: fixed;
+								td
+								{
+									vertical-align: top;
+								}
+								.thumb-holder
+								{
+									width: 70px;
+									@media screen and (max-width: 500px)
+									{
+										display: block;
+										width: 100%;
+									}
+									.thumb
+									{
+										.holder
+										{
+											margin-bottom: 10px;
+											img
+											{
+												border: 1px solid #d6d6d6;
+												width: 70px;
+												height: 70px;
+												object-fit: contain;
+											}
+											&:last-child
+											{
+												margin-bottom: 0;
+											}
+											@media screen and (max-width: 500px)
+											{
+												display: inline-block;
+												vertical-align: top;
+											}
+										}
+									}
+								}
+								.img-holder
+								{
+									@media screen and (max-width: 500px)
+									{
+										display: block;
+										width: 100%;
+									}
+									.img
+									{
+										max-width: 100%;
+										display: block;
+										margin: auto;
+										padding: 15px;
+										object-fit: contain;
+										@media screen and (max-width: 991px)
+										{
+											height: 300px;
+										}
+									}
+								}
+							}
+						}
+						.product-info
+						{
+							.desc
+							{
+								color: $text-light;
+								font-size: 15px;
+								font-weight: 400;
+								margin-bottom: 20px;
+							}
+							.spec
+							{
+								border-bottom: 1px solid #d7d7d7;
+								padding-bottom: 15px;
+								.spec-title
+								{
+									color: $text-dark;
+									font-weight: $medium;
+									font-size: 15px;
+								}
+								.spec-list
+								{
+									ul
+									{
+										margin-top: 7.5px;
+										columns: 2;
+										-webkit-columns: 2;
+										-moz-columns: 2;
+										margin-left: 0;
+										padding-left: 15px;
+										li
+										{
+											color: #636363;
+											font-size: 13px;
+											font-weight: 400;
+											display: block;
+											.fa
+											{
+												font-size: 3.5px;
+												vertical-align: middle;
+												color: #636363;
+												margin-right: 2.5px;
+											}
+										}
+									}
+								}
+							}
+							.stock
+							{
+								margin-top: 20px;
+								color: #2a8900;
+								font-size: 13px;
+								font-weight: $regular;
+								margin-bottom: 10px;
+							}
+							.price
+							{
+								color: $text-dark;
+								font-size: 21px;
+								font-weight: $regular;
+							}
+							.qty-add-cart
+							{
+								.qty
+								{
+									display: inline-block;
+									vertical-align: bottom;
+									width: 60px;
+									margin-top: 15px;
+									.qty-title
+									{
+										color: $text-light;
+										font-size: 13px;
+										font-weight: $medium;
+										margin-bottom: 5px;
+									}
+									.qty-input
+									{
+										.form-control
+										{
+											box-shadow: none;
+											border: 1px solid #d4d4d4;
+											border-radius: 2.5px;
+											height: 40px;
+										}
+									}
+								}
+								.add-cart
+								{
+									display: inline-block;
+									vertical-align: bottom;
+									margin-left: 40px;
+									.btn-orange
+									{
+										background-color: #ff5400;
+										color: #fff;
+										font-size: 13px;
+										font-weight: $medium;
+										border-radius: 0;
+										padding: 10px 25px;
+									}
+								}
+							}
+						}
+					}
+					.product-feature
+					{
+						margin-top: 75px;
+						.feature-title
+						{
+							color: $text-dark;
+							font-size: 18px;
+							font-weight: $regular;
+							border-bottom: 1px solid #dbdbdb;
+							padding-bottom: 20px;
+							margin-bottom: 20px;
+						}
+						p
+						{
+							color: $text-light;
+							font-size: 15px;
+							font-weight: $regular;
+							margin-bottom: 25px;
+						}
+					}
+				}
+			}
+			.right
+			{
+				width: 275px;
+				background-color: #fff;
+				padding: 25px;
+				@media screen and (max-width: 991px)
+				{
+					display: block;
+					width: 100%;
+				}
+				.side-holder
+				{
+					.side-title
+					{
+						color: $text-dark;
+						font-weight: $medium;
+						border-bottom: 1px solid #dbdbdb;
+						padding-bottom: 10px;
+						font-size: 15px;
+					}
+					.side-content
+					{
+						text-align: center;
+						.holder
+						{
+							padding-top: 25px;
+							@media screen and (max-width: 991px)
+							{
+								display: inline-block;
+								vertical-align: top;
+							}
+							&:first-child
+							{
+								padding-top: 35px;
+							}
+							.img
+							{
+								img
+								{
+									max-width: 100%;
+									object-fit: contain;
+									height: 200px;
+								}
+							}
+							.name
+							{
+								color: $text-dark;
+								font-size: 18px;
+								font-weight: $regular;
+								margin-top: 15px;
+							}
+							.sub
+							{
+								color: #656565;
+								font-size: 13px;
+								font-weight: 400;
+							}
+							.price
+							{
+								color: #ff4200;
+								font-size: 15px;
+								font-weight: $medium;
+								margin-top: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+$content-text: 'Open Sans', sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+
+.ebooks-wrapper
+{
+	font-family: $content-text;
+	padding: 15px;
+	color: #344049;
+
+	.title
+	{
+		padding-bottom: 10px;
+		span 
+		{
+			font-size: 21px;
+			font-weight: 700;
+		}
+	}
+
+	.thumbnail
+	{
+		img 
+		{
+			width: 100%;
+		}
+	}
+	a 
+	{
+		font-weight: $regular;
+		color: #344049;
+	}
+}

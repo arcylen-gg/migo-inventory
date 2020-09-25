@@ -1,0 +1,198 @@
+$content-text: 'Rubik', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #585858;
+$text-dark: #404040;
+
+
+/* Buy a kit */
+.popup-buy-a-kit
+{
+	font-family: $content-text;
+	
+	.modal-size 
+	{
+		width: 65%;
+	}
+
+	.modal-content
+	{
+		overflow: hidden;
+		border: 0;
+		.modal-header
+		{
+			background-color: #006CC5;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			border-bottom: none;
+
+			.close
+			{
+				color: #FFF;
+			}
+
+			.modal-title
+			{
+				font-weight: $regular;
+				color: #FFF;
+			}
+		}
+
+		.table
+		{
+			thead
+			{
+				tr
+				{
+					th
+					{
+						background-color: #ece8e8;
+						color: $text-dark;
+						font-weight: $regular;
+						font-size: 15px;
+						border-bottom: 0;
+						text-align: center;
+
+						&:first-child
+						{
+							padding-left: 50px;
+						}
+
+						&:last-child
+						{
+							padding-right: 10px;
+						}
+					}
+				}
+			}
+
+			tbody
+			{
+				tr
+				{
+					td
+					{
+						border-top: 0;
+						text-align: center;
+						vertical-align: middle;
+						color: #272c2f;
+						font-size: 15px;
+						font-weight: 400;
+						padding: 25px 17.5px;
+						border-bottom: 1px solid #ece8e8;
+						
+						&:first-child
+						{
+							padding-left: 50px;
+						}
+
+						&:last-child
+						{
+							padding-right: 10px;
+						}
+
+					}
+
+					.img-holder
+					{
+						img
+						{
+							width: 100px;
+							height: 100px;
+							object-fit: contain;
+							object-position: center;
+						}
+					}
+					
+					.name-holder
+					{
+
+					}
+
+					.price-holder
+					{
+						width: 20%;
+					}
+
+					.total-holder
+					{
+						width: 20%;
+					}
+					
+					.quantity-holder
+					{
+						.another
+						{
+							display: table;
+							.equal
+							{
+								display: table-cell;
+								vertical-align: middle;
+							}
+							.control
+							{
+								border: 1px solid #cecece;
+								background-color: #fff;
+								color: #71808c;
+								font-weight: 700;
+								font-size: 20px;
+								padding: 2px 12.5px;
+								margin: 0 -2.5px;
+							}
+							.form-control
+							{
+								border: 1px solid #cecece;
+								box-shadow: none;
+								border-radius: 0;
+							}
+						}
+					}
+					&:last-child
+					{
+						td
+						{
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.modal-footer
+		{
+
+			.left-btn-container
+			{
+
+				width: 100%;
+
+				div
+				{
+					float: left;
+					padding-top: 10px;
+				}
+
+				.btn-checkout
+				{
+					@extend div;
+					margin-left: 15px;
+
+					padding: 12px 30px;
+					color: #fff;
+					background-color: #48B920;
+					border-radius: 2px;
+					border: none;
+				}
+
+			}
+
+			.total
+			{
+				padding-top: 10px;
+			}
+		}
+	}
+}

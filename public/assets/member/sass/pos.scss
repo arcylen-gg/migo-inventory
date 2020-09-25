@@ -1,0 +1,213 @@
+.pos-search
+{
+    position: relative;
+    z-index: 2;
+}
+
+
+.pos-search-container
+{
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 53px;
+    top: 33px;
+    width: calc(100% - 68px);
+    z-index: 1;
+    display: none;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 1px 1px 1px rgba(0,0,0,0.05);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 1px 1px 1px rgba(0,0,0,0.05);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    
+    .no-item-found
+    {
+        text-align: center;
+        padding: 10px;
+        .search-icon
+        {
+            padding: 5px;
+            font-size: 16px;
+        }
+    }
+    .pos-result-header
+    {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+        background-color: #eee;
+    }
+    .pos-item-list
+    {
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 300px;
+        .pos-item
+        {
+            border-bottom: 1px solid #eee;
+
+            .item-image
+            {
+                text-align: right;
+                img
+                {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .item-info
+            {
+                padding-top: 5px;
+
+                .item-name
+                {
+                    text-transform: uppercase;
+                }
+                .item-sku
+                {
+                    color: #777;
+                }
+
+            }
+            &:hover
+            {
+                background-color: #f3f3f3;
+                cursor: pointer;
+            }
+            &.cursor
+            {
+                background-color: #f3f3f3;
+            }
+        }
+    }
+}
+.pos-search-container-customer
+{
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 53px;
+    top: 33px;
+    width: calc(100% - 68px);
+    z-index: 1;
+    display: none;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 1px 1px 1px rgba(0,0,0,0.05);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 1px 1px 1px rgba(0,0,0,0.05);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    
+    .no-customer-found
+    {
+        text-align: center;
+        padding: 10px;
+        .search-icon
+        {
+            padding: 5px;
+            font-size: 16px;
+        }
+    }
+    .pos-result-customer-header
+    {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+        background-color: #eee;
+    }
+    .pos-customer-list
+    {
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 300px;
+        .pos-customer
+        {
+            border-bottom: 1px solid #eee;
+
+            .customer-info
+            {
+                padding-top: 5px;
+
+                .customer-name
+                {
+                    text-transform: uppercase;
+                }
+                .customer-sku
+                {
+                    color: #777;
+                }
+
+            }
+            &:hover
+            {
+                background-color: #f3f3f3;
+                cursor: pointer;
+            }
+            &.cursor
+            {
+                background-color: #f3f3f3;
+            }
+        }
+    }
+}
+
+.item-cart-pos
+{
+    .item-name
+    {
+        font-weight: bold;
+        text-transform: uppercase;
+    }    
+}
+
+.full-width
+{
+    width: 100%;
+    margin-top: 15px;
+}
+.pos-customer-action-button
+{
+    border-top: 1px solid #eee;
+}
+.cashier .labels
+{
+
+}
+.cashier .values
+{
+   font-size: 20px; 
+}
+.cashier .values.grand-total
+{
+    color: #35b1ff;
+}
+.cashier .values.amount-due
+{
+
+
+}
+.blue
+{
+    color: #35b1ff;
+}
+.red-button
+{
+    color: red;
+    opacity: 0.6;
+}
+.red-button:hover
+{
+    color: red;
+    opacity: 1;
+    cursor: pointer;
+}
+.pos-table tbody tr
+{
+    vertical-align: top;
+}
+.pos-table tbody tr td
+{
+    vertical-align: top;
+}
+.avatar-container
+{
+
+}
+.cashier-avatar
+{
+    max-width: 100%;
+}

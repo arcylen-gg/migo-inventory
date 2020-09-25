@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,WAAY,CACR,iBAAiB,CAAC,SAAS,CAE3B,mBAAmB,CAAC,OAAO,CAE3B,mBAAmB,CAAC,sBAAoB,CAI5C,SAAW,CAEP,MAAM,CAAE,IAAI,CAIhB,oDACgC,CAC5B,MAAM,CAAC,IAAI,CACX,UAAU,CAAC,IAAI,CAMnB,eAAgB,CACZ,MAAM,CAAE,GAAG",
+"sources": ["../sass/parallax.scss"],
+"names": [],
+"file": "parallax.css"
+}

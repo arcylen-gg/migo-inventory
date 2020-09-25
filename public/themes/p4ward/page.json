@@ -1,0 +1,166 @@
+{
+	"home":
+	{
+		
+		"home_slider" :
+		{
+			"label":"Slider Maintenance",
+			"type":"gallery",
+			"default":"",
+			"size":"12"
+		},
+		"home_our_purpose" :
+		{
+			"label":"Our Purpose",
+			"type":"text",
+			"default":"To create and promote a good image of Network Marketing in the Philippines.",
+			"size":"4"
+		},
+		"home_mission" :
+		{
+			"label":"Mission",
+			"type":"text",
+			"default":"Uplift Lives",
+			"size":"4"
+		},
+		"home_vision" :
+		{
+			"label":"Vision",
+			"type":"text",
+			"default":"100,000 successful P4wards Partners",
+			"size":"4"
+		},
+		"home_history_front" :
+		{
+			"label":"History Section",
+			"type":"tinymce",
+			"default":"",
+			"size":"12"
+		},
+		"home_why_p4ward_image" :
+		{
+			"label":"Why P4ward Image (420x300) Image Dimension",
+			"type":"image",
+			"default":"/themes/p4ward/img/wrapper2-image.jpg",
+			"size":"6"
+		},
+		"home_why_p4ward_context" :
+		{
+			"label":"Why P4ward Context",
+			"type":"tinymce",
+			"default":"",
+			"size":"6"
+		},
+		"home_percent_of_product_1" :
+		{
+			"label":"Percentage of the Product 1",
+			"type":"textbox",
+			"default":"100% Organic",
+			"size":"6"
+		},
+		"home_percent_of_product_2" :
+		{
+			"label":"Percentage of the Product 2",
+			"type":"textbox",
+			"default":"100% Organic",
+			"size":"6"
+		},
+		"home_p4ward_product_1" :
+		{
+			"label":"Name of Product 1",
+			"type":"textbox",
+			"default":"Don Organics Coffee Scrub",
+			"size":"6"
+		},
+		"home_p4ward_product_2" :
+		{
+			"label":"Name of Product 2",
+			"type":"textbox",
+			"default":"Don Organics Red Rice Scrub",
+			"size":"6"
+		},
+		"home_image_product_1" :
+		{
+			"label":"Image of Product 1 (300x190) Image Dimension",
+			"type":"image",
+			"default":"/themes/p4ward/img/wrapper3-image1.png",
+			"size":"6"
+		},
+		"home_coffee_diff_context" :
+		{
+			"label":"Don Organics Difference Context",
+			"type":"tinymce",
+			"default":"",
+			"size":"6"
+		},
+		"home_coffee_diff_image" :
+		{
+			"label":"Don Organics Difference Image",
+			"type":"image",
+			"default":"/themes/p4ward/img/wrapper5-image.jpg",
+			"size":"6"
+		},
+		"home_image_product_2" :
+		{
+			"label":"Image of Product 2 (300x190) Image Dimension",
+			"type":"image",
+			"default":"/themes/p4ward/img/wrapper3-image2.png",
+			"size":"6"
+		},
+		"home_business_address" :
+		{
+			"label":"Business Address",
+			"type":"textbox",
+			"default":"0261 BE (STALL 1) M.A. Fernando St. Santa Cruz Angat Bulacan 3012",
+			"size":"3"
+		},
+		"home_email_address" :
+		{
+			"label":"Email Address",
+			"type":"textbox",
+			"default":"admin@p4wardph.com",
+			"size":"3"
+		},
+		"home_phone_number" :
+		{
+			"label":"Phone Number",
+			"type":"textbox",
+			"default":"028995519",
+			"size":"3"
+		},
+		"home_mobile_number" :
+		{
+			"label":"Mobile Number",
+			"type":"textbox",
+			"default":"0947-985-5602 / 09988627466",
+			"size":"3"
+		}	
+	},
+	"about":
+	{
+		"about_history" :
+		{
+			"label":"History",
+			"type":"tinymce",
+			"default":"",
+			"size":"12"
+		},
+		"about_author_img" :
+		{
+			"label":"Author Image",
+			"type":"image",
+			"default":"/themes/p4ward/img/p4ward_image_partner.jpg",
+			"size":"3"
+		}
+	},
+	"terms_and_condition":
+	{
+		"terms_condition" :
+		{
+			"label":"Terms and Condition",
+			"type":"tinymce",
+			"default":"",
+			"size":"12"
+		}
+	}
+}

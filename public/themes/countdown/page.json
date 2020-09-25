@@ -1,0 +1,19 @@
+{
+	"home":
+	{
+		"background" :
+		{
+			"label":"Background Image",
+			"type":"image",
+			"default":"",
+			"size":"12"
+		},
+		"logo" :
+		{
+			"label":"Logo Image",
+			"type":"image",
+			"default":"../img/logo.png",
+			"size":"12"
+		}
+	}
+}

@@ -1,0 +1,114 @@
+$content-text: "Open Sans", sans-serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$text-light: #777;
+$text-dark: #272c2f;
+
+.wallet-logs-container 
+{
+    font-family: $content-text;
+    padding: 15px;
+    letter-spacing: 0.2px;
+
+    .main-member-header 
+    {
+        .name 
+        {
+            font-size: 21px;
+            font-weight: $bold;
+            color: $text-dark !important;
+        }
+
+        .sub 
+        {
+            font-size: 15px;
+        }
+    }
+
+    .wallet-logs-content 
+    {
+        text-align: center;
+
+        .wallet-profile 
+        {
+            .img 
+            {
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            .name 
+            {
+                font-size: 21px;
+                font-weight: $bold;
+                color: $text-dark;
+            }
+
+            .label-name 
+            {
+                font-size: 15px;
+                color: $text-light;
+            }
+
+            .email 
+            {
+                font-size: 15px;
+                color: $text-dark;
+                font-weight: $regular;
+                padding-top: 5px;
+                letter-spacing: 0.5px;
+            }
+
+            .lbl-email 
+            {
+                @extend .label-name;
+            }
+
+            .birthdate 
+            {
+                @extend .email;
+
+                padding-top: 5px;
+            }
+
+            .lbl-birthdate 
+            {
+                @extend .label-name;
+            }
+        }
+    }
+
+    .container 
+    {
+        margin-top: -20px;
+    }
+
+    .table_report 
+    {
+        width: 87%;
+        word-break: break-word;
+
+        th 
+        {
+            font-size: 15px;
+            color: $text-light;
+        }
+
+        td 
+        {
+            font-size: 15px;
+            color: $text-light;
+        }
+    }
+
+    .income-salary 
+    {
+        font-weight: $bold;
+        padding-top: 50px;
+        margin-left: 5px;
+        padding-bottom: 20px;
+        font-size: 17px;
+        color: $text-dark;
+    }
+}

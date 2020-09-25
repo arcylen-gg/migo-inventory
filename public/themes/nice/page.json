@@ -1,0 +1,230 @@
+{
+	"home":
+	{
+		"home_banner" :
+		{
+			"label":"Home Top Banner Image (1600x800) Image Dimensions",
+			"type":"image",
+			"default":"/themes/nice/img/front-img2.jpg",
+			"size":"6"
+		},
+		"home_banner_logo" :
+		{
+			"label":"Top Banner Image Company Logo (450x250) Image Dimensions",
+			"type":"image",
+			"default":"/themes/nice/img/logo-caption.png",
+			"size":"6"
+		},
+		"home_about_us_info" :
+		{
+			"label":"Company Information",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate sunt, quisquam quas, at itaque voluptatibus animi molestias voluptatem, dignissimos modi laboriosam dolorem ipsam dolorum molestiae repellat rerum ea neque odio doloremque. Id nam et, repudiandae, reiciendis officiis iusto rem iure dolor similique, suscipit at quis alias expedita exercitationem, quidem dolorem dolorum? Placeat unde reiciendis laborum soluta quasi neque, molestias ab.",
+			"size":"6"
+		},
+		"home_About_Us_Image" :
+		{
+			"label":"Company Image (4600x3460) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/wrapper1-image.png",
+			"size":"6"
+		},
+		"home_why_join_nice_image1" :
+		{
+			"label":"Why To Join Image 1 (6000x4000) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/wrapper2-image1.png",
+			"size":"4"
+		},
+		"home_why_join_nice_image2" :
+		{
+			"label":"Why to join Image 2 (6000x4000) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/wrapper2-image2.png",
+			"size":"4"
+		},
+		"home_why_join_nice_image3" :
+		{
+			"label":"Why to join Image 3 (6000x4000) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/wrapper2-image3.png",
+			"size":"4"
+		},
+		"home_why_join_nice_title1" :
+		{
+			"label":"Why to join Title 1",
+			"type":"text",
+			"default":"Lorem Ipsum.",
+			"size":"4"
+		},
+		"home_why_join_nice_title2" :
+		{
+			"label":"Why to join Title 2",
+			"type":"text",
+			"default":"Lorem Ipsum.",
+			"size":"4"
+		},
+		"home_why_join_nice_title3" :
+		{
+			"label":"Why to join Title 3",
+			"type":"text",
+			"default":"Lorem Ipsum.",
+			"size":"4"
+		},
+		"home_why_join_nice_description1" :
+		{
+			"label":"Why to join Description 1",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cumque minima, molestias totamPorro perspici atis eveniet veniam voluptatum Illum officiis magnam eos, fuga architecto nobi culpa commodi, sunt deleniti assumenda voluptatibus dicta?",
+			"size":"4"
+		},
+		"home_why_join_nice_description2" :
+		{
+			"label":"Why to join Description 2",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cumque minima, molestias totamPorro perspici atis eveniet veniam voluptatum Illum officiis magnam eos, fuga architecto nobi culpa commodi, sunt deleniti assumenda voluptatibus dicta?",
+			"size":"4"
+		},
+		"home_why_join_nice_description3" :
+		{
+			"label":"Why to join Description 3",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cumque minima, molestias totamPorro perspici atis eveniet veniam voluptatum Illum officiis magnam eos, fuga architecto nobi culpa commodi, sunt deleniti assumenda voluptatibus dicta?",
+			"size":"4"
+		},
+		"home_member_package_title1" :
+		{
+			"label":"Member Package Title 1",
+			"type":"textbox",
+			"default":"Package 1",
+			"size":"4"
+		},
+		"home_member_package_title2" :
+		{
+			"label":"Member Package Title 2",
+			"type":"textbox",
+			"default":"Package 2",
+			"size":"4"
+		},
+		"home_member_package_title3" :
+		{
+			"label":"Member Package Title 3",
+			"type":"textbox",
+			"default":"Package 3",
+			"size":"4"
+		},
+		"home_member_package_price1" :
+		{
+			"label":"Member Package Title Price 1",
+			"type":"textbox",
+			"default":"$20",
+			"size":"4"
+		},
+		"home_member_package_price2" :
+		{
+			"label":"Member Package Title Price 2",
+			"type":"textbox",
+			"default":"$20",
+			"size":"4"
+		},
+		"home_member_package_price3" :
+		{
+			"label":"Member Package Title Price 3",
+			"type":"textbox",
+			"default":"$20",
+			"size":"4"
+		},
+		"home_member_package_details1" :
+		{
+			"label":"Member Package Details 1",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat possimus pariatur perferendis, inventore ex error fuga labore cumque! Qui, facere hic eligendi architecto quisquam nobis ipsum tenetur. Sapiente, quis, possimus. Odit vitae provident ipsum facere laborum ullam modi, adipisci optio assumenda, eaque vero reprehenderit aspernatur!",
+			"size":"4"
+		},
+		"home_member_package_details2" :
+		{
+			"label":"Member Package Details 2",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat possimus pariatur perferendis, inventore ex error fuga labore cumque! Qui, facere hic eligendi architecto quisquam nobis ipsum tenetur. Sapiente, quis, possimus. Odit vitae provident ipsum facere laborum ullam modi, adipisci optio assumenda, eaque vero reprehenderit aspernatur!",
+			"size":"4"
+		},
+		"home_member_package_details3" :
+		{
+			"label":"Member Package Details 3",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat possimus pariatur perferendis, inventore ex error fuga labore cumque! Qui, facere hic eligendi architecto quisquam nobis ipsum tenetur. Sapiente, quis, possimus. Odit vitae provident ipsum facere laborum ullam modi, adipisci optio assumenda, eaque vero reprehenderit aspernatur!",
+			"size":"4"
+		},
+		"home_partner1" :
+		{
+			"label":"Partner Image 1 (120x90) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/partner1.png",
+			"size":"3"
+		},
+		"home_partner2" :
+		{
+			"label":"Partner Image 2 (120x90) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/partner2.png",
+			"size":"3"
+		},
+		"home_partner3" :
+		{
+			"label":"Partner Image 3 (120x90) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/partner3.png",
+			"size":"3"
+		},
+		"home_partner4" :
+		{
+			"label":"Partner Image 4 (120x90) Image Dimension",
+			"type":"image",
+			"default":"/themes/nice/img/partner4.png",
+			"size":"3"
+		},
+		"home_become_business_partner_description" :
+		{
+			"label":"Become Business Partner Description",
+			"type":"tinymce",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, recusandae. Id minus perferendis ullam quia, enim earum reprehenderit?",
+			"size":"3"
+		},
+		"home_main_office_branch_name" :
+		{
+			"label":"Company Main Office Branch Name",
+			"type":"textbox",
+			"default":"Office Address",
+			"size":"3"
+		},
+		"home_main_office_branch_address" :
+		{
+			"label":"Company Main Office Branch Address",
+			"type":"text",
+			"default":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, deserunt, vitae?",
+			"size":"3"
+		},
+		"home_contact_number" :
+		{
+			"label":"Company Contact Number",
+			"type":"textbox",
+			"default":"+63 9 000 0000",
+			"size":"3"
+		},
+		"home_email_address" :
+		{
+			"label":"Company Email Address",
+			"type":"textbox",
+			"default":"email address here",
+			"size":"3"
+		},
+		"home_business_hours" :
+		{
+			"label":"Company Business Hours",
+			"type":"textbox",
+			"default":"Monday-Friday 00:00 - 00:00",
+			"size":"3"
+		}
+
+	}
+}

@@ -1,0 +1,45 @@
+$display-text: 'Raleway', sans-serif;
+$content-text: 'Open Sans', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$text-light: #555;
+$text-dark: #1c1c1c;
+
+body{
+	background-color: transparent;
+	color: $text-light;
+	font-family: $display-text;
+}
+
+.wrapper-1
+{
+	font-family: $content-text;
+	background-color: #f4f4f4;
+	padding: 40px 0;
+	
+	.main-title
+	{
+		color: $text-dark;
+		font-size: 24px;
+		font-weight: $regular;
+	}
+}
+
+.wrapper-2
+{
+	font-family: $content-text;
+	/* padding: 20px 0;
+	.title-2
+	{
+		color: $text-dark;
+		font-weight: 600;
+	}
+
+	.context
+	{
+
+	} */
+}
+

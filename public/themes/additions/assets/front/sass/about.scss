@@ -1,0 +1,61 @@
+.about-image
+{
+	text-align: center;
+	img
+	{
+		max-width: 100%;
+	}
+}
+.content
+{
+	.info
+	{
+		font-size: 14.58px;
+		font-weight: 300;
+		padding: 25px 0;
+		.about-title
+		{
+			text-align: center;
+			font-size: 31.67px;
+			font-family: "Oswald", sans-serif;
+			font-weight: 600;
+			padding-bottom: 2%;
+			.about-title-pink
+			{
+				color: #de7c99;
+			}
+		}
+		.about-desc
+		{
+			text-align: center;
+			font-size: 14.58px;
+			font-family: "Roboto", sans-serif;
+			font-weight: 500;
+		}
+		p
+		{
+			line-height: 25px;
+		}
+	}
+	
+	.statement
+	{
+		font-size: 14.58px;
+		font-weight: 500;
+		font-family: "Roboto", sans-serif;
+		text-align: center;
+		margin-top: 5%;
+		.title
+		{
+			font-size: 25px;
+			font-weight: 700;
+			font-family: "Oswald", sans-serif;
+			text-align: center;
+			margin-top: 3%;
+			.title-pink
+			{
+				color: #de7c99;
+			}
+		}
+	}
+}
