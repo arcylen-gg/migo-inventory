@@ -142,9 +142,10 @@ class AdminNotification
 	        if($migo_customization)
 	        {
 	        	$from = date('Y').'-'.date('m').'-01';
-	        	$to = date('Y').'-'.date('m').'-31';
+				$date = strtotime($from.' +3 months');
+				$to = date('Y-m-t', $date);
 	        	// $from = '2019-12-01';
-	        	// $to = '2019-12-31';
+				// $to = '2019-12-31';
 	        	if(date('Y-m-d') == date('Y-m-t'))
 	        	{
 		        	$_customer = Tbl_customer::where("shop_id", $valueshop->shop_id)->where("archived",0)->get();

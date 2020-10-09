@@ -136,4 +136,8 @@ class AdminNotificationController extends Member
 		return $pdf;
 	    // return Pdf_global::show_pdf($pdf);
 	}
+	public function getCustomerUpdate(Request $request)
+	{
+		return AdminNotification::update_customer_category();
+	}
 }
