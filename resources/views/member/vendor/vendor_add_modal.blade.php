@@ -176,7 +176,7 @@
                   @foreach($_bank_record as $record)
                   <div class="col-md-12">
                     <div class="col-md-5">
-                      <label>Account Name</label>
+                      <label>Bank Name</label>
                       <input type="text" class="form-control" name="vendor_account_name[]" value="{{$record->vendor_account_name}}">
                     </div>
                     <div class="col-md-5">
@@ -196,7 +196,7 @@
                   @endif
                   <div class="col-md-12">
                     <div class="col-md-5">
-                      <label>Account Name</label>
+                      <label>Bank Name</label>
                       <input type="text" class="form-control" name="vendor_account_name[]" >
                     </div>
                     <div class="col-md-5">
