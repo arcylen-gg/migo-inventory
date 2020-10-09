@@ -142,6 +142,10 @@ class Vendor
 	{
 		return Tbl_vendor::where('vendor_shop_id', $shop_id)->where('vendor_id', $vendor_id)->first();
 	}
+	public static function getBank($shop_id, $vendor_id)
+	{
+		return Tbl_vendor::bank()->where('vendor_shop_id', $shop_id)->where('tbl_vendor.vendor_id', $vendor_id)->get();
+	}
 	public static function search_get($shop_id, $keyword = '')
 	{
 		$return = Tbl_vendor::where('shop_id', $shop_id);

@@ -23,6 +23,10 @@ class Tbl_vendor extends Model
     	return $query->leftjoin("tbl_vendor_address","ven_addr_vendor_id","=","vendor_id")
     		  		 ->leftjoin("tbl_vendor_other_info","ven_info_vendor_id","=","vendor_id");
     }
+    public function scopeBank($query)
+    {
+    	return $query->leftjoin("tbl_vendor_bank_record","tbl_vendor_bank_record.vendor_id","=","tbl_vendor.vendor_id");
+    }
 
     public function scopeBalanceJournal($query)
     {

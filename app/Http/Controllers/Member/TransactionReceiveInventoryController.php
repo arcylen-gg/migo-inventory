@@ -97,6 +97,7 @@ class TransactionReceiveInventoryController extends Member
             $data["_riline"]     = TransactionReceiveInventory::infoline($this->user_info->shop_id, $data["_riline"]);
             $data['total_tax']   = TransactionReceiveInventory::infotax($this->user_info->shop_id, $data["_riline"]);
             $data['subtotal']   = TransactionReceiveInventory::subtotal($this->user_info->shop_id, $data["_riline"]);
+            $data['_bank'] = Vendor::getBank($this->user_info->shop_id, $data['ri']->ri_vendor_id);
 
             $footer = AccountingTransaction::get_refuser($this->user_info);
 

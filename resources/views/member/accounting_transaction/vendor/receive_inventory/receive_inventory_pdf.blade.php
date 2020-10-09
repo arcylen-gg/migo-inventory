@@ -24,7 +24,16 @@
 						<strong>{{ucfirst($ri->vendor_title_name)." ".ucfirst($ri->vendor_first_name)." ".ucfirst($ri->vendor_middle_name)." ".ucfirst($ri->vendor_last_name)." ".ucfirst($ri->vendor_suffix_name)}}</strong> <br>
 						<span>{{$ri->ven_billing_street . " " .$ri->ven_billing_city}} </span> <br>
 						PHILIPPINES <br>
-						PHONE : {{$ri->ven_info_phone}} Fax : {{$ri->ven_info_fax}}
+						PHONE : {{$ri->ven_info_phone}} Fax : {{$ri->ven_info_fax}} <br>
+
+						<span>TIN: {{$ri->ven_info_tin_no ?? ''}}</span> <br>
+
+						<span>Bank Details</span> <br>
+						@if(!empty($_bank))
+							@foreach ($_bank as $bank)
+								<span>{{$bank->vendor_account_name}} : {{$bank->vendor_account_number}}</span> <br>
+							@endforeach
+						@endif
 					</div>
 					<div class="col-md-6 text-right" style="float: right; width: 50%">
 						<div class="col-md-6 text-right" style="float: left; width: 50%">

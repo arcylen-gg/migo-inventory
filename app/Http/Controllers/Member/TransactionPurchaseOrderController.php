@@ -98,6 +98,7 @@ class TransactionPurchaseOrderController extends Member
             $data["_poline"] = TransactionPurchaseOrder::infoline($this->user_info->shop_id, $data["_poline"]);
             $data['total_tax']   = TransactionPurchaseOrder::infotax($this->user_info->shop_id, $data["_poline"]);
             $data['subtotal']   = TransactionPurchaseOrder::subtotal($this->user_info->shop_id, $data["_poline"]);
+            $data['_bank'] = Vendor::getBank($this->user_info->shop_id, $data['po']->po_vendor_id);
 
             $footer = AccountingTransaction::get_refuser($this->user_info);
 
