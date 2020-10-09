@@ -31,7 +31,7 @@
             </select>
         </td>
         <td><input class="text-center number-input txt-qty compute" type="text" name="item_qty[]" value="{{$items['item_qty']}}" /></td>
-        <td><input class="text-right number-input txt-rate compute" type="text" name="item_rate[]" value="{{$items['item_rate']}}" /></td>
+        <td><input class="text-right number-input txt-rate new-cost compute" type="text" name="item_rate[]" value="{{$items['item_rate']}}" /></td>
         @if($items['item_discount_type'] == 'percent')
             <td><input class="text-right txt-discount compute" type="text" name="item_discount[]" value="{{$items['item_discount'] * 100}}%" /></td>
         @elseif($items['item_discount_type'] == 'fixed' && $items['item_discount'] != '' || $items['item_discount'] != 0 )

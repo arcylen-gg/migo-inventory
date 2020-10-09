@@ -1305,7 +1305,7 @@ class ReportsController extends Member
                                                                    ->where('inv_sales_rep_id', $value->sales_rep_id)
                                                                    ->whereBetween('inv_date',[$data['from'], $data['to']])
                                                                    ->get();
-            $data['_sales_rep'][$key]->sales_amount = collect($data['_sales_rep'][$key]->sales)->sum("inv_overall_price");
+            $data['_sales_rep'][$key]->sales_amount = collect($data['_sales_rep'][$key]->sales)->sum("inv_payment_applied");
         }
         /* IF REPORT TYPE IS EXIST AND NOT RETURNING VIEW */
         if($report_type && !$load_view)
