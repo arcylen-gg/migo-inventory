@@ -146,7 +146,7 @@ class CustomizedSalesReportController extends Member
                 $payment_applied = $this->get_old_inv_sum_amount($shop_id, $value['inv_customer_id'], $data['from'], $valuepm->payment_method_id, 'inv_payment_applied', false);
                 if($payment_applied == 0)
                 {
-                    $payment_applied = $this->get_inv_sum_amount($shop_id, $value['inv_customer_id'], $data['from'], $valuepm->payment_method_id, 'inv_payment_applied', false);
+                    $payment_applied = $this->get_inv_sum_amount($shop_id, $value['inv_customer_id'], $data['from'], $valuepm->payment_method_id, 'invoice_amount', false);
                 }
                 $overall_price = $this->get_old_inv_sum_amount($shop_id, $value['inv_customer_id'], $data['from'], $valuepm->payment_method_id);
                 if($overall_price == 0)
