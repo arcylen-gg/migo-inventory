@@ -20,8 +20,9 @@
 				<div class="form-group" style="padding-bottom: 50px">
 					<div class="col-md-6 text-left" style="float: left; width: 50%">
 						<strong>Vendor </strong><br>
-						<span>{{ucfirst($po->vendor_company)}}</span><br>
-						<span>{{ucfirst($po->title_name)." ".ucfirst($po->first_name)." ".ucfirst($po->middle_name)." ".ucfirst($po->last_name)." ".ucfirst($po->suffix_name)}}</span> <br>
+						<span style="font-size: 20px">{{ucfirst($po->vendor_company)}}</span><br>
+						<span style="font-size: 20px">{{ucfirst($po->title_name)." ".ucfirst($po->first_name)." ".ucfirst($po->middle_name)." ".ucfirst($po->last_name)." ".ucfirst($po->suffix_name)}}</span> <br>
+						<span> Contact No.: {{ $po->ven_info_phone }}, {{ $po->ven_info_mobile }}</span><br>
 						<span>TIN: {{$po->ven_info_tin_no ?? ''}}</span> <br>
 
 						<span>Bank Details</span> <br>

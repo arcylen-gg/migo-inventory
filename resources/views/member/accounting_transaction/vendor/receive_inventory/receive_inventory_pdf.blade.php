@@ -20,8 +20,8 @@
 				<div class="form-group" style="padding-bottom: 50px">
 					<div class="col-md-6 text-left" style="float: left; width: 50%">
 						<strong>To </strong><br>
-						<strong>{{ucfirst($ri->vendor_company)}}</strong><br>
-						<strong>{{ucfirst($ri->vendor_title_name)." ".ucfirst($ri->vendor_first_name)." ".ucfirst($ri->vendor_middle_name)." ".ucfirst($ri->vendor_last_name)." ".ucfirst($ri->vendor_suffix_name)}}</strong> <br>
+						<strong style="font-size: 20px">{{ucfirst($ri->vendor_company)}}</strong><br>
+						<strong style="font-size: 20px">{{ucfirst($ri->vendor_title_name)." ".ucfirst($ri->vendor_first_name)." ".ucfirst($ri->vendor_middle_name)." ".ucfirst($ri->vendor_last_name)." ".ucfirst($ri->vendor_suffix_name)}}</strong> <br>
 						<span>{{$ri->ven_billing_street . " " .$ri->ven_billing_city}} </span> <br>
 						PHILIPPINES <br>
 						PHONE : {{$ri->ven_info_phone}} Fax : {{$ri->ven_info_fax}} <br>
