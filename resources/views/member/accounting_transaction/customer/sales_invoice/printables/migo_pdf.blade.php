@@ -68,7 +68,7 @@
 					@if($invoice_item)		
 						@foreach($invoice_item as $item)
 							<tr>
-								<td style="text-align: center;">{{$item->invline_qty}}</td>
+								<td style="text-align: center;padding-top:2px">{{$item->invline_qty}}</td>
 								<td style="text-align: center;">{{$item->item_name}}</td>
 								<td style="text-align: center;">{{$item->invline_description}}</td>
 								<td style="text-align: center;">{{$item->item_sku}}</td>
