@@ -350,4 +350,9 @@ class ReviewTransactionController extends Member
 
 		return "Success FROM : ".$request->from." TO : ".$request->to." SI-count: ".$ctr." SI-count: ".$ctr;
 	}
+	public function getArchiveItemByCategory(Request $request)
+	{
+		Tbl_item::where('shop_id', $this->user_info->shop_id)->where('item_category_id', 619)->where('archived', 0)->update(['archived' => 1]);
+		return "success";
+	}
 }
