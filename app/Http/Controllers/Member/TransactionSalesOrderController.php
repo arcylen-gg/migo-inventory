@@ -434,6 +434,7 @@ class TransactionSalesOrderController extends Member
         		$footer = null;
         	}
 
+			return $pdf;
 	        return Pdf_global::show_pdf($pdf, null, $footer, $format);
         }
         else
