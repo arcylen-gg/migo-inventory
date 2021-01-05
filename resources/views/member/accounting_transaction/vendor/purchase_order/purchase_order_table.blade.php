@@ -48,6 +48,7 @@
                                 <li class="clearfix"><a href="/member/transaction/purchase_order/create?id={{$po->po_id}}">Edit</a></li>
                                 @endif
                                 <li class="clearfix"><a target="_blank" href="/member/transaction/purchase_order/print?id={{$po->po_id}}">Print</a></li>
+                                <li class="clearfix"><a target="_blank" href="/member/transaction/purchase_order/print?id={{$po->po_id}}&ptype=dr">Print DR</a></li>
                                 @if($status == 'open')
                                 <li class="clearfix"><a target="_blank" href="/member/transaction/receive_inventory/create?po_id={{$po->po_id}}">Receive Inventory</a></li>
                                 @endif

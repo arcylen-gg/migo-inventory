@@ -47,6 +47,7 @@
                                 <li><a href="/member/transaction/sales_order/create?id={{$so->est_id}}">Edit Sales Order</a></li>
                                 @endif
                                 <li><a target="_blank" href="/member/transaction/sales_order/print?id={{$so->est_id}}">Print</a></li>
+                                <li><a target="_blank" href="/member/transaction/sales_order/print?id={{$so->est_id}}&ptype=dr">Print DR</a></li>
                                 @if($status == 'accepted')
                                 <li><a target="_blank" href="/member/transaction/sales_invoice/create?so_id={{$so->est_id}}">Sales Invoice</a></li>
                                 <li><a target="_blank" href="/member/transaction/sales_receipt/create?so_id={{$so->est_id}}">Sales Receipt</a></li>

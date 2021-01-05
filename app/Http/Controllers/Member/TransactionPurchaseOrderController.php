@@ -110,13 +110,18 @@ class TransactionPurchaseOrderController extends Member
 
             $for_migo = AccountingTransaction::settings_value($this->user_info->shop_id, "migo_customization");
             $pdf = view("member.accounting_transaction.vendor.purchase_order.purchase_order_pdf",$data);
+            $proj = AccountingTransaction::settings_value($this->user_info->shop_id, "project_name");
             if(!$for_migo)
             {
-                $proj = AccountingTransaction::settings_value($this->user_info->shop_id, "project_name");
                 if($proj != "default" && $proj)
                 {
                     $pdf = view("member.accounting_transaction.vendor.purchase_order.printables.".$proj."_pdf",$data);
                 }                
+            }
+            if($request->ptype == 'dr' && $proj == 'migo')
+            {
+                $pdf = view("member.accounting_transaction.vendor.purchase_order.printables.".$proj."_dr_pdf",$data);
+                return $pdf;
             }
             return $pdf;
             if($request->from == 'auto')

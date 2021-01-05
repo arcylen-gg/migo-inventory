@@ -428,7 +428,13 @@ class TransactionSalesOrderController extends Member
             if($proj != "default" && $proj != 'fieldmen' && $proj == 'migo')
             {
                 $pdf = view("member.accounting_transaction.customer.sales_order.printables.".$proj."_pdf",$data);
-            }            
+			}
+			
+            if($request->ptype == 'dr' && $proj == 'migo')
+            {
+                $pdf = view("member.accounting_transaction.customer.sales_order.printables.".$proj."_dr_pdf",$data);
+                return $pdf;
+            }       
         	if($proj == 'migo')
         	{
         		$footer = null;

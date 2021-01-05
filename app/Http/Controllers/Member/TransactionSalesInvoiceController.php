@@ -512,7 +512,8 @@ class TransactionSalesInvoiceController extends Member
             	{
             		$footer = null;
             	}
-            }
+			}
+
 	        return Pdf_global::show_pdf($pdf, null, $footer, $format);
         }
         else
