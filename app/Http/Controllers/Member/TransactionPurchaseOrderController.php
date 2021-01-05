@@ -123,7 +123,6 @@ class TransactionPurchaseOrderController extends Member
                 $pdf = view("member.accounting_transaction.vendor.purchase_order.printables.".$proj."_dr_pdf",$data);
                 return $pdf;
             }
-            return $pdf;
             if($request->from == 'auto')
             {
                 return $pdf;
