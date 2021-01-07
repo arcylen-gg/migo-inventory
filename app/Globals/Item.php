@@ -155,8 +155,8 @@ class Item
         }
         else
         {
-            $rules['item_name'] = 'required|unique:tbl_item,item_name';
-            $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
+            // $rules['item_name'] = 'required|unique:tbl_item,item_name';
+            // $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
         }
         $rules['item_price'] = 'required';
         $rules['item_category_id'] = 'required';
