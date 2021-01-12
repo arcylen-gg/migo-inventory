@@ -113,6 +113,7 @@ class ReviewTransactionController extends Member
 										 ->where("is_sales_receipt",0)
 										 ->whereBetween('inv_date', ['2021-01-12','2021-01-09'])
 										 ->get();
+										 dd($check_inv);
 		$ret = null;
 		foreach ($check_inv as $key => $value) 
 		{
