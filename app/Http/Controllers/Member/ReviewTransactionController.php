@@ -109,8 +109,9 @@ class ReviewTransactionController extends Member
 	public function getIndex()
 	{
 		$check_inv = Tbl_customer_invoice::where("inv_shop_id", $this->user_info->shop_id)
-										 ->where("inv_is_paid",0)
+										 ->where("inv_is_paid",1)
 										 ->where("is_sales_receipt",0)
+										 ->whereBetween('inv_date', ['2021-01-12','2021-01-09'])
 										 ->get();
 		$ret = null;
 		foreach ($check_inv as $key => $value) 
@@ -188,9 +189,9 @@ class ReviewTransactionController extends Member
 			// 		}
 			// 	}
 			// }
-			if($value->inv_is_paid == 0 && $value->inv_overall_price >= $value->inv_payment_applied)
+			if($value->inv_is_paid == 1 && $value->inv_payment_applied < $value->inv_overall_price)
 			{
-				$up['inv_is_paid'] = 1;
+				$up['inv_is_paid'] = 0;
 				Tbl_customer_invoice::where("inv_id", $value->inv_id)->update($up);				
 			}
 			if($value->inv_overall_price == 0)
