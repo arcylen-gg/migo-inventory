@@ -188,11 +188,11 @@ class ReviewTransactionController extends Member
 			// 		}
 			// 	}
 			// }
-			// if($value->inv_is_paid == 1 && $value->inv_overall_price > $value->inv_payment_applied)
-			// {
-			// 	$up['inv_is_paid'] = 0;
-			// 	Tbl_customer_invoice::where("inv_id", $value->inv_id)->update($up);				
-			// }
+			if($value->inv_is_paid == 0 && $value->inv_overall_price => $value->inv_payment_applied)
+			{
+				$up['inv_is_paid'] = 1;
+				Tbl_customer_invoice::where("inv_id", $value->inv_id)->update($up);				
+			}
 			if($value->inv_overall_price == 0)
 			{
 				$up['inv_is_paid'] = 1;
