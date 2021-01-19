@@ -25,16 +25,6 @@
 								<tr>
 									<td class="text-center">
 										<a href="/member/report/inventory/detailed/{{$report['item_id']}}" >{{$report['item_name']}}</a><br>
-										<small>{{$report['item_sku']}}</small><br>
-										
-										<small>
-
-											@foreach ( $_item_category as $data )
-												@if ($data['type_id']==$report['item_category_id'])
-													{{$value=$data['type_name']}}
-												@endif
-											@endforeach
-										</small><br>
 									</td>
 									<td class="text-center">{{$report['item_type_name']}}</td>
 

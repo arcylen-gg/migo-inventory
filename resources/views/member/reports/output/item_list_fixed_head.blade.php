@@ -31,8 +31,6 @@
                                     <tr>
                                         <td>
                                             <b>{{$item->item_name}} </b><br>
-                                            <small>{{$item->item_sku}}</small> <br>
-                                            <small>{{$item->item_type_name}}</small> <br> 
                                         </td>
                                         <td>{{currency('',$item->item_price)}}</td>
                                         <td class=" {{$w_type != 'branches' ? '' : 'hidden'}}" >{{currency('',$item->item_cost)}}</td>
