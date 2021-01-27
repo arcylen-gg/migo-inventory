@@ -150,13 +150,13 @@ class Item
 
         if($item_id)
         {
-            $rules['item_name'] = 'required|unique:tbl_item,item_name,'.$item_id.',item_id';
-            $rules['item_sku'] = 'required|unique:tbl_item,item_sku,'.$item_id.',item_id';            
+            // $rules['item_name'] = 'required|unique:tbl_item,item_name,'.$item_id.',item_id';
+            // $rules['item_sku'] = 'required|unique:tbl_item,item_sku,'.$item_id.',item_id';            
         }
         else
         {
-            // $rules['item_name'] = 'required|unique:tbl_item,item_name';
-            // $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
+            $rules['item_name'] = 'required|unique:tbl_item,item_name';
+            $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
         }
         $rules['item_price'] = 'required';
         $rules['item_category_id'] = 'required';
