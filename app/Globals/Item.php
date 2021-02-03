@@ -92,10 +92,10 @@ class Item
         {
             $item_info = '<b>'.$value['item_name'].'</b> <br><br>';
 
-            $rules['item_name'] = 'required';
-            $rules['item_sku'] = 'required';
-            $rules['item_price'] = 'required';
-            $rules['item_category_id'] = 'required';
+            // $rules['item_name'] = 'required';
+            // $rules['item_sku'] = 'required';
+            // $rules['item_price'] = 'required';
+            // $rules['item_category_id'] = 'required';
 
             if($value['item_type_id'] <= 2)
             {
@@ -155,8 +155,8 @@ class Item
         }
         else
         {
-            $rules['item_name'] = 'required|unique:tbl_item,item_name';
-            $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
+            // $rules['item_name'] = 'required|unique:tbl_item,item_name';
+            // $rules['item_sku'] = 'required|unique:tbl_item,item_sku';
         }
         $rules['item_price'] = 'required';
         $rules['item_category_id'] = 'required';
@@ -522,10 +522,10 @@ class Item
     {
         $return = null;
 
-        $rules['item_name'] = 'required';
-        $rules['item_sku'] = 'required';
-        $rules['item_price'] = 'required';
-        $rules['item_category_id'] = 'required';
+        // $rules['item_name'] = 'required';
+        // $rules['item_sku'] = 'required';
+        // $rules['item_price'] = 'required';
+        // $rules['item_category_id'] = 'required';
 
         $validator = Validator::make($insert, $rules);
 
