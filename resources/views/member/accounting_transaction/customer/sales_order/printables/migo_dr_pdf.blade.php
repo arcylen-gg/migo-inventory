@@ -72,7 +72,6 @@
 						<th style="text-align: center;" width="5%">QTY</th>
 						<th style="text-align: center;" width="30%">UNIT</th>
 						<th style="text-align: center;" width="10%">DESCRIPTION</th>
-						<th style="text-align: center;" width="25%">ITEM</th>
 						<th style="text-align: center;" width="15%">UNIT PRICE</th>
 						<th style="text-align: center;" width="15%">TOTAL</th>
 					</tr>
@@ -84,7 +83,6 @@
 								<td style="text-align: center;">{{$item->estline_qty}}</td>
 								<td style="text-align: center;">{{$item->item_name}}</td>
 								<td style="text-align: center;">{{$item->estline_description}}</td>
-								<td style="text-align: center;">{{$item->item_sku}}</td>
 								<td style="text-align: right;">{{currency("PHP",$item->estline_rate)}}</td>
 								<td style="text-align: right;">{{currency("PHP",$item->estline_rate * $item->estline_qty)}}</td>
 							</tr>
