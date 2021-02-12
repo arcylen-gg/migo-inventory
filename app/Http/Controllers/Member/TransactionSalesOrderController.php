@@ -434,6 +434,11 @@ class TransactionSalesOrderController extends Member
             {
                 $pdf = view("member.accounting_transaction.customer.sales_order.printables.".$proj."_dr_pdf",$data);
                 return $pdf;
+            }
+            if($request->ptype == 'dropship' && $proj == 'migo')
+            {
+                $pdf = view("member.accounting_transaction.customer.sales_order.printables.".$proj."_dropship",$data);
+                return $pdf;
             }       
         	if($proj == 'migo')
         	{

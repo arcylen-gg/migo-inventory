@@ -48,6 +48,7 @@
                                 @endif
                                 <li><a target="_blank" href="/member/transaction/sales_order/print?id={{$so->est_id}}">Print</a></li>
                                 <li><a target="_blank" href="/member/transaction/sales_order/print?id={{$so->est_id}}&ptype=dr">Print DR</a></li>
+                                <li><a target="_blank" href="/member/transaction/sales_order/print?id={{$so->est_id}}&ptype=dropship">Print Dropship</a></li>
                                 @if($status == 'accepted')
                                 <li><a target="_blank" href="/member/transaction/sales_invoice/create?so_id={{$so->est_id}}">Sales Invoice</a></li>
                                 <li><a target="_blank" href="/member/transaction/sales_receipt/create?so_id={{$so->est_id}}">Sales Receipt</a></li>

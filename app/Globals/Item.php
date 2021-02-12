@@ -92,10 +92,10 @@ class Item
         {
             $item_info = '<b>'.$value['item_name'].'</b> <br><br>';
 
-            // $rules['item_name'] = 'required';
-            // $rules['item_sku'] = 'required';
-            // $rules['item_price'] = 'required';
-            // $rules['item_category_id'] = 'required';
+            $rules['item_name'] = 'required';
+            $rules['item_sku'] = 'required';
+            $rules['item_price'] = 'required';
+            $rules['item_category_id'] = 'required';
 
             if($value['item_type_id'] <= 2)
             {
@@ -112,7 +112,7 @@ class Item
             {
                 foreach ($validator->messages()->all('') as $keys => $message)
                 {
-                    $return .= $item_info." <li>".$message."</li><br>";
+                    // $return .= $item_info." <li>".$message."</li><br>";
                 }
             }
         }
@@ -522,10 +522,10 @@ class Item
     {
         $return = null;
 
-        // $rules['item_name'] = 'required';
-        // $rules['item_sku'] = 'required';
-        // $rules['item_price'] = 'required';
-        // $rules['item_category_id'] = 'required';
+        $rules['item_name'] = 'required';
+        $rules['item_sku'] = 'required';
+        $rules['item_price'] = 'required';
+        $rules['item_category_id'] = 'required';
 
         $validator = Validator::make($insert, $rules);
 
@@ -533,7 +533,7 @@ class Item
         {
             foreach ($validator->messages()->all('') as $keys => $message)
             {
-                $return .= $message."<br>";
+                // $return .= $message."<br>";
             }
         }
         if($shop_id)

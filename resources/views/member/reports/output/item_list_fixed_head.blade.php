@@ -15,14 +15,14 @@
                                 <table class="table table-fixed tablehere scroll" style="width: 100%">
                                     <thead>
                                         <tr>
-                                            <th style="width: 10%">Item Details</th>
-                                            <th style="width: 10%">Price</th>
-                                            <th style="width: 10%"class="{{$w_type != 'branches' ? '' : 'hidden'}}" >Cost</th>
+                                            <th style="width: 20%">Item Details</th>
+                                            <th class="hidden">Price</th>
+                                            <th class="hidden {{$w_type != 'branches' ? '' : 'hidden'}}" >Cost</th>
                                             @foreach($_warehouse as $key => $warehouse)
-                                            <th style="width: 10%">{{$warehouse->warehouse_name}}</th>
+                                            <th >{{$warehouse->warehouse_name}}</th>
                                             @endforeach
-                                            <th >Pending For Transit</th>
-                                            <th >In Transit</th>
+                                            <th class="hidden" >Pending For Transit</th>
+                                            <th class="hidden">In Transit</th>
                                             <th >Total</th>
                                         </tr>
                                     </thead>
@@ -32,14 +32,14 @@
                                         <td>
                                             <b>{{$item->item_name}} </b><br>
                                         </td>
-                                        <td>{{currency('',$item->item_price)}}</td>
-                                        <td class=" {{$w_type != 'branches' ? '' : 'hidden'}}" >{{currency('',$item->item_cost)}}</td>
+                                        <td class="hidden">{{currency('',$item->item_price)}}</td>
+                                        <td class="hidden {{$w_type != 'branches' ? '' : 'hidden'}}" >{{currency('',$item->item_cost)}}</td>
                                         @foreach($item->item_warehouse as $key=>$item_wh)
                                         <td class="text-center">{{$item_wh->qty_on_hand}}</td>
                                         @endforeach
                                         @if(count($item->item_warehouse))
-                                        <td class="text-center" >{{$item->pending_transit}}</td>
-                                        <td class="text-center" ><a link="/member/transaction/wis/in-transit?d={{$item->item_id}}&from={{$from}}&to={{$to}}" size="lg" class="popup">{{$item->in_transit}}</a></td>
+                                        <td class="hidden text-center" >{{$item->pending_transit}}</td>
+                                        <td class="hidden text-center" ><a link="/member/transaction/wis/in-transit?d={{$item->item_id}}&from={{$from}}&to={{$to}}" size="lg" class="popup">{{$item->in_transit}}</a></td>
                                         <td class="text-left" >{{collect($item->item_warehouse)->sum('qty_on_hand') + ($item->pending_transit + $item->in_transit)}}</td>
                                         @endif
                                     </tr>
