@@ -175,7 +175,7 @@ class Item
         {
             foreach ($validator->messages()->all('') as $keys => $message)
             {
-                $return .= $message."<br>";
+                // $return .= $message."<br>";
             }
         }
         if($shop_id)
@@ -322,10 +322,10 @@ class Item
 
         if($validator->fails())
         {
-            $return["status"] = "error";
+            // $return["status"] = "error";
             foreach ($validator->messages()->all('') as $keys => $message)
             {
-                $return["message"] .= $message."<br>";
+                // $return["message"] .= $message."<br>";
             }
         }
         if(!$return['status'])
