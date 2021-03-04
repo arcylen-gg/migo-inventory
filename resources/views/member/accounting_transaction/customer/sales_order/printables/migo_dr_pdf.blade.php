@@ -62,8 +62,8 @@
 						</div>
 					</div>
 					<div class="col-md-6 text-left">
-						<strong>ADDRESS</strong><br>
-						<span>{{$so->est_customer_billing_address}}</span>
+						<strong style="display: none">ADDRESS</strong><br>
+						<span style="display: none">{{$so->est_customer_billing_address}}</span>
 					</div>
 				</div>
 
