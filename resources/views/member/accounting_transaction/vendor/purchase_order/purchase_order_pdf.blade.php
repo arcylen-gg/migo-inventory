@@ -164,11 +164,11 @@
 				<table width="100%" style="padding: 0; margin-top: 50px">
 					<tbody>	
 						<tr>
-							<td>
-								<label style="font-weight:bold"> Requested By: </label><br>
+							<td style="text-align: center">
+								<label style="padding:5px 30px ;font-weight:bold;border-top:1px solid #000"> Requested By: </label><br>
 				            </td>
 							<td>
-								<label style="font-weight:bold"> Approved By: </label><br>
+								<label style="padding:5px 30px ;font-weight:bold;border-top:1px solid #000"> Approved By: </label><br>
 				            </td>
 				        </tr>						
 					</tbody>
