@@ -137,24 +137,6 @@
 				</table>
 				@endif
 				
-				<table width="100%" style="padding: 0; margin-top: 50px">
-					<tbody>	
-						<tr>
-							<td>
-								<label style="font-weight:bold"> Requested By: </label><br>
-				            </td>
-				        </tr>						
-					</tbody>
-				</table>
-				<table width="100%" style="padding: 0; margin-top: 20px">
-					<tbody>	
-						<tr>
-							<td>
-								<label style="font-weight:bold"> Approved By: </label><br>
-				            </td>
-				        </tr>						
-					</tbody>
-				</table>
 				<!-- <br>
 				<br>
 				@if($po->po_message !='') 
@@ -178,6 +160,19 @@
 				@endif
 				<br>
 				<br> -->
+				
+				<table width="100%" style="padding: 0; margin-top: 50px">
+					<tbody>	
+						<tr>
+							<td>
+								<label style="font-weight:bold"> Requested By: </label><br>
+				            </td>
+							<td>
+								<label style="font-weight:bold"> Approved By: </label><br>
+				            </td>
+				        </tr>						
+					</tbody>
+				</table>
 				<br>
 				<br>
 				@include("member.accounting_transaction.pdf_signatures")
