@@ -96,7 +96,7 @@ function vendor_tag(){
     function action_load_item_info($this)
     {
         $parent = $this.closest(".tr-draggable");
-        $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
+        // $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
         $parent.find(".txt-sku").html($this.find("option:selected").attr("item-sku")).change();
         $parent.find(".txt-rate").val($this.find("option:selected").attr("cost")).change();
     }

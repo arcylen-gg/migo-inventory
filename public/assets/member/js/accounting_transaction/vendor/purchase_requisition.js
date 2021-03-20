@@ -228,7 +228,7 @@ function purchase_requisition()
 	function action_load_item_info($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-rate").val($this.find("option:selected").attr("price")).change();
 		$parent.find(".txt-qty").val(1).change();
 		if($this.find("option:selected").attr("has-um") && $this.find("option:selected").attr("has-um") != 0)
@@ -521,7 +521,7 @@ function estimate_quotation()
 	function action_load_item_info($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-rate").val($this.find("option:selected").attr("price")).change();
 		$parent.find(".txt-qty").val(1).change();
 		if($this.find("option:selected").attr("has-um"))

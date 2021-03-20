@@ -102,7 +102,7 @@ function wis_create()
 	function action_load_item_info($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").val($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").val($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-remaining-qty").html($this.find("option:selected").attr("inventory-count") + " pc(s)").change();
 	}
 	function action_lastclick_row()

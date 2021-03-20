@@ -402,7 +402,7 @@ function purchase_order(){
 	function action_load_item_info($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").html($this.find("option:selected").attr("purchase-info")).change();
+		// $parent.find(".txt-desc").html($this.find("option:selected").attr("purchase-info")).change();
 		$parent.find(".txt-rate").val($this.find("option:selected").attr("cost")).change();
 		$parent.find(".txt-qty").val(1).change();
 		console.log($this.find("option:selected").attr("item-type"));

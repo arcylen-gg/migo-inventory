@@ -221,7 +221,7 @@ function wis_create()
 		// $parent.find(".txt-desc").val($this.find("option:selected").attr("sales-info")).change();
 		// $parent.find(".txt-remaining-qty").html($this.find("option:selected").attr("inventory-count") + " pc(s)").change();
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-rate").val($this.find("option:selected").attr("price")).change();
 		$parent.find(".txt-qty").val(1).change();
 		$parent.find(".txt-qty").attr("disabled",true);
@@ -338,7 +338,7 @@ function wis_create()
 	function action_load_item_info_old($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").val($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").val($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-remaining-qty").html($this.find("option:selected").attr("inventory-count") + " pc(s)").change();
 	}
 	function action_lastclick_row()

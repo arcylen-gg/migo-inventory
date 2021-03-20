@@ -496,7 +496,7 @@ function estimate_quotation()
 	function action_load_item_info($this)
 	{
 		$parent = $this.closest(".tr-draggable");
-		$parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
+		// $parent.find(".txt-desc").html($this.find("option:selected").attr("sales-info")).change();
 		$parent.find(".txt-rate").val($this.find("option:selected").attr("price")).change();
 		$eq_type = $this.find("option:selected").attr("equipment-type");
 		if($eq_type == 0)
