@@ -556,16 +556,16 @@ class ItemControllerV2 extends Member
 		{
 			$return = null;
 			$qty = Warehouse2::get_item_qty(null, $item_id);
-			if($qty > 0)
-			{
-				$return['status'] = "error";
-				$return['status_message'] = "You have quantity for this item. Kindly zero out the item's quantity in Adjust Inventory";
-			}
-			else
-			{
+			// if($qty > 0)
+			// {
+			// 	$return['status'] = "error";
+			// 	$return['status_message'] = "You have quantity for this item. Kindly zero out the item's quantity in Adjust Inventory";
+			// }
+			// else
+			// {
 				Item::archive($this->user_info->shop_id, $item_id);
 				$return = "success";
-			}
+			// }
 		}
 
 		return json_encode($return);
