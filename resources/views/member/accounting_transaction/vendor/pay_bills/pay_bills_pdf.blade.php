@@ -32,12 +32,14 @@
 							<strong>DATE.</strong><br>
 							<strong>PAYMENT METHOD.</strong><br>
 							<strong>PAYMENT ACCOUNT.</strong><br>
+							<strong>PAYMENT REF NO.</strong><br>
 						</div>
 						<div class="col-md-6 text-left" style="float: left; width: 50%">
 							<span>{{isset($pb->transaction_refnum)? $pb->transaction_refnum : sprintf("%'.04d\n", $pb->paybill_id)}}</span><br>
 							<span>{{date('m/d/Y',strtotime($pb->paybill_date))}}</span><br>
 							<span>{{$pb->payment_name}}</span><br>
 							<span>{{$pb->account_number."-".$pb->account_name}}</span><br>
+							<span>{{$pb->paybill_ref_num}}</span><br>
 						</div>
 					</div>
 				</div>
