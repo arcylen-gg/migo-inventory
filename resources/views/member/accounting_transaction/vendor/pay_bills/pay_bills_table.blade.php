@@ -30,7 +30,7 @@
                                 @if($pb->archived == 0)
                                 <li><a href="/member/transaction/pay_bills/create?id={{$pb->paybill_id}}">Edit</a></li>
                                 @endif
-                                <li><a href="/member/transaction/pay_bills/print?id={{$pb->paybill_id}}">Print</a></li>
+                                <li><a target="_blank" href="/member/transaction/pay_bills/print?id={{$pb->paybill_id}}">Print</a></li>
                             </ul>
                         </div>
                     </td>
