@@ -45,6 +45,8 @@ class DashboardController extends Member
 
     public function index()
     {
+        $data['user_data'] = Tbl_user::where("user_email", session('user_email'))->shop()->first();
+
         $period         = Request::input("period");
         $period         = "days_ago";
         $date["days"]   = "365";

@@ -290,6 +290,7 @@
                     </div>
                 </div>
             </div>
+            @if ($user_data && $user_data->user_level == 91 || $user_data->user_level == 1)
             <div class="panel panel-default" style="margin-bottom: 10px !important">
                 <div class="panel-heading">
                     <i class="fa fa-list fa-2x" style="margin-right: 5px;"></i>
@@ -330,6 +331,8 @@
                     </div>
                 </div>
             </div>
+            @endif
+            @if ($user_data && $user_data->user_level == 89 || $user_data->user_level == 1)
             <div class="panel panel-default" style="margin-bottom: 10px !important">
                 <div class="panel-heading">
                     <i class="fa fa-tree fa-2x" style="margin-right: 5px;"></i>
@@ -370,8 +373,10 @@
                     </div>
                 </div>
             </div>
+            @endif
         </div>
-        <div class="col-md-8">
+        @if ($user_data && $user_data->user_level == 89 || $user_data->user_level == 1)
+        <div class="col-md-8">            
             <div class="panel panel-default" style="padding: 20px">
                 <h3><strong>Select Year</strong>
                 <select name="selected_year" class="select-year">
@@ -389,6 +394,7 @@
                 </div>
             </div>
         </div>
+        @endif
     </div>
     <div class="row clearfix hidden">
         <div class="col-md-12">
