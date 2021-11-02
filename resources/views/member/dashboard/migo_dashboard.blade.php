@@ -290,7 +290,7 @@
                     </div>
                 </div>
             </div>
-            @if ($user_data && ($user_data->user_level == 94 || $user_data->user_level == 91 || $user_data->user_level == 1))
+            @if ($user_data && ($user_data->user_level == 91 || $user_data->user_level == 1))
             <div class="panel panel-default" style="margin-bottom: 10px !important">
                 <div class="panel-heading">
                     <i class="fa fa-list fa-2x" style="margin-right: 5px;"></i>
