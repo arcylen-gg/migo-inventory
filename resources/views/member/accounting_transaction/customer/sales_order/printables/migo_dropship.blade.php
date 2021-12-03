@@ -90,6 +90,16 @@
 				        </tr>
 					</tbody>
 				</table>
+				
+				<table width="100%" style="padding: 0; margin-top: 0px">
+					<tbody>
+						<tr>
+							<td>
+								Returns and any other claims will be entertained within 7 days from the receipts of goods/merchandise.
+				            </td>
+				        </tr>
+					</tbody>
+				</table>
 				<br>
 				<br>
 			</td>

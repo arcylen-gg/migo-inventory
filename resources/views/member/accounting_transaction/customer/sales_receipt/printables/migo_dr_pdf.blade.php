@@ -164,6 +164,37 @@
 					</tbody>
 				</table>
 				@endif
+					
+				<table width="100%" style="padding: 0; margin-top: 5px">
+					<tbody>
+						<tr>
+							<td>
+								<p> Received above merchandise in good order and condition: </p><br>
+				            </td>
+				        </tr>
+						<tr>
+							<td>
+								&nbsp;
+                                <br>
+				            </td>
+				        </tr>
+						<tr>
+							<td >
+								<p style="width:30%;border-top: 1px solid #000; padding-top:10px">Signature over Printed Name / Date</p>
+				            </td>
+				        </tr>
+					</tbody>
+				</table>
+				<br>
+				<table width="100%" style="padding: 0; margin-top: 0px">
+					<tbody>
+						<tr>
+							<td>
+								Returns and any other claims will be entertained within 7 days from the receipts of goods/merchandise.
+				            </td>
+				        </tr>
+					</tbody>
+				</table>
 				<br>
 				<br>
 				<br>
