@@ -165,6 +165,19 @@
 					</tbody>
 				</table>
 				@endif
+				
+				<table width="100%" style="padding: 0; margin-top: -5px">
+					<tbody>
+						<tr>
+							<td>
+								<label style="font-weight:bold"> Terms: </label><br>
+								This D.R is payable on demand and/or in accordance with the terms herein granted, interest of 3% a month shall be charged on all overdue accounts. Incase of litigation, the buyer submits himself to the jurisdiction of only the Courts of Las Piñas City and agree to pay 25% of the amount claimed 
+								to cover attorney's fees in addition to other damages recoverable under the law.
+				            </td>
+				        </tr>
+					</tbody>
+				</table>	
+				
 				<br>
 				<br>
 				<br>
